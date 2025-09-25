@@ -2,7 +2,7 @@ name: 代理定時抓取與驗證
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 每小時執行一次
+    - cron: '*/30 * * * *'  # 每30分鐘執行一次
   workflow_dispatch:  # 允許手動觸發
   push:
     branches: [ main, master ]

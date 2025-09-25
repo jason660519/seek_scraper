@@ -1,0 +1,50 @@
+{
+  "execution_time": "2025-09-26T03:34:25.691809",
+  "duration_seconds": 7.480077,
+  "proxy_stats": {
+    "valid_count": 0,
+    "temp_invalid_count": 0,
+    "invalid_count": 0,
+    "untested_count": 0,
+    "total_proxies": 0,
+    "protocol_distribution": {},
+    "country_distribution": {},
+    "average_response_time": 0,
+    "last_updated": "2025-09-26T03:34:33.172969"
+  },
+  "lifecycle_stats": {
+    "average_lifecycle_hours": 0,
+    "tracked_proxy_count": 0,
+    "status_transitions": {},
+    "protocol_valid_rates": {},
+    "source_valid_rates": {},
+    "lifecycle_stats": {
+      "total_proxies_fetched": 0,
+      "total_proxies_validated": 0,
+      "total_proxies_became_valid": 0,
+      "total_proxies_became_temp_invalid": 0,
+      "total_proxies_became_invalid": 0,
+      "total_proxies_retried": 0,
+      "total_proxies_cleaned_up": 0,
+      "average_lifecycle_hours": 0,
+      "valid_rate_by_protocol": {},
+      "valid_rate_by_source": {},
+      "lifecycle_events_by_hour": {},
+      "last_updated": "2025-09-26T02:01:34.990211"
+    },
+    "last_updated": "2025-09-26T03:34:33.172969"
+  },
+  "configuration": {
+    "max_proxies_to_fetch": 500,
+    "validation_timeout": 10,
+    "max_workers": 30,
+    "retry_invalid_proxies": true,
+    "cleanup_older_than_days": 7,
+    "proxy_sources": [
+      "proxifly"
+    ],
+    "github_token": "[REDACTED]",
+    "enable_notifications": true
+  },
+  "success": true
+}

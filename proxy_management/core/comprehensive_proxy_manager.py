@@ -199,16 +199,32 @@ class ComprehensiveProxyManager:
             
             proxies = []
             for line in response.text.strip().split('\n'):
-                if ':' in line:
-                    ip, port = line.strip().split(':')
-                    proxy = ProxyInfo(
-                        ip=ip,
-                        port=int(port),
-                        protocol=protocol,
-                        source='proxifly',
-                        status=ProxyStatus.UNTESTED
-                    )
-                    proxies.append(proxy)
+                line = line.strip()
+                if line and ':' in line:
+                    try:
+                        # 處理完整URL格式 (如: http://62.162.193.125:8081)
+                        if '://' in line:
+                            # 移除協議前綴
+                            line = line.split('://', 1)[1]
+                        
+                        # 處理IP和端口
+                        if ':' in line:
+                            parts = line.split(':')
+                            if len(parts) >= 2:
+                                ip = parts[0].replace('//', '')  # 移除可能的//前綴
+                                port = int(parts[1])
+                                
+                                proxy = ProxyInfo(
+                                    ip=ip,
+                                    port=port,
+                                    protocol=protocol,
+                                    source='proxifly',
+                                    status=ProxyStatus.UNTESTED
+                                )
+                                proxies.append(proxy)
+                    except (ValueError, IndexError) as parse_error:
+                        logger.warning(f"解析代理行失敗: '{line}' - {parse_error}")
+                        continue
             
             logger.info(f"從Proxifly獲取到 {len(proxies)} 個 {protocol} 代理")
             return proxies
