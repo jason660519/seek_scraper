@@ -1,0 +1,38 @@
+[
+  {
+    "proxy_id": 1,
+    "ip": "8.8.8.8",
+    "port": 8080,
+    "status": "valid",
+    "score": 62,
+    "response_time": 1.94,
+    "country": "United States",
+    "anonymity_level": "anonymous",
+    "tested_at": "2025-09-25T15:24:07.308294",
+    "errors": []
+  },
+  {
+    "proxy_id": 2,
+    "ip": "1.1.1.1",
+    "port": 3128,
+    "status": "invalid",
+    "score": 51,
+    "response_time": 1.82,
+    "country": "United States",
+    "anonymity_level": "transparent",
+    "tested_at": "2025-09-25T15:24:07.809027",
+    "errors": []
+  },
+  {
+    "proxy_id": 3,
+    "ip": "192.168.1.1",
+    "port": 8080,
+    "status": "valid",
+    "score": 84,
+    "response_time": 1.31,
+    "country": "Test Country",
+    "anonymity_level": "transparent",
+    "tested_at": "2025-09-25T15:24:08.309847",
+    "errors": []
+  }
+]
