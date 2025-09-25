@@ -27,6 +27,10 @@ from proxy_management.core.comprehensive_proxy_manager import ComprehensiveProxy
 from proxy_management.core.proxy_lifecycle_manager import ProxyLifecycleManager
 from proxy_management.core.proxy_automation_scheduler import ProxyAutomationScheduler
 
+# 配置日誌前確保目錄存在
+log_dir = Path('logs/system')
+log_dir.mkdir(parents=True, exist_ok=True)
+
 # 配置日誌
 logging.basicConfig(
     level=logging.INFO,
