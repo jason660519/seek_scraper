@@ -1,0 +1,80 @@
+2025-09-24 23:10:21,737 - __main__ - INFO - 正在從 country-US 獲取代理列表...
+2025-09-24 23:10:22,224 - __main__ - INFO - 成功獲取 225 個來自 country-US 的代理
+2025-09-24 23:10:36,528 - __main__ - INFO - 正在從 country-US 獲取代理列表...
+2025-09-24 23:10:36,528 - __main__ - INFO - 正在從 country-JP 獲取代理列表...
+2025-09-24 23:10:36,529 - __main__ - INFO - 正在從 country-DE 獲取代理列表...
+2025-09-24 23:10:37,246 - __main__ - INFO - 成功獲取 225 個來自 country-US 的代理
+2025-09-24 23:10:38,137 - __main__ - INFO - 成功獲取 5 個來自 country-JP 的代理
+2025-09-24 23:10:38,147 - __main__ - INFO - 成功獲取 8 個來自 country-DE 的代理
+2025-09-24 23:10:49,337 - __main__ - INFO - 啟動 Web 伺服器: http://127.0.0.1:5000
+2025-09-24 23:10:49,426 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-24 23:10:49,426 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-24 23:11:36,678 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:11:36] "GET /?id=3edf169a-1d6f-42c6-844a-40c2c08232e2&vscodeBrowserReqId=1758719496665 HTTP/1.1" 200 -
+2025-09-24 23:11:36,732 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:11:36] "GET /api/countries HTTP/1.1" 200 -
+2025-09-24 23:11:39,006 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:11:39] "GET / HTTP/1.1" 200 -
+2025-09-24 23:11:39,155 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:11:39] "GET /api/countries HTTP/1.1" 200 -
+2025-09-24 23:11:39,382 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:11:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-24 23:11:48,389 - __main__ - INFO - 正在從 country-AU 獲取代理列表...
+2025-09-24 23:11:49,531 - __main__ - INFO - 成功獲取 1 個來自 country-AU 的代理
+2025-09-24 23:11:49,534 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:11:49] "GET /api/proxies?type=http&country=AU HTTP/1.1" 200 -
+2025-09-24 23:11:53,259 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:11:53] "GET /api/stats HTTP/1.1" 200 -
+2025-09-24 23:12:05,581 - __main__ - INFO - 正在從 http 獲取代理列表...
+2025-09-24 23:12:06,024 - __main__ - INFO - 成功獲取 415 個來自 http 的代理
+2025-09-24 23:12:06,029 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:12:06] "GET /api/proxies?type=http HTTP/1.1" 200 -
+2025-09-24 23:12:09,749 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:12:09] "GET /api/stats HTTP/1.1" 200 -
+2025-09-24 23:12:29,016 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:12:29] "GET /api/stats HTTP/1.1" 200 -
+2025-09-24 23:12:34,512 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:12:34] "GET /api/stats HTTP/1.1" 200 -
+2025-09-24 23:12:35,310 - __main__ - INFO - 正在從 http 獲取代理列表...
+2025-09-24 23:12:35,766 - __main__ - INFO - 成功獲取 415 個來自 http 的代理
+2025-09-24 23:12:35,771 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:12:35] "GET /api/proxies?type=http HTTP/1.1" 200 -
+2025-09-24 23:23:34,821 - __main__ - INFO - 啟動 Web 伺服器: http://127.0.0.1:5000
+2025-09-24 23:23:34,841 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-24 23:23:34,841 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-24 23:23:38,688 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:23:38] "GET / HTTP/1.1" 200 -
+2025-09-24 23:23:38,834 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:23:38] "GET /api/countries HTTP/1.1" 200 -
+2025-09-24 23:23:44,895 - __main__ - INFO - 正在從 all 獲取代理列表...
+2025-09-24 23:23:45,369 - __main__ - INFO - 成功獲取 586 個來自 all 的代理
+2025-09-24 23:23:45,372 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:23:45] "GET /api/proxies HTTP/1.1" 200 -
+2025-09-24 23:31:39,036 - werkzeug - INFO - 127.0.0.1 - - [24/Sep/2025 23:31:39] "POST /api/validate HTTP/1.1" 200 -
+2025-09-25 00:10:04,843 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 00:10:04] "GET / HTTP/1.1" 200 -
+2025-09-25 00:10:04,964 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 00:10:04] "GET /api/countries HTTP/1.1" 200 -
+2025-09-25 01:17:15,065 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:17:15] "GET /?ide_webview_request_time=1758727034668 HTTP/1.1" 200 -
+2025-09-25 01:17:15,327 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:17:15] "GET /api/countries HTTP/1.1" 200 -
+2025-09-25 01:17:15,455 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:17:15] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-09-25 01:17:24,404 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:17:24] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-09-25 01:17:53,253 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:17:53] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-09-25 01:18:34,431 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:18:34] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-09-25 01:18:36,475 - __main__ - INFO - 正在從 all 獲取代理列表...
+2025-09-25 01:18:36,929 - __main__ - INFO - 成功獲取 586 個來自 all 的代理
+2025-09-25 01:18:36,933 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:18:36] "GET /api/proxies HTTP/1.1" 200 -
+2025-09-25 01:18:39,047 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:18:39] "[31m[1mPOST /api/proxies HTTP/1.1[0m" 405 -
+2025-09-25 01:18:41,090 - __main__ - INFO - 正在從 all 獲取代理列表...
+2025-09-25 01:18:41,548 - __main__ - INFO - 成功獲取 586 個來自 all 的代理
+2025-09-25 01:18:41,552 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:18:41] "GET /api/proxies HTTP/1.1" 200 -
+2025-09-25 01:18:43,649 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:18:43] "[33mPOST /api/test/start HTTP/1.1[0m" 404 -
+2025-09-25 01:18:57,600 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:18:57] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-09-25 01:19:15,200 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:19:15] "GET /?ide_webview_request_time=1758727154883 HTTP/1.1" 200 -
+2025-09-25 01:19:15,459 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:19:15] "GET /api/countries HTTP/1.1" 200 -
+2025-09-25 01:19:15,537 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:19:15] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-09-25 01:20:59,782 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:20:59] "GET /?ide_webview_request_time=1758727259471 HTTP/1.1" 200 -
+2025-09-25 01:21:00,039 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:21:00] "GET /api/countries HTTP/1.1" 200 -
+2025-09-25 01:21:00,118 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:21:00] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-09-25 01:21:02,823 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:21:02] "GET /?ide_webview_request_time=1758727262814 HTTP/1.1" 200 -
+2025-09-25 01:21:03,152 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:21:03] "GET /api/countries HTTP/1.1" 200 -
+2025-09-25 01:21:03,168 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:21:03] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-09-25 01:21:03,440 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:21:03] "GET /?ide_webview_request_time=1758727263432 HTTP/1.1" 200 -
+2025-09-25 01:21:03,770 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:21:03] "GET /api/countries HTTP/1.1" 200 -
+2025-09-25 01:21:03,800 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:21:03] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-09-25 01:21:21,539 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:21:21] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-09-25 01:21:21,869 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:21:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-25 01:21:27,420 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:21:27] "GET / HTTP/1.1" 200 -
+2025-09-25 01:21:27,720 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:21:27] "GET /api/countries HTTP/1.1" 200 -
+2025-09-25 01:21:34,874 - __main__ - INFO - 正在從 all 獲取代理列表...
+2025-09-25 01:21:35,805 - __main__ - INFO - 成功獲取 586 個來自 all 的代理
+2025-09-25 01:21:35,808 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:21:35] "GET /api/proxies HTTP/1.1" 200 -
+2025-09-25 01:21:39,714 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:21:39] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-09-25 01:22:11,374 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:22:11] "GET / HTTP/1.1" 200 -
+2025-09-25 01:22:13,431 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:22:13] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-09-25 01:28:02,478 - werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 01:28:02] "POST /api/validate HTTP/1.1" 200 -
