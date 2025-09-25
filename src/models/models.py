@@ -119,3 +119,69 @@ class Proxy(BaseModel):
     anonymity_level: Optional[AnonymityLevel] = Field(None, description="匿名級別")
     last_tested: Optional[datetime] = Field(None, description="最後測試時間")
     created_at: datetime = Field(default_factory=datetime.now, description="創建時間")
+
+
+class JobSearchParams(BaseModel):
+    """SEEK 搜尋參數配置模型"""
+
+    keywords: str = Field(..., min_length=1, description="搜尋關鍵字")
+    location: Optional[str] = Field(None, description="搜尋地點")
+    page: int = Field(1, ge=1, description="頁碼 (從 1 開始)")
+    per_page: int = Field(20, ge=1, le=100, description="每頁結果數")
+    sort_mode: str = Field("listed", description="排序模式，例如 listed、salary")
+    salary_min: Optional[int] = Field(None, ge=0, description="最低薪資篩選")
+    salary_max: Optional[int] = Field(None, ge=0, description="最高薪資篩選")
+    work_types: List[JobType] = Field(default_factory=list, description="工作型態過濾")
+    remote_only: bool = Field(False, description="是否僅遠端工作")
+    posted_within_days: Optional[int] = Field(None, ge=1, le=31, description="發布天數內")
+
+    def to_query_params(self) -> Dict[str, Any]:
+        """轉換為提供給 SEEK API 的查詢參數"""
+
+        params: Dict[str, Any] = {
+            "keywords": self.keywords,
+            "page": self.page - 1,  # SEEK 的 API 以 0 為起點
+            "seekSelectFields": "roleTitle,listingDate,jobAdType,subClassification,"
+            "workType,location,advertiser,bulletPoints,salary,teaser,"
+            "solMetadata,jobId,jobUrl",
+            "siteKey": "AU-Main",
+            "sourcesystem": "houston",
+            "sortmode": self.sort_mode,
+            "pageSize": self.per_page,
+        }
+
+        if self.location:
+            params["where"] = self.location
+        if self.salary_min is not None:
+            params["salaryrange"] = f"{self.salary_min}-"
+        if self.salary_min is not None and self.salary_max is not None:
+            params["salaryrange"] = f"{self.salary_min}-{self.salary_max}"
+        elif self.salary_max is not None:
+            params["salaryrange"] = f"-{self.salary_max}"
+
+        if self.work_types:
+            params["worktype"] = ",".join(work_type.value for work_type in self.work_types)
+
+        if self.remote_only:
+            params["isremotejob"] = "true"
+
+        if self.posted_within_days is not None:
+            params["daterange"] = str(self.posted_within_days)
+
+        return params
+
+
+__all__ = [
+    "Company",
+    "Location",
+    "Salary",
+    "Job",
+    "Proxy",
+    "JobStatus",
+    "JobType",
+    "ExperienceLevel",
+    "SalaryPeriod",
+    "ProxyStatus",
+    "AnonymityLevel",
+    "JobSearchParams",
+]

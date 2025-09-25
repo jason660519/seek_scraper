@@ -11,3 +11,7 @@ wheels/
 
 # Sub-projects
 seek-crawler/
+
+# Runtime artefacts
+data/logs/
+*.log
