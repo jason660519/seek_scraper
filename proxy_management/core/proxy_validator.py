@@ -69,15 +69,26 @@ class ProxyValidator:
             with open(txt_file, 'r', encoding='utf-8') as f:
                 for line in f:
                     line = line.strip()
-                    if ':' in line:
-                        ip, port = line.split(':', 1)
-                        proxies.append({
-                            'ip': ip.strip(),
-                            'port': int(port.strip()),
-                            'type': proxy_type,
-                            'country': 'Unknown',
-                            'source': txt_file
-                        })
+                    if line and ':' in line:
+                        # 處理可能包含協議前綴的URL
+                        if '://' in line:
+                            line = line.split('://', 1)[1]
+                        
+                        # 分割IP和端口
+                        if ':' in line:
+                            ip, port = line.rsplit(':', 1)
+                            try:
+                                port_num = int(port.strip())
+                                proxies.append({
+                                    'ip': ip.strip(),
+                                    'port': port_num,
+                                    'type': proxy_type,
+                                    'country': 'Unknown',
+                                    'source': txt_file
+                                })
+                            except ValueError:
+                                logger.warning(f"無效的端口號: {port}")
+                                continue
         except Exception as e:
             logger.error(f"載入TXT檔案失敗 {txt_file}: {e}")
         

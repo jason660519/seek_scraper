@@ -29,7 +29,14 @@ class ProxyManager:
         try:
             df = pd.read_csv(csv_file)
             self.proxies = df.to_dict('records')
-            self.working_proxies = df[df['is_working'] == True].to_dict('records')
+            
+            # 檢查是否有 is_working 欄位，如果沒有則假設所有代理都是有效的
+            if 'is_working' in df.columns:
+                self.working_proxies = df[df['is_working'] == True].to_dict('records')
+            else:
+                # 如果沒有 is_working 欄位，則將所有代理視為有效
+                self.working_proxies = self.proxies.copy()
+                
             logger.info(f"載入 {len(self.proxies)} 個代理，其中 {len(self.working_proxies)} 個有效")
         except Exception as e:
             logger.error(f"載入檔案失敗: {e}")
