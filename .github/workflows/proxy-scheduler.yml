@@ -1,0 +1,120 @@
+name: 代理定時抓取與驗證
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小時執行一次
+  workflow_dispatch:  # 允許手動觸發
+  push:
+    branches: [ main, master ]
+    paths: 
+      - 'proxy_management/**'
+      - '.github/workflows/proxy-scheduler.yml'
+
+env:
+  PYTHON_VERSION: '3.11'
+  UV_VERSION: '0.4.0'
+
+jobs:
+  proxy-scheduler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    steps:
+    - name: 檢出代碼
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: 設置 Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+        
+    - name: 安裝 uv
+      run: |
+        curl -LsSf https://astral.sh/uv/install.sh | sh
+        echo "$HOME/.cargo/bin" >> $GITHUB_PATH
+        
+    - name: 設置快取
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.cache/uv
+          .venv
+        key: ${{ runner.os }}-uv-${{ hashFiles('**/pyproject.toml', '**/uv.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-uv-
+          
+    - name: 創建虛擬環境並安裝依賴
+      run: |
+        uv venv
+        uv pip install -e .
+        
+    - name: 創建必要的數據目錄
+      run: |
+        mkdir -p proxy_management/data/proxies
+        mkdir -p proxy_management/data/archived
+        mkdir -p proxy_management/exports/working-proxies
+        mkdir -p proxy_management/logs/system
+        mkdir -p proxy_management/logs/validation
+        
+    - name: 運行代理調度器
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PROXY_SOURCES: ${{ secrets.PROXY_SOURCES }}
+        MAX_PROXIES_TO_FETCH: ${{ secrets.MAX_PROXIES_TO_FETCH || '1000' }}
+        VALIDATION_TIMEOUT: ${{ secrets.VALIDATION_TIMEOUT || '10' }}
+        MAX_WORKERS: ${{ secrets.MAX_WORKERS || '50' }}
+        RETRY_INVALID_PROXIES: ${{ secrets.RETRY_INVALID_PROXIES || 'true' }}
+        CLEANUP_OLDER_THAN_DAYS: ${{ secrets.CLEANUP_OLDER_THAN_DAYS || '7' }}
+      run: |
+        source .venv/bin/activate
+        python proxy_management/cloud_scheduler.py
+        
+    - name: 提交結果到倉庫
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # 添加所有新的代理文件
+        git add proxy_management/data/proxies/ || true
+        git add proxy_management/data/archived/ || true
+        git add proxy_management/exports/working-proxies/ || true
+        git add proxy_management/logs/ || true
+        
+        # 檢查是否有變更
+        if git diff --staged --quiet; then
+          echo "沒有新的代理數據需要提交"
+        else
+          git commit -m "🤖 自動更新代理數據 - $(date '+%Y-%m-%d %H:%M:%S')"
+          git push || echo "推送失敗，可能是權限問題"
+        fi
+        
+    - name: 上傳執行日誌
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: proxy-scheduler-logs-${{ github.run_number }}
+        path: |
+          proxy_management/logs/
+          !proxy_management/logs/**/*.log
+        retention-days: 30
+        
+    - name: 生成執行報告
+      if: always()
+      run: |
+        echo "## 📊 代理抓取執行報告" >> $GITHUB_STEP_SUMMARY
+        echo "**執行時間**: $(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_STEP_SUMMARY
+        echo "**工作流運行編號**: #${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
+        
+        if [ -f "proxy_management/logs/system/scheduler_report.json" ]; then
+          echo "### 📈 統計數據" >> $GITHUB_STEP_SUMMARY
+          echo '```json' >> $GITHUB_STEP_SUMMARY
+          cat proxy_management/logs/system/scheduler_report.json >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        if [ -f "proxy_management/exports/working-proxies/working_proxies.csv" ]; then
+          WORKING_COUNT=$(wc -l < proxy_management/exports/working-proxies/working_proxies.csv)
+          echo "### ✅ 有效代理數量: $((WORKING_COUNT - 1))" >> $GITHUB_STEP_SUMMARY
+        fi

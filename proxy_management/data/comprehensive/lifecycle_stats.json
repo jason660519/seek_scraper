@@ -1,0 +1,14 @@
+{
+  "total_proxies_fetched": 0,
+  "total_proxies_validated": 0,
+  "total_proxies_became_valid": 0,
+  "total_proxies_became_temp_invalid": 0,
+  "total_proxies_became_invalid": 0,
+  "total_proxies_retried": 0,
+  "total_proxies_cleaned_up": 0,
+  "average_lifecycle_hours": 0,
+  "valid_rate_by_protocol": {},
+  "valid_rate_by_source": {},
+  "lifecycle_events_by_hour": {},
+  "last_updated": "2025-09-26T02:01:34.990211"
+}
