@@ -1,0 +1,51 @@
+{
+  "timestamp": "20250926_160716",
+  "summary": {
+    "total_searches": 5,
+    "successful_searches": 0,
+    "total_jobs": 0,
+    "success_rate": 0.0
+  },
+  "results": [
+    {
+      "keywords": "ai-machine-learning-data-scientist",
+      "location": "in-Sydney-NSW-2000",
+      "jobs_found": 0,
+      "success": false,
+      "status": "success",
+      "error": null
+    },
+    {
+      "keywords": "data-scientist-machine-learning",
+      "location": "in-Melbourne-VIC-3000",
+      "jobs_found": 0,
+      "success": false,
+      "status": "success",
+      "error": null
+    },
+    {
+      "keywords": "software-engineer-developer",
+      "location": "in-Brisbane-QLD-4000",
+      "jobs_found": 0,
+      "success": false,
+      "status": "success",
+      "error": null
+    },
+    {
+      "keywords": "data-analyst-business-analyst",
+      "location": "in-Perth-WA-6000",
+      "jobs_found": 0,
+      "success": false,
+      "status": "success",
+      "error": null
+    },
+    {
+      "keywords": "python-developer-backend",
+      "location": "in-Adelaide-SA-5000",
+      "jobs_found": 0,
+      "success": false,
+      "status": "success",
+      "error": null
+    }
+  ]
+}

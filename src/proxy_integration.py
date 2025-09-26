@@ -167,12 +167,18 @@ class ProxyRotator:
         self.logger.info("輪換 proxy...")
         
         # 獲取可用 proxy 列表
-        valid_proxies = self.proxy_manager.get_proxies_by_status(ProxyStatus.VALID)
+        valid_proxy_infos = self.proxy_manager.get_proxies_by_status(ProxyStatus.VALID)
         
-        if not valid_proxies:
+        if not valid_proxy_infos:
             self.logger.warning("沒有可用的 proxy，使用直接連接")
             self.current_proxy = None
             return
+        
+        # 將 ProxyInfo 列表轉換為代理 URL 字典
+        valid_proxies = {}
+        for proxy_info in valid_proxy_infos:
+            proxy_url = f"{proxy_info.protocol}://{proxy_info.ip}:{proxy_info.port}"
+            valid_proxies[proxy_url] = proxy_info
         
         # 根據使用統計選擇最佳 proxy
         best_proxy = self._select_best_proxy(valid_proxies)

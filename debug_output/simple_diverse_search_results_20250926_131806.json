@@ -1,0 +1,42 @@
+[
+  {
+    "keywords": "machine learning engineer",
+    "location": "Sydney NSW 2000",
+    "jobs_found": 0,
+    "success": false,
+    "error": "Navigation failed",
+    "search_url": "https://www.seek.com.au/machine-learning-engineer-jobs/in-Sydney-NSW-2000?page=1"
+  },
+  {
+    "keywords": "data scientist",
+    "location": "Melbourne VIC 3000",
+    "jobs_found": 0,
+    "success": false,
+    "error": "Navigation failed",
+    "search_url": "https://www.seek.com.au/data-scientist-jobs/in-Melbourne-VIC-3000?page=1"
+  },
+  {
+    "keywords": "ai engineer",
+    "location": "Brisbane QLD 4000",
+    "jobs_found": 0,
+    "success": false,
+    "error": "Navigation failed",
+    "search_url": "https://www.seek.com.au/ai-engineer-jobs/in-Brisbane-QLD-4000?page=1"
+  },
+  {
+    "keywords": "software engineer",
+    "location": "Perth WA 6000",
+    "jobs_found": 0,
+    "success": false,
+    "error": "Navigation failed",
+    "search_url": "https://www.seek.com.au/software-engineer-jobs/in-Perth-WA-6000?page=1"
+  },
+  {
+    "keywords": "data analyst",
+    "location": "Adelaide SA 5000",
+    "jobs_found": 0,
+    "success": false,
+    "error": "Navigation failed",
+    "search_url": "https://www.seek.com.au/data-analyst-jobs/in-Adelaide-SA-5000?page=1"
+  }
+]

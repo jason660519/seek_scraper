@@ -113,7 +113,22 @@ const proxyTranslations = {
         previous: '上一頁',
         next: '下一頁',
         first: '首頁',
-        last: '末頁'
+        last: '末頁',
+        importProxies: '導入代理',
+        export: '導出',
+        exportFormat: '導出格式',
+        exportFilter: '導出篩選',
+        includeMetadata: '包含元數據',
+        dragFileHere: '點擊或拖拽文件到此區域上傳',
+        supportedFormats: '支持格式',
+        importing: '導入中',
+        invalidFileType: '不支持的文件類型',
+        fileTooLarge: '文件大小不能超過10MB',
+        unsupportedFormat: '不支持的文件格式',
+        batchValidate: '批量驗證',
+        batchDelete: '批量刪除',
+        validate: '驗證',
+        validationHistory: '驗證歷史'
       }
     }
   },
@@ -225,7 +240,22 @@ const proxyTranslations = {
         previous: '上一页',
         next: '下一页',
         first: '首页',
-        last: '末页'
+        last: '末页',
+        importProxies: '导入代理',
+        export: '导出',
+        exportFormat: '导出格式',
+        exportFilter: '导出筛选',
+        includeMetadata: '包含元数据',
+        dragFileHere: '点击或拖拽文件到此区域上传',
+        supportedFormats: '支持格式',
+        importing: '导入中',
+        invalidFileType: '不支持的文件类型',
+        fileTooLarge: '文件大小不能超过10MB',
+        unsupportedFormat: '不支持的文件格式',
+        batchValidate: '批量验证',
+        batchDelete: '批量删除',
+        validate: '验证',
+        validationHistory: '验证历史'
       }
     }
   },
@@ -337,7 +367,22 @@ const proxyTranslations = {
         previous: 'Previous',
         next: 'Next',
         first: 'First',
-        last: 'Last'
+        last: 'Last',
+        importProxies: 'Import Proxies',
+        export: 'Export',
+        exportFormat: 'Export Format',
+        exportFilter: 'Export Filter',
+        includeMetadata: 'Include Metadata',
+        dragFileHere: 'Click or drag file to this area to upload',
+        supportedFormats: 'Supported formats',
+        importing: 'Importing',
+        invalidFileType: 'Unsupported file type',
+        fileTooLarge: 'File size cannot exceed 10MB',
+        unsupportedFormat: 'Unsupported file format',
+        batchValidate: 'Batch Validate',
+        batchDelete: 'Batch Delete',
+        validate: 'Validate',
+        validationHistory: 'Validation History'
       }
     }
   }

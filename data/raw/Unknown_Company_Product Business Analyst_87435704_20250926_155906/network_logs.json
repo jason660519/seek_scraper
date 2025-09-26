@@ -1,0 +1,3769 @@
+[
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+    "method": "GET",
+    "headers": {
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "connection": "keep-alive",
+      "dnt": "1",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+    "status": 200,
+    "headers": {
+      "cache-control": "no-cache",
+      "cf-cache-status": "DYNAMIC",
+      "cf-ray": "98508876ccc75721-SYD",
+      "content-encoding": "gzip",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Fri, 26 Sep 2025 05:59:03 GMT",
+      "expires": "0",
+      "pragma": "no-cache",
+      "seek-melways": "true",
+      "server": "cloudflare",
+      "strict-transport-security": "max-age=157680000",
+      "vary": "Accept-Encoding",
+      "x-envoy-upstream-service-time": "265",
+      "x-request-id": "49bed548-7700-4582-a22c-1052bdc8f6f7"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/vendor.braid-118bd40fb27ee1cf7efe.css",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/app-a1d99dce2786d7773cf6.css",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://cdn.seeklearning.com.au/media/images/lmis/arrow_right.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://cdn.seeklearning.com.au/media/images/lmis/arrow_right.svg",
+    "status": 200,
+    "headers": {
+      "vary": "accept-encoding",
+      "content-encoding": "br",
+      "etag": "W/\"8ffff4847214ca9eefad45ab8444d7f3\"",
+      "x-amz-version-id": "xZ0L5D4R5.0o4Lj7uHICQ8zO3D.vq7ze",
+      "age": "56589",
+      "via": "1.1 4d4befe10b69aac25e127b8999e718d2.cloudfront.net (CloudFront)",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "SKgSyx3zvSoGgWWYrqjKnnVfz29pEVS1vrbd_F7qdxZDjrf_j2nXlQ==",
+      "date": "Thu, 25 Sep 2025 14:15:29 GMT",
+      "content-type": "image/svg+xml",
+      "last-modified": "Wed, 14 Feb 2024 23:52:25 GMT",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD3-P3",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/vendor.braid-118bd40fb27ee1cf7efe.css",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "noindex, nofollow",
+      "x-request-id": "edb821be-eecf-4d8d-a2f3-7c9940396380",
+      "content-encoding": "gzip",
+      "cf-cache-status": "HIT",
+      "etag": "W/\"d5401d318765767a20831821eba47519\"",
+      "age": "556028",
+      "date": "Fri, 26 Sep 2025 05:58:37 GMT",
+      "content-type": "text/css",
+      "last-modified": "Fri, 19 Sep 2025 08:29:34 GMT",
+      "vary": "accept-encoding",
+      "x-amz-id-2": "49v5+X3xE6DwNBs+tCJYFAIAovRWe9Mlw7c4ZIdB+WfH/ajiCsFdcyYQE0yFjLC09ClU+ebpWlM=",
+      "cache-control": "max-age=2419200",
+      "seek-melways": "true",
+      "cf-ray": "985087d58a375721-SYD",
+      "x-amz-request-id": "E5G6013HP410RNW6",
+      "server": "cloudflare",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/app-a1d99dce2786d7773cf6.css",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "noindex, nofollow",
+      "x-request-id": "01e960c7-f330-43b6-ba11-f952f585efae",
+      "content-encoding": "gzip",
+      "cf-cache-status": "HIT",
+      "etag": "W/\"49888afd1b5ac4ed5b3b7d6181b687a1\"",
+      "age": "92065",
+      "date": "Fri, 26 Sep 2025 05:58:37 GMT",
+      "content-type": "text/css",
+      "last-modified": "Thu, 25 Sep 2025 04:14:49 GMT",
+      "vary": "Accept-Encoding",
+      "x-amz-id-2": "nKh4XnAi1ItK+VNzFuzgG6SXgpI8KnEzaQbTyRU/qR2yI/FyxUj9Kbrzx3JLxq2QJxGwFLkxWDI=",
+      "cache-control": "max-age=2419200",
+      "seek-melways": "true",
+      "cf-ray": "985087d58a395721-SYD",
+      "x-amz-request-id": "083QFK5MJ882PFED",
+      "server": "cloudflare",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/static/shared-web/SEEKSans-Latin-Medium-0d7bb139d5772bf159e2d6ab7664bb49.woff2",
+    "method": "GET",
+    "headers": {
+      "origin": "https://www.seek.com.au",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/static/shared-web/SEEKSans-Latin-Regular-03b2f80a92410122dbd1e0f56109c3a0.woff2",
+    "method": "GET",
+    "headers": {
+      "origin": "https://www.seek.com.au",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/static/shared-web/SEEKSans-Latin-Medium-0d7bb139d5772bf159e2d6ab7664bb49.woff2",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "noindex, nofollow",
+      "x-request-id": "eea9a690-7d99-4391-8989-c9554be51163",
+      "cf-cache-status": "HIT",
+      "etag": "\"b1b82fa81e73bfe59a507ab7db59bd2e\"",
+      "age": "1599492",
+      "date": "Fri, 26 Sep 2025 05:58:37 GMT",
+      "content-type": "font/woff2",
+      "last-modified": "Sun, 13 Jul 2025 23:59:19 GMT",
+      "vary": "Accept-Encoding",
+      "x-amz-id-2": "Y1O+yq9BSBvr4y87Uh5AUIZW0NVa4Nq1ewY9xjuJoxQLJDS4FVDG+l9LC+oa8rAFHV5MAKBWcNw=",
+      "cache-control": "public, max-age=31536000",
+      "seek-melways": "true",
+      "cf-ray": "985087d69afb5721-SYD",
+      "x-amz-request-id": "BNS97ZR466VSVMQB",
+      "accept-ranges": "bytes",
+      "content-length": "49888",
+      "server": "cloudflare",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/static/shared-web/SEEKSans-Latin-Regular-03b2f80a92410122dbd1e0f56109c3a0.woff2",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "noindex, nofollow",
+      "x-request-id": "8a9d76aa-b616-4329-8984-27b620ced92a",
+      "cf-cache-status": "HIT",
+      "etag": "\"055da53cec22eb5db680beebb89767de\"",
+      "age": "1427010",
+      "date": "Fri, 26 Sep 2025 05:58:37 GMT",
+      "content-type": "font/woff2",
+      "last-modified": "Sun, 13 Jul 2025 23:59:19 GMT",
+      "vary": "Accept-Encoding",
+      "x-amz-id-2": "kiVZtvzNxYUd7y1uOIWnuh2BnTju0u9+H58nGhn+1bDMRMtVDrdLAWtQBCxIRYvfMF52P+j3CnA=",
+      "cache-control": "public, max-age=31536000",
+      "seek-melways": "true",
+      "cf-ray": "985087d69afd5721-SYD",
+      "x-amz-request-id": "BNS0YHMT4Q5Q555J",
+      "accept-ranges": "bytes",
+      "content-length": "50340",
+      "server": "cloudflare",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/runtime~main-b8d02d6601d29330b068.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/vendor.react-aa4903185eafb25b1d44.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/vendor.reactUtils-e5b13f9a6b6af9e0590f.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/vendor.seekUtils-68623750eba1103fe32f.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/vendors-a00353f23946a42d75a1.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/main-ca65d3132bcd79fac82b.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/en-AU-translations-e2610ab6fc8afe0a07c9.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://cdn.branch.io/branch-latest.min.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/runtime~main-b8d02d6601d29330b068.js",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "noindex, nofollow",
+      "x-request-id": "f1ae0e07-8db4-4c8d-befd-796fe20de50d",
+      "content-encoding": "gzip",
+      "cf-cache-status": "HIT",
+      "etag": "W/\"6bda9ae46f5f6754109f7d306a6eafe7\"",
+      "age": "99060",
+      "date": "Fri, 26 Sep 2025 05:58:37 GMT",
+      "content-type": "text/javascript",
+      "last-modified": "Thu, 25 Sep 2025 02:16:30 GMT",
+      "vary": "Accept-Encoding",
+      "x-amz-id-2": "sSJmS5Gd8kwlY27d02wNaKbBxjYSBFsctn8Amu6q6ADm3WD/Vm9YrK39ws46RH1O7fiNLiuvmdjvVpXDFzogiqTp683I0ggFWqu6goy4GuM=",
+      "cache-control": "max-age=2419200",
+      "seek-melways": "true",
+      "cf-ray": "985087d5ba665721-SYD",
+      "x-amz-request-id": "TEWWPYZ4QEGNA0F0",
+      "server": "cloudflare",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/vendor.reactUtils-e5b13f9a6b6af9e0590f.js",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "noindex, nofollow",
+      "x-request-id": "dbf56fc2-64fe-40e8-8686-cd911b9e1b4a",
+      "content-encoding": "gzip",
+      "cf-cache-status": "HIT",
+      "etag": "W/\"cf3a03209b6c5217eba3771d7093c397\"",
+      "age": "1206467",
+      "date": "Fri, 26 Sep 2025 05:58:37 GMT",
+      "content-type": "text/javascript",
+      "last-modified": "Fri, 12 Sep 2025 06:39:23 GMT",
+      "vary": "Accept-Encoding",
+      "x-amz-id-2": "xASEdk8cDANGb2LT5CiqAUMYCUqef8KkJI4SO62HVZ/6ufluaRgHvHZ0FWgprR4uGuHlcfQnmk4=",
+      "cache-control": "max-age=2419200",
+      "seek-melways": "true",
+      "cf-ray": "985087d5da745721-SYD",
+      "x-amz-request-id": "B6MG346MN24KHGDR",
+      "server": "cloudflare",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/en-AU-translations-e2610ab6fc8afe0a07c9.js",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "noindex, nofollow",
+      "x-request-id": "9f3b7d1a-2fd7-482a-bebd-fc442d090f97",
+      "content-encoding": "gzip",
+      "cf-cache-status": "HIT",
+      "etag": "W/\"516c22c6b913853d34f12ce18df4db64\"",
+      "age": "99060",
+      "date": "Fri, 26 Sep 2025 05:58:37 GMT",
+      "content-type": "text/javascript",
+      "last-modified": "Thu, 25 Sep 2025 02:16:30 GMT",
+      "vary": "Accept-Encoding",
+      "x-amz-id-2": "cvubBn6nb40pif5eUYt3wFrWwy9JAd987/i5vb1O9cfPxPGZafEm3XZV5JuIpH4yJimAEXWI4SI=",
+      "cache-control": "max-age=2419200",
+      "seek-melways": "true",
+      "cf-ray": "985087d5da795721-SYD",
+      "x-amz-request-id": "TEWXTQN9KKFNT648",
+      "server": "cloudflare",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/vendor.react-aa4903185eafb25b1d44.js",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "noindex, nofollow",
+      "x-request-id": "d59539ce-11ee-441a-b796-a66d27fd2286",
+      "content-encoding": "gzip",
+      "cf-cache-status": "HIT",
+      "etag": "W/\"7145e243356713abc9dd2ccdcb7e2480\"",
+      "age": "717261",
+      "date": "Fri, 26 Sep 2025 05:58:37 GMT",
+      "content-type": "text/javascript",
+      "last-modified": "Fri, 12 Sep 2025 06:39:23 GMT",
+      "vary": "accept-encoding",
+      "x-amz-id-2": "Vt906eFycSMc5Csdns8cPYLk6M1fyhPfK7UIa7RY1TRvfOhgxYh2nUdO6HpaeX7SpD18RThMsfY=",
+      "cache-control": "max-age=2419200",
+      "seek-melways": "true",
+      "cf-ray": "985087d5da725721-SYD",
+      "x-amz-request-id": "B6MYDXHVS4PV35EY",
+      "server": "cloudflare",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://cdn.branch.io/branch-latest.min.js",
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=300",
+      "content-encoding": "gzip",
+      "x-amz-version-id": "__AW8X3g8Pd0QyD2ueSi8PNV6NfGKIqw",
+      "etag": "\"b9c2ed5ae62bb2ac71cd4e45594b0302\"",
+      "age": "103",
+      "via": "1.1 26131a3cde08b60652129237128292a2.cloudfront.net (CloudFront)",
+      "x-cache": "Hit from cloudfront",
+      "content-length": "23742",
+      "x-amz-cf-id": "KMUGp-QPK1KAtZXuIrjjCJEPGqZSuQRJ0D1kYRotTi0lKbHQJDLjxQ==",
+      "date": "Fri, 26 Sep 2025 05:56:55 GMT",
+      "content-type": "text/javascript",
+      "last-modified": "Mon, 07 Jul 2025 18:29:36 GMT",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD3-P2"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.js",
+    "status": 200,
+    "headers": {
+      "vary": "accept-encoding",
+      "cache-control": "max-age=300",
+      "content-encoding": "br",
+      "etag": "W/\"d9579b4c0d173f50d16c53f2138f6710\"",
+      "x-amz-version-id": "DpjlXM4WddGf39FfdVIS57b2.DRpugln",
+      "age": "90",
+      "via": "1.1 d565d9b03fa73bc2ae98eaadac0992b6.cloudfront.net (CloudFront)",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "AWPGAfdd2l8t1B6FDMOLFtJ3uoh-4DXmm1mU8SO8ow_sbp8OwQIRtQ==",
+      "date": "Fri, 26 Sep 2025 05:57:08 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 05 Sep 2025 00:44:25 GMT",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD62-P1",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/main-ca65d3132bcd79fac82b.js",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "noindex, nofollow",
+      "x-request-id": "85efe72b-3f50-46f2-825f-8421ea86c6b9",
+      "content-encoding": "gzip",
+      "cf-cache-status": "HIT",
+      "etag": "W/\"2ae0dc12b53fb054bd2920b90b07eb94\"",
+      "age": "92065",
+      "date": "Fri, 26 Sep 2025 05:58:37 GMT",
+      "content-type": "text/javascript",
+      "last-modified": "Thu, 25 Sep 2025 04:14:49 GMT",
+      "vary": "accept-encoding",
+      "x-amz-id-2": "mlyp1QXKmdpJ0qaExCjt2w9k6xcUJMotGc09NEYE7ojpL0HQxPHEv9tz4QJB+/pBHQJQxveT468=",
+      "cache-control": "max-age=2419200",
+      "seek-melways": "true",
+      "cf-ray": "985087d5da7c5721-SYD",
+      "x-amz-request-id": "083KRK3RCD6CKT7A",
+      "server": "cloudflare",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/vendor.seekUtils-68623750eba1103fe32f.js",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "noindex, nofollow",
+      "x-request-id": "2252ecd9-9d4a-4c11-abc4-bc8a10fafe26",
+      "content-encoding": "gzip",
+      "cf-cache-status": "HIT",
+      "etag": "W/\"2618fd85514dd5b33ff0cccf875b9c8b\"",
+      "age": "161138",
+      "date": "Fri, 26 Sep 2025 05:58:37 GMT",
+      "content-type": "text/javascript",
+      "last-modified": "Wed, 24 Sep 2025 09:05:10 GMT",
+      "vary": "accept-encoding",
+      "x-amz-id-2": "2PQ3Fjzm5FN/0amcRuA6BUkJ6AlTD9OreWDNurTYkU/2Y0LRo+Gok9KKMx4i4T2kp3kjCrYDmUI=",
+      "cache-control": "max-age=2419200",
+      "seek-melways": "true",
+      "cf-ray": "985087d5da765721-SYD",
+      "x-amz-request-id": "S6JEEEE9D9B2Z1M1",
+      "server": "cloudflare",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/vendors-a00353f23946a42d75a1.js",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "noindex, nofollow",
+      "x-request-id": "5907975b-bb95-4134-a94d-8fd765f43210",
+      "content-encoding": "gzip",
+      "cf-cache-status": "HIT",
+      "etag": "W/\"bed1c04a21e5fac3f4a15804b64bd150\"",
+      "age": "132921",
+      "date": "Fri, 26 Sep 2025 05:58:37 GMT",
+      "content-type": "text/javascript",
+      "last-modified": "Fri, 19 Sep 2025 08:29:34 GMT",
+      "vary": "accept-encoding",
+      "x-amz-id-2": "dBWMR3OzO4cCkrLBWqKataElemUaXb2KJcq8TYLd/+7+vmVHpD0oJdAqQPuV8h+VhSCyPi8AFtuU+cM2WdgyheclF3fbKh3a",
+      "cache-control": "max-age=2419200",
+      "seek-melways": "true",
+      "cf-ray": "985087d5da775721-SYD",
+      "x-amz-request-id": "NX2RP747X6DN03EJ",
+      "server": "cloudflare",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/graphql",
+    "method": "POST",
+    "headers": {
+      "seek-request-country": "AU",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-seek-ec-visitorid": "6c5a7e5d-8f1c-4b21-8d9c-1db6e6049a2d",
+      "seek-request-brand": "seek",
+      "x-seek-ec-sessionid": "6c5a7e5d-8f1c-4b21-8d9c-1db6e6049a2d",
+      "accept-encoding": "gzip, deflate, br",
+      "accept": "*/*",
+      "content-type": "application/json",
+      "seek-traffic-source": "search-standalone",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "upgrade-insecure-requests": "1",
+      "connection": "keep-alive",
+      "x-seek-site": "chalice",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/SearchResultPage-ffb8587a32d6af1cd91f.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://image-service-cdn.seek.com.au/9f35b358a56922a0a2cb8818233dba5b08ba18b5/1c056a984962480605a20a31bcae496022b57b25",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://image-service-cdn.seek.com.au/970f7428ae55b1128fb5f200c9f5ae36ac9e9c47/f3c5292cec0e05e4272d9bf9146f390d366481d0",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/graphql",
+    "method": "POST",
+    "headers": {
+      "seek-request-country": "AU",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-seek-ec-visitorid": "6c5a7e5d-8f1c-4b21-8d9c-1db6e6049a2d",
+      "seek-request-brand": "seek",
+      "x-seek-ec-sessionid": "6c5a7e5d-8f1c-4b21-8d9c-1db6e6049a2d",
+      "accept-encoding": "gzip, deflate, br",
+      "accept": "*/*",
+      "content-type": "application/json",
+      "seek-traffic-source": "search-standalone",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "upgrade-insecure-requests": "1",
+      "connection": "keep-alive",
+      "x-custom-features": "application/features.seek.all+json",
+      "x-seek-site": "chalice",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.seek.com.au/graphql",
+    "method": "POST",
+    "headers": {
+      "seek-request-country": "AU",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-seek-ec-visitorid": "6c5a7e5d-8f1c-4b21-8d9c-1db6e6049a2d",
+      "seek-request-brand": "seek",
+      "x-seek-ec-sessionid": "6c5a7e5d-8f1c-4b21-8d9c-1db6e6049a2d",
+      "accept-encoding": "gzip, deflate, br",
+      "accept": "*/*",
+      "content-type": "application/json",
+      "seek-traffic-source": "search-standalone",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "upgrade-insecure-requests": "1",
+      "connection": "keep-alive",
+      "x-seek-site": "chalice",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/graphql",
+    "status": 200,
+    "headers": {
+      "strict-transport-security": "max-age=157680000",
+      "x-request-id": "88b67c73-b889-40aa-b97f-b9efe397c400",
+      "cache-control": "no-store",
+      "content-encoding": "gzip",
+      "cf-cache-status": "DYNAMIC",
+      "etag": "W/\"82-NZeQwiS4JNjvr+ZsSuL91xxqP6o\"",
+      "x-envoy-upstream-service-time": "24",
+      "seek-melways": "true",
+      "cf-ray": "9850887a483a5721-SYD",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "vary": "Origin, Accept-Encoding",
+      "x-powered-by": "Express",
+      "server": "cloudflare"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/static/ca-search-ui/houston/SearchResultPage-ffb8587a32d6af1cd91f.js",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "noindex, nofollow",
+      "x-request-id": "1e519e14-3d30-4083-8e8a-fffb6e2a28f0",
+      "content-encoding": "gzip",
+      "cf-cache-status": "HIT",
+      "etag": "W/\"53aa829478d76d554670c239076b740e\"",
+      "age": "161139",
+      "date": "Fri, 26 Sep 2025 05:58:38 GMT",
+      "content-type": "text/javascript",
+      "last-modified": "Wed, 24 Sep 2025 09:05:09 GMT",
+      "vary": "Accept-Encoding",
+      "x-amz-id-2": "DrvlwSeKT1lckcFnu/2n6X8vypgjC3xij3wbfIvbpVhq2w5LBM7q5plhkjAZeAvNdaMs+MPvqM56nA/l6oiE2fkOwEYPxLXuDvqHmrejmZ4=",
+      "cache-control": "max-age=2419200",
+      "seek-melways": "true",
+      "cf-ray": "985087dadf005721-SYD",
+      "x-amz-request-id": "DFJVADJPTMYJN8WP",
+      "server": "cloudflare",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://image-service-cdn.seek.com.au/970f7428ae55b1128fb5f200c9f5ae36ac9e9c47/f3c5292cec0e05e4272d9bf9146f390d366481d0",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "noindex, nofollow",
+      "cf-cache-status": "HIT",
+      "x-amz-version-id": "null",
+      "etag": "\"c5c9590175c9da3403ed37c86f93286e\"",
+      "age": "3751",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "image/png",
+      "last-modified": "Fri, 25 Aug 2023 05:48:53 GMT",
+      "vary": "Accept-Encoding",
+      "x-amz-id-2": "AqrfmBalSQg/tzr06RffvvOms5bOh2EGyUzEaFWanC+/XyWs4AWdoGOG+JJAsRM/+aeqlOF0zJY=",
+      "strict-transport-security": "max-age=157680000",
+      "cf-ray": "9850887b28eb5721-SYD",
+      "x-amz-request-id": "0AJKY9Z0K9DB0C0H",
+      "accept-ranges": "bytes",
+      "content-length": "18443",
+      "server": "cloudflare"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://image-service-cdn.seek.com.au/9f35b358a56922a0a2cb8818233dba5b08ba18b5/1c056a984962480605a20a31bcae496022b57b25",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "noindex, nofollow",
+      "cf-bgj": "h2pri",
+      "etag": "\"b30a0d1612b2c8b7be0001e50db000bc\"",
+      "x-amz-version-id": "null",
+      "cf-cache-status": "HIT",
+      "age": "3635",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Fri, 25 Aug 2023 05:44:51 GMT",
+      "vary": "Accept-Encoding",
+      "x-amz-id-2": "gtdC6Jig7S7W0VNAIXdCKGys9yV6XbPEMjCJJpucEGGGzXqsNEA1l7r8LGGDQ41TMjxDgpigtvE=",
+      "strict-transport-security": "max-age=157680000",
+      "cf-ray": "9850887b28ea5721-SYD",
+      "x-amz-request-id": "400MSVVX6NY757BX",
+      "accept-ranges": "bytes",
+      "content-length": "36893",
+      "server": "cloudflare"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://app.link/_r?sdk=web2.86.4&_t=1500000936861568619&branch_key=key_live_hpVf26efkYxTQTj88NJzZpchsqglHGRe&callback=branch_callback__0",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "if-none-match": "W/\"5b-dLVSqsqYOKkRXH/DeNIlsb8sQ3c\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/graphql",
+    "status": 200,
+    "headers": {
+      "strict-transport-security": "max-age=157680000",
+      "x-request-id": "3387ccca-2e58-433a-8e78-bf27203d24cc",
+      "cache-control": "no-store",
+      "content-encoding": "gzip",
+      "cf-cache-status": "DYNAMIC",
+      "etag": "W/\"48-es9+WN854+dyvLRHsUa/mxOlqMw\"",
+      "x-envoy-upstream-service-time": "22",
+      "seek-melways": "true",
+      "cf-ray": "9850887b28ec5721-SYD",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "vary": "Origin, Accept-Encoding",
+      "x-powered-by": "Express",
+      "server": "cloudflare"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.197.js?utv=ut4.51.202508180713",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.197.js?utv=ut4.51.202508180713",
+    "status": 200,
+    "headers": {
+      "vary": "accept-encoding",
+      "cache-control": "max-age=300",
+      "content-encoding": "br",
+      "etag": "W/\"622388c30dae37a9ccc67b8d0f67f366\"",
+      "x-amz-version-id": "aGUQpSndcHujmjlQP3573Z51HO5.rQHd",
+      "age": "245",
+      "via": "1.1 d565d9b03fa73bc2ae98eaadac0992b6.cloudfront.net (CloudFront)",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "T3PJPsQdTY6oMjUB7drEKgTP_shETnqQSc8F9emc71m-OrhafjUwog==",
+      "date": "Fri, 26 Sep 2025 05:54:40 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 05 Sep 2025 00:44:23 GMT",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD62-P1",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.60.js?utv=ut4.51.202406260354",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.60.js?utv=ut4.51.202406260354",
+    "status": 200,
+    "headers": {
+      "vary": "accept-encoding",
+      "cache-control": "max-age=300",
+      "content-encoding": "br",
+      "etag": "W/\"39faf2a378ddf2f6dd9bcd53780d4b9e\"",
+      "x-amz-version-id": "HVLGun_ljxqX6Mcwg5qvXGbKUTMjoJyN",
+      "age": "107",
+      "via": "1.1 d565d9b03fa73bc2ae98eaadac0992b6.cloudfront.net (CloudFront)",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "ESAdJ7zT_LIPsFoJ27iYdnSm4eYniJ3gesrY4JtOPJgMyQoK-Onnow==",
+      "date": "Fri, 26 Sep 2025 05:56:53 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 05 Sep 2025 00:44:24 GMT",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD62-P1",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.215.js?utv=ut4.51.202503240313",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.215.js?utv=ut4.51.202503240313",
+    "status": 200,
+    "headers": {
+      "vary": "accept-encoding",
+      "cache-control": "max-age=300",
+      "content-encoding": "br",
+      "etag": "W/\"75a5b13af95009e1ee46bb19eac39468\"",
+      "x-amz-version-id": "9ZI.C1aZGSuziBK_BeumKCKClz5Mggk4",
+      "age": "107",
+      "via": "1.1 d565d9b03fa73bc2ae98eaadac0992b6.cloudfront.net (CloudFront)",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "0Ztl52dnpX29g0cu5rjdRynRcfgirh-sCotcYVG10TmUofNiZ4RD3A==",
+      "date": "Fri, 26 Sep 2025 05:56:53 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 05 Sep 2025 00:44:23 GMT",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD62-P1",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.16.js?utv=ut4.51.202505130316",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.16.js?utv=ut4.51.202505130316",
+    "status": 200,
+    "headers": {
+      "content-type": "application/javascript",
+      "cache-control": "max-age=300",
+      "content-encoding": "br",
+      "x-amz-version-id": "T7ZfPWGSUAs4cvgfcR83X1xYSyZiCk3M",
+      "age": "17",
+      "etag": "W/\"b87ebef5a6974e56c830ca888013348d\"",
+      "via": "1.1 d565d9b03fa73bc2ae98eaadac0992b6.cloudfront.net (CloudFront)",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "8VQgTIF6-qJtxiEDax29hkkNLmb4f4nUlNjjD85ZKm0Aiw_DjQO7qA==",
+      "date": "Fri, 26 Sep 2025 05:58:46 GMT",
+      "last-modified": "Fri, 05 Sep 2025 00:44:22 GMT",
+      "vary": "accept-encoding",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD62-P1",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.67.js?utv=ut4.51.202506110314",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.67.js?utv=ut4.51.202506110314",
+    "status": 200,
+    "headers": {
+      "vary": "accept-encoding",
+      "cache-control": "max-age=300",
+      "content-encoding": "br",
+      "etag": "W/\"50cbbfecdbd98df93d120fa5928ea5e4\"",
+      "x-amz-version-id": "b0LCl2k9fwt52Hd0ddPnIMCalT08DZdO",
+      "age": "53",
+      "via": "1.1 d565d9b03fa73bc2ae98eaadac0992b6.cloudfront.net (CloudFront)",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "Zf2Fdw2wXR1Fj3hj4yMvd4oezmjNpciTAohCAUM59IdoyHIzCmB8CQ==",
+      "date": "Fri, 26 Sep 2025 05:57:46 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 05 Sep 2025 00:44:23 GMT",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD62-P1",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.77.js?utv=ut4.51.202509050043",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.77.js?utv=ut4.51.202509050043",
+    "status": 200,
+    "headers": {
+      "vary": "accept-encoding",
+      "cache-control": "max-age=300",
+      "content-encoding": "br",
+      "etag": "W/\"5ca2667a6265baabca94527246c518d3\"",
+      "x-amz-version-id": "vqq4ZGYlW9TXLbLXLvchq.AFAYQeRV6D",
+      "age": "234",
+      "via": "1.1 d565d9b03fa73bc2ae98eaadac0992b6.cloudfront.net (CloudFront)",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "445DdYL1vQyqSDmKQQw4K_kNOqT5C_WTLaltkq3ydCTeT8PJBOql8Q==",
+      "date": "Fri, 26 Sep 2025 05:54:44 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 05 Sep 2025 00:44:23 GMT",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD62-P1",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.171.js?utv=ut4.51.202406270151",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.171.js?utv=ut4.51.202406270151",
+    "status": 200,
+    "headers": {
+      "vary": "accept-encoding",
+      "cache-control": "max-age=300",
+      "content-encoding": "br",
+      "etag": "W/\"d405825a80633c8da603a744c43bd509\"",
+      "x-amz-version-id": "Ip.dUzgYG4vJbpJ5LmtoJejNF.fCT3eX",
+      "age": "107",
+      "via": "1.1 d565d9b03fa73bc2ae98eaadac0992b6.cloudfront.net (CloudFront)",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "laml4K2dzYohc0hKenR-h11MoVH7iZan3SeqRTqJ8pHZ2kxc4kFRyQ==",
+      "date": "Fri, 26 Sep 2025 05:56:53 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 05 Sep 2025 00:44:25 GMT",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD62-P1",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.172.js?utv=ut4.51.202406260346",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.172.js?utv=ut4.51.202406260346",
+    "status": 200,
+    "headers": {
+      "vary": "accept-encoding",
+      "cache-control": "max-age=300",
+      "content-encoding": "br",
+      "etag": "W/\"e138dffdaf1b752799e5a5c3ee6b4446\"",
+      "x-amz-version-id": "vFoqNW7lpjLZnYzm4zwf9khluQMB3_U4",
+      "age": "27",
+      "via": "1.1 d565d9b03fa73bc2ae98eaadac0992b6.cloudfront.net (CloudFront)",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "zu3MEYoKutpLfx7QGjFl6ddCRFga6VrPLifHJpSnA1ZW7mFPy4E3qw==",
+      "date": "Fri, 26 Sep 2025 05:58:11 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 05 Sep 2025 00:44:24 GMT",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD62-P1",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.207.js?utv=ut4.51.202501090131",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.207.js?utv=ut4.51.202501090131",
+    "status": 200,
+    "headers": {
+      "vary": "accept-encoding",
+      "cache-control": "max-age=300",
+      "content-encoding": "br",
+      "etag": "W/\"b021e06a97dac144e279e9a01ba2d769\"",
+      "x-amz-version-id": "9U0PwDlksPPV8HRMTHpAl4e7bLNTNPXs",
+      "age": "222",
+      "via": "1.1 d565d9b03fa73bc2ae98eaadac0992b6.cloudfront.net (CloudFront)",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "0gnd5W92K5QdKZWjVyF8TtrK3KbtgZUyB64NGO4pNK4XCA0HqLvg2A==",
+      "date": "Fri, 26 Sep 2025 05:54:56 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 05 Sep 2025 00:44:24 GMT",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD62-P1",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.seek.com.au/graphql",
+    "status": 200,
+    "headers": {
+      "strict-transport-security": "max-age=157680000",
+      "x-request-id": "a23b7eee-c3e3-4951-9352-e475ad756cb6",
+      "cache-control": "no-store",
+      "content-encoding": "gzip",
+      "cf-cache-status": "DYNAMIC",
+      "etag": "W/\"906-UeYW3unO2Qtc8cp+5XhPHUH801g\"",
+      "x-envoy-upstream-service-time": "109",
+      "seek-melways": "true",
+      "cf-ray": "9850887b28ee5721-SYD",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "vary": "Origin, Accept-Encoding",
+      "x-powered-by": "Express",
+      "server": "cloudflare"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://app.link/_r?sdk=web2.86.4&_t=1500000936861568619&branch_key=key_live_hpVf26efkYxTQTj88NJzZpchsqglHGRe&callback=branch_callback__0",
+    "status": 304,
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "accept-ch": "Sec-CH-UA-Platform-Version,Sec-CH-UA-Model",
+      "etag": "W/\"5b-dLVSqsqYOKkRXH/DeNIlsb8sQ3c\"",
+      "cross-origin-resource-policy": "cross-origin",
+      "x-content-type-options": "nosniff",
+      "via": "1.1 8bec138951dfffa4e8e0ac983bb30e76.cloudfront.net (CloudFront)",
+      "access-control-allow-origin": "*",
+      "x-cache": "Miss from cloudfront",
+      "x-amz-cf-id": "wr8GSK1VmQZMw4f5jixtrSuiWPmkskFJKjQoG64fD4U_RbZRyuwLSA==",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "x-amz-cf-pop": "SYD62-P1",
+      "vary": "accept-encoding",
+      "server": "openresty"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://api2.branch.io/v1/open",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1",
+      "content-type": "application/x-www-form-urlencoded"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://cdn.segment.com/analytics.js/v1/DvY7kWpoiUVpDNHDqjU0JWB8D0wslo4x/analytics.min.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://cdn.segment.com/analytics.js/v1/DvY7kWpoiUVpDNHDqjU0JWB8D0wslo4x/analytics.min.js",
+    "status": 200,
+    "headers": {
+      "access-control-max-age": "3000",
+      "content-encoding": "br",
+      "x-amz-version-id": "BzfEDyuDfh54wu5Co6gWGK7P8CAzEOgQ",
+      "etag": "W/\"858c777e8896eda33a88f0494dd358b3\"",
+      "age": "42",
+      "access-control-allow-methods": "GET, HEAD",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "il5A91iBrVrJyKn4a6YO95CSwApzh_WcFOoQmni9k6sy99mAzA8J5A==",
+      "date": "Fri, 26 Sep 2025 05:57:58 GMT",
+      "content-type": "text/javascript; charset=utf-8",
+      "vary": "accept-encoding",
+      "last-modified": "Tue, 29 Apr 2025 20:48:29 GMT",
+      "x-amz-replication-status": "COMPLETED",
+      "cache-control": "public, max-age=120",
+      "via": "1.1 e3f515cf2b40cd90e36f3532dbd8a5ae.cloudfront.net (CloudFront)",
+      "access-control-allow-origin": "*",
+      "x-amz-cf-pop": "SYD3-P1",
+      "server": "AmazonS3",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.41.js?utv=ut4.51.202509050043",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.41.js?utv=ut4.51.202509050043",
+    "status": 200,
+    "headers": {
+      "vary": "accept-encoding",
+      "cache-control": "max-age=300",
+      "content-encoding": "br",
+      "etag": "W/\"ebe64046229ab885ce9b06552c60be74\"",
+      "x-amz-version-id": "6Q35loDpvBFkVldASMtXkq0U7kL.yYmz",
+      "age": "208",
+      "via": "1.1 d565d9b03fa73bc2ae98eaadac0992b6.cloudfront.net (CloudFront)",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "fiNOm1gRCnVJzaK75AtfAygumf6iC-As6_Pe9rgJxvpltjqYpTyR1w==",
+      "date": "Fri, 26 Sep 2025 05:55:11 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 05 Sep 2025 00:44:23 GMT",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD62-P1",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.14.js?utv=ut4.51.202509050043",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.14.js?utv=ut4.51.202509050043",
+    "status": 200,
+    "headers": {
+      "vary": "accept-encoding",
+      "cache-control": "max-age=300",
+      "content-encoding": "br",
+      "etag": "W/\"10a39d4594193b74149484c9b38aad29\"",
+      "x-amz-version-id": "qvXGnUH2bBFUaK41qgZGm8ZPln5_oP3I",
+      "age": "230",
+      "via": "1.1 d565d9b03fa73bc2ae98eaadac0992b6.cloudfront.net (CloudFront)",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "FqXq6If5S90vqJKMkRgXQ5BhHx0XMB4k0eM4oZ8ENPPkpEeoLPWzYQ==",
+      "date": "Fri, 26 Sep 2025 05:54:49 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 05 Sep 2025 00:44:25 GMT",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD62-P1",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://bat.bing.com/bat.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://bat.bing.com/bat.js",
+    "status": 200,
+    "headers": {
+      "cache-control": "private,max-age=1800",
+      "content-encoding": "gzip",
+      "etag": "\"05ce94bc921dc1:0\"",
+      "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+      "x-msedge-ref": "Ref A: 1CEBC32ABD774C5EA6C7F3133EEB4A2A Ref B: SYD281080707040 Ref C: 2025-09-26T05:58:38Z",
+      "accept-ranges": "bytes",
+      "x-cache": "CONFIG_NOCACHE",
+      "content-length": "14931",
+      "date": "Fri, 26 Sep 2025 05:58:38 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Tue, 09 Sep 2025 20:35:36 GMT",
+      "vary": "Accept-Encoding"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.15.js?utv=ut4.51.202509050043",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://tags.tiqcdn.com/utag/seek/candidate-main/prod/utag.15.js?utv=ut4.51.202509050043",
+    "status": 200,
+    "headers": {
+      "vary": "accept-encoding",
+      "cache-control": "max-age=300",
+      "content-encoding": "gzip",
+      "etag": "W/\"a384831c7844f5fe8b82acf847fe4a80\"",
+      "x-amz-version-id": "M6earuBkYA2DHDR87iyt6QTYx0kycFmc",
+      "age": "163",
+      "via": "1.1 d565d9b03fa73bc2ae98eaadac0992b6.cloudfront.net (CloudFront)",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "dzcYoD-f1VM-K-CN4WQ9K_0N2petUNwIW3CcuPBRRbI_VPEOan2w-g==",
+      "date": "Fri, 26 Sep 2025 05:55:56 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 05 Sep 2025 00:44:22 GMT",
+      "server": "AmazonS3",
+      "x-amz-cf-pop": "SYD62-P1",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://s.pinimg.com/ct/core.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://s.pinimg.com/ct/core.js",
+    "status": 200,
+    "headers": {
+      "access-control-max-age": "86400",
+      "access-control-expose-headers": "X-CDN",
+      "cache-control": "max-age=7200",
+      "content-encoding": "br",
+      "etag": "\"36d1eabc8dd81a1c3e8e162f9d8135a1\"",
+      "x-cdn": "fastly",
+      "access-control-allow-methods": "GET",
+      "alt-svc": "h3=\":443\";ma=600",
+      "access-control-allow-origin": "*",
+      "content-length": "1869",
+      "date": "Fri, 26 Sep 2025 05:58:38 GMT",
+      "content-type": "application/javascript",
+      "vary": "Accept-Encoding, Origin",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://static.hotjar.com/c/hotjar-162402.js?sv=",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://static.hotjar.com/c/hotjar-162402.js?sv=",
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=60",
+      "content-encoding": "br",
+      "etag": "W/4ea1ced2123d8701656e5eda01996686",
+      "age": "22",
+      "cross-origin-resource-policy": "cross-origin",
+      "x-content-type-options": "nosniff",
+      "x-cache-hit": "1",
+      "via": "1.1 26131a3cde08b60652129237128292a2.cloudfront.net (CloudFront)",
+      "access-control-allow-origin": "*",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "nZStV2-Uf6bVthS8YRpgT2ebG0UJpfgtis6h3u5efZfJDiDCllQ9uw==",
+      "date": "Fri, 26 Sep 2025 05:59:02 GMT",
+      "x-amz-cf-pop": "SYD3-P2",
+      "vary": "accept-encoding",
+      "content-type": "application/javascript; charset=UTF-8"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://cdn.taboola.com/libtrc/unip/1182923/tfa.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://cdn.taboola.com/libtrc/unip/1182923/tfa.js",
+    "status": 200,
+    "headers": {
+      "x-fastly-object-storage": "false",
+      "content-encoding": "gzip",
+      "etag": "\"73522a102a030e3dddc382622d025e25\"",
+      "x-amz-version-id": "3k_eeXJyUeMcFifKUSfCuNmbt8vIVXKg",
+      "age": "35",
+      "x-cache": "HIT",
+      "date": "Fri, 26 Sep 2025 05:58:38 GMT",
+      "last-modified": "Mon, 08 Sep 2025 11:17:29 GMT",
+      "x-served-by": "cache-syd10140-SYD",
+      "x-cache-hits": "2",
+      "content-type": "application/javascript; charset=utf-8",
+      "x-amz-id-2": "UZY+gU+VZ3qmmw8WrahzJRu69cERDW+64hgHO4v9ZbYIzOzGxPNIw4HCC1PR0BpVPKLC56jg0TI=",
+      "x-amz-meta-x-tbl-source": "kfc-purge-prod",
+      "vary": "Accept-Encoding",
+      "x-amz-replication-status": "FAILED",
+      "cache-control": "private,max-age=14401",
+      "x-timer": "S1758866319.652101,VS0,VE0",
+      "via": "1.1 varnish",
+      "x-amz-request-id": "GP625HPJNE6PVPTA",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "abp": "60",
+      "content-length": "24931",
+      "server": "AmazonS3",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://tags.creativecdn.com/GNnNkhlrBDtRuADp2B0z.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://tags.creativecdn.com/GNnNkhlrBDtRuADp2B0z.js",
+    "status": 200,
+    "headers": {
+      "x-goog-metageneration": "1",
+      "x-goog-hash": "crc32c=T+qASA==, md5=G5FJaM+mWbNn7qmSsTi1fw==",
+      "content-encoding": "gzip",
+      "etag": "W/\"1b914968cfa659b367eea992b138b57f\"",
+      "x-77-cache": "HIT",
+      "x-goog-stored-content-encoding": "identity",
+      "expires": "Mon, 15 Sep 2025 12:15:38 GMT",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "x-goog-stored-content-length": "4910",
+      "date": "Fri, 26 Sep 2025 05:58:38 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Mon, 15 Sep 2025 10:23:33 GMT",
+      "x-77-nzt-ray": "307af017bb9fb38c8e2bd6681b3fbf26",
+      "x-guploader-uploadid": "AAwnv3Lv4bWi-FcMADcVBBDDMwk9skm7jxfqdMZGpMtkkHA_NTR-Tds3oi7Lb9n3flV0tKDzgjKv6H0",
+      "x-77-nzt": "EwwBj/Q+BwH3VwgAAAwBj/QhpAGTEQ4AAAwBT3/Y+AGzEQ4AAA",
+      "cache-control": "public, max-age=3600",
+      "vary": "Accept-Encoding",
+      "x-goog-storage-class": "STANDARD",
+      "x-77-pop": "sydneyAU",
+      "x-goog-generation": "1757931813698285",
+      "x-77-age": "2135",
+      "server": "CDN77-Turbo"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://cdn.segment.com/v1/projects/DvY7kWpoiUVpDNHDqjU0JWB8D0wslo4x/settings",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://cdn.segment.com/v1/projects/DvY7kWpoiUVpDNHDqjU0JWB8D0wslo4x/settings",
+    "status": 200,
+    "headers": {
+      "access-control-max-age": "3000",
+      "content-encoding": "br",
+      "x-amz-version-id": "nEUhbLyIgEDwUZvcEx_tPy4P7CaHaEvA",
+      "etag": "W/\"d79a6acbe3dfcb053eff6d880a9e199a\"",
+      "age": "1113",
+      "access-control-allow-methods": "GET, HEAD",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "NrjZXUBN_4NYDybIbREr4KRZmndTKcLpAn502IvMHEkIRu1A4TgOWQ==",
+      "date": "Fri, 26 Sep 2025 05:40:06 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "vary": "accept-encoding",
+      "last-modified": "Wed, 24 Sep 2025 11:04:06 GMT",
+      "x-amz-replication-status": "COMPLETED",
+      "cache-control": "public, max-age=10800",
+      "via": "1.1 e3f515cf2b40cd90e36f3532dbd8a5ae.cloudfront.net (CloudFront)",
+      "access-control-allow-origin": "*",
+      "x-amz-cf-pop": "SYD3-P1",
+      "server": "AmazonS3",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://cdn.segment.com/analytics-next/bundles/ajs-destination.bundle.8e6b895db75187c55313.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://cdn.segment.com/analytics-next/bundles/ajs-destination.bundle.8e6b895db75187c55313.js",
+    "status": 200,
+    "headers": {
+      "access-control-max-age": "3000",
+      "content-encoding": "br",
+      "x-amz-version-id": "LLt.lRny1YA.SMEUd8NsfaRyqj7AlhVa",
+      "etag": "W/\"e684181e935c8e5edbb28158b32e8b5b\"",
+      "age": "12938967",
+      "access-control-allow-methods": "GET, HEAD",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "zfcOx6XC4QNwGqGTihBJXKBJA1G_lkfiB0j8uWKF4Q5XkM8oek0PzA==",
+      "date": "Tue, 29 Apr 2025 11:49:11 GMT",
+      "content-type": "application/javascript",
+      "vary": "accept-encoding",
+      "last-modified": "Tue, 22 Apr 2025 19:02:01 GMT",
+      "x-amz-replication-status": "COMPLETED",
+      "cache-control": "public,max-age=31536000,immutable",
+      "via": "1.1 e3f515cf2b40cd90e36f3532dbd8a5ae.cloudfront.net (CloudFront)",
+      "access-control-allow-origin": "*",
+      "x-amz-cf-pop": "SYD3-P1",
+      "server": "AmazonS3",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-JYC9JXRYWC",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-JYC9JXRYWC",
+    "status": 200,
+    "headers": {
+      "cache-control": "private, max-age=900",
+      "content-encoding": "br",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-credentials": "true",
+      "expires": "Fri, 26 Sep 2025 05:58:38 GMT",
+      "access-control-allow-origin": "*",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-length": "154254",
+      "date": "Fri, 26 Sep 2025 05:58:38 GMT",
+      "x-xss-protection": "0",
+      "content-type": "application/javascript; charset=UTF-8",
+      "vary": "Accept-Encoding",
+      "server": "Google Tag Manager",
+      "access-control-allow-headers": "Cache-Control"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://bat.bing.com/p/action/187182209.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://bat.bing.com/p/action/187182209.js",
+    "status": 200,
+    "headers": {
+      "cache-control": "private,max-age=60",
+      "content-encoding": "br",
+      "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+      "x-msedge-ref": "Ref A: 053896CBAD8F4695992CCB340AFD5C6F Ref B: SYD281080707040 Ref C: 2025-09-26T05:58:38Z",
+      "x-cache": "CONFIG_NOCACHE",
+      "date": "Fri, 26 Sep 2025 05:58:38 GMT",
+      "content-type": "application/javascript; charset=utf-8",
+      "vary": "Accept-Encoding"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://connect.facebook.net/en_US/fbevents.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://connect.facebook.net/en_US/fbevents.js",
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "report-to": "{\"max_age\":2592000,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coop\\/?minimize=0\"}],\"group\":\"coop_report\",\"include_subdomains\":true}, {\"max_age\":86400,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coep\\/?minimize=0\"}],\"group\":\"coep_report\"}, {\"max_age\":21600,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/ajax\\/browser_error_reports\\/\"}],\"group\":\"permissions_policy\"}",
+      "x-content-type-options": "nosniff",
+      "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "date": "Fri, 26 Sep 2025 05:58:38 GMT",
+      "content-type": "application/x-javascript; charset=utf-8",
+      "vary": "Accept-Encoding",
+      "cross-origin-embedder-policy-report-only": "require-corp;report-to=\"coep_report\"",
+      "x-frame-options": "DENY",
+      "reporting-endpoints": "coop_report=\"https://www.facebook.com/browser_reporting/coop/?minimize=0\", coep_report=\"https://www.facebook.com/browser_reporting/coep/?minimize=0\", permissions_policy=\"https://www.facebook.com/ajax/browser_error_reports/\"",
+      "content-security-policy": "default-src 'self' blob: *;script-src 'nonce-Z0xDHNqd' *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* blob: 'self' https://*.google-analytics.com *.google.com;style-src 'self' data: blob: 'unsafe-inline';connect-src 'self' data: blob: https://edge-chat.facebook.net https://edge-chat-latest.facebook.net wss://edge-chat-latest.facebook.net wss://edge-chat.facebook.net wss://edge-chat.socialplugin.facebook.net wss://edge-chat-latest.socialplugin.facebook.net https://edge-chat.socialplugin.facebook.net https://edge-chat-latest.socialplugin.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* *.cdninstagram.com https://*.google-analytics.com;font-src 'self' data: blob: *;img-src 'self' data: blob: * https://*.google-analytics.com;media-src 'self' data: blob: *;child-src 'self' data: blob: *;frame-src 'self' data: blob: *;manifest-src 'self' data: blob: *;object-src 'self' data: blob: *;worker-src 'self' data: blob: *;block-all-mixed-content;upgrade-insecure-requests;require-trusted-types-for 'script';",
+      "cache-control": "public, max-age=1200",
+      "timing-allow-origin": "*",
+      "cross-origin-opener-policy": "same-origin-allow-popups",
+      "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=6, rtx=0, c=14, mss=1392, tbw=4540, tp=-1, tpl=-1, uplat=1, ullat=-1",
+      "pragma": "public",
+      "x-fb-debug": "ANdSfIWR7dge3cFpjoJWEot6fulovt9sokU0SRe43/LJ7l7EuuN9fs4G9Csw4ZRz6Dj8+f8JZtHU2J3OI5EIvg==",
+      "cross-origin-resource-policy": "cross-origin",
+      "permissions-policy": "accelerometer=(), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(), compute-pressure=(), display-capture=(), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), otp-credentials=(), payment=(), picture-in-picture=(), private-state-token-issuance=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\"",
+      "document-policy": "force-load-at-top, include-js-call-stacks-in-crash-reports",
+      "content-length": "84804",
+      "x-xss-protection": "0",
+      "origin-agent-cluster": "?1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://s.pinimg.com/ct/lib/main.817db39b.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://s.pinimg.com/ct/lib/main.817db39b.js",
+    "status": 200,
+    "headers": {
+      "access-control-max-age": "86400",
+      "access-control-expose-headers": "X-CDN",
+      "cache-control": "max-age=1209600",
+      "content-encoding": "br",
+      "etag": "\"927f08e36db998c19d655423edb6f84f\"",
+      "x-cdn": "fastly",
+      "access-control-allow-methods": "GET",
+      "alt-svc": "h3=\":443\";ma=600",
+      "access-control-allow-origin": "*",
+      "content-length": "23788",
+      "date": "Fri, 26 Sep 2025 05:58:38 GMT",
+      "content-type": "application/javascript",
+      "vary": "Accept-Encoding, Origin",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://script.hotjar.com/modules.79484904679daf64371c.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://script.hotjar.com/modules.79484904679daf64371c.js",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "none",
+      "content-encoding": "br",
+      "etag": "\"86b7152af5ff6c075f45a423960fb62c\"",
+      "age": "3336751",
+      "x-content-type-options": "nosniff",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "bhjCvExsANMizznIXK8aO1LHBNv-zDPb6M5mIHnSb8WQKXWd_B3rHw==",
+      "date": "Mon, 18 Aug 2025 15:06:07 GMT",
+      "content-type": "application/javascript; charset=utf-8",
+      "last-modified": "Mon, 18 Aug 2025 15:06:00 GMT",
+      "vary": "Accept-Encoding",
+      "cache-control": "max-age=31536000",
+      "cross-origin-resource-policy": "cross-origin",
+      "via": "1.1 e3f64b5e1795622ac1fd367fad798c10.cloudfront.net (CloudFront)",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "content-length": "57057",
+      "x-amz-cf-pop": "SYD62-P1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://psb.taboola.com/topics_api",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://trc.taboola.com/1182923/trc/3/json?tim=1758866344305&data=%7B%22id%22%3A529%2C%22ii%22%3A%22%2Fjob%2F87435704%22%2C%22it%22%3A%22video%22%2C%22sd%22%3A%22v2_25193253c043186a462a53bd26eee3b9_8dea2af1-4bec-4c9f-8424-d33e13d123a8-tuctfcfb10e_1758866318_1758866343_CNawjgYQy5lIGPOM6qSYMyAEKAEwEDiu_QZA8IUQSLy37wNQ____________AVgAYABo97CA2obD7an1AXABgAEA%22%2C%22ui%22%3A%228dea2af1-4bec-4c9f-8424-d33e13d123a8-tuctfcfb10e%22%2C%22vi%22%3A1758866344296%2C%22cv%22%3A%2220250907-23-RELEASE%22%2C%22uiv%22%3A%22default%22%2C%22u%22%3A%22https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%22%2C%22e%22%3Anull%2C%22cb%22%3A%22TFASC.trkCallback%22%2C%22qs%22%3A%22%3Ftype%3Dstandard%26ref%3Dsearch-standalone%22%2C%22r%22%3A%5B%7B%22li%22%3A%22rbox-tracking%22%2C%22s%22%3A0%2C%22uim%22%3A%22rbox-tracking%3Apub%3Dseekcomau-aud-sc%3Aabp%3D0%22%2C%22uip%22%3A%22rbox-tracking%22%2C%22orig_uip%22%3A%22rbox-tracking%22%7D%5D%2C%22mpvd%22%3A%7B%22en%22%3A%22page_view%22%2C%22item-url%22%3A%22https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2%22%2C%22tim%22%3A1758866344305%2C%22ref%22%3Anull%2C%22tos%22%3A24254%2C%22ssd%22%3A6%2C%22scd%22%3A0%2C%22it%22%3A%22JS_PIXEL%22%2C%22supv%22%3Atrue%7D%2C%22pa%22%3A%7B%22su%22%3Atrue%7D%2C%22psb%22%3Atrue%7D&pubit=i",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://trc.taboola.com/1174729/trc/3/json?tim=1758866344307&data=%7B%22id%22%3A688%2C%22ii%22%3A%22%2Fjob%2F87435704%22%2C%22it%22%3A%22video%22%2C%22sd%22%3A%22v2_c9d56244613aeb6a854d9eb1d6abe5b3_8dea2af1-4bec-4c9f-8424-d33e13d123a8-tuctfcfb10e_1758866318_1758866343_CNawjgYQydlHGPOM6qSYMyAEKAMwEDiu_QZA8IUQSLy37wNQ____________AVgAYABo97CA2obD7an1AXABgAEA%22%2C%22ui%22%3A%228dea2af1-4bec-4c9f-8424-d33e13d123a8-tuctfcfb10e%22%2C%22vi%22%3A1758866344296%2C%22cv%22%3A%2220250907-23-RELEASE%22%2C%22uiv%22%3A%22default%22%2C%22u%22%3A%22https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%22%2C%22e%22%3Anull%2C%22cb%22%3A%22TFASC.trkCallback1%22%2C%22qs%22%3A%22%3Ftype%3Dstandard%26ref%3Dsearch-standalone%22%2C%22r%22%3A%5B%7B%22li%22%3A%22rbox-tracking%22%2C%22s%22%3A0%2C%22uim%22%3A%22rbox-tracking%3Apub%3Dseekcomau-aud-sc%3Aabp%3D0%22%2C%22uip%22%3A%22rbox-tracking%22%2C%22orig_uip%22%3A%22rbox-tracking%22%7D%5D%2C%22mpvd%22%3A%7B%22en%22%3A%22page_view%22%2C%22item-url%22%3A%22https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2%22%2C%22tim%22%3A1758866344306%2C%22ref%22%3Anull%2C%22tos%22%3A24255%2C%22ssd%22%3A6%2C%22scd%22%3A0%2C%22it%22%3A%22JS_PIXEL%22%2C%22supv%22%3Atrue%7D%2C%22pa%22%3A%7B%22su%22%3Atrue%7D%2C%22psb%22%3Atrue%7D&pubit=i",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://psb.taboola.com/topics_api",
+    "status": 200,
+    "headers": {
+      "cache-control": "private, max-age=2592000",
+      "retry-after": "0",
+      "x-timer": "S1758866319.737272,VS0,VE0",
+      "observe-browsing-topics": "?1",
+      "via": "1.1 varnish",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "x-cache": "HIT",
+      "content-length": "65",
+      "date": "Fri, 26 Sep 2025 05:58:38 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "x-served-by": "cache-syd10140-SYD",
+      "server": "Varnish",
+      "x-cache-hits": "0"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://asia.creativecdn.com/tags/v2?type=json",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://cdn.segment.com/analytics-next/bundles/schemaFilter.bundle.1b218d13fed021531d4e.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://cdn.segment.com/analytics-next/bundles/schemaFilter.bundle.1b218d13fed021531d4e.js",
+    "status": 200,
+    "headers": {
+      "access-control-max-age": "3000",
+      "content-encoding": "br",
+      "x-amz-version-id": "cWeQW7qJCs8MSOmAoMpHFZe45GGm9_1E",
+      "etag": "W/\"409caee2a9c8f0a6aba854d05642d2bc\"",
+      "age": "13348442",
+      "access-control-allow-methods": "GET, HEAD",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "tN6GTbeTfTR8l_TrJ9sjutwwxltyNXgGF3S7cy7tv8SIRjXsYjNBSw==",
+      "date": "Thu, 24 Apr 2025 18:04:37 GMT",
+      "content-type": "application/javascript",
+      "vary": "accept-encoding",
+      "last-modified": "Tue, 22 Apr 2025 19:02:01 GMT",
+      "x-amz-replication-status": "COMPLETED",
+      "cache-control": "public,max-age=31536000,immutable",
+      "via": "1.1 e3f515cf2b40cd90e36f3532dbd8a5ae.cloudfront.net (CloudFront)",
+      "access-control-allow-origin": "*",
+      "x-amz-cf-pop": "SYD3-P1",
+      "server": "AmazonS3",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-JYC9JXRYWC&gtm=45je59n2v867633962za200zd867633962&_p=1758866344288&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dYmQxMT&cid=784327930.1758866320&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710&sid=1758866319&sct=1&seg=1&dl=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone&dt=Product%20Business%20Analyst%20Job%20in%20Perth%20WA%20-%20SEEK&en=page_view&_ee=1&ep.login_id=NULL&ep.advertiser_name=Qoria%20Limited&ep.job_area=CBD%2C%20Inner%20%26%20Western%20Suburbs&ep.job_classification_id=6281&ep.job_id=j-87435704&ep.job_location=Perth&ep.job_subclassification_id=6283&ep.logged_in=false&ep.job_linkout=true&ep.page_clean=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704&ep.job_posted_time=1d%20ago&ep.job_title=Product%20Business%20Analyst&ep.advertiser_id=36487802&ep.search_work_type_id=Filter%20not%20used&ep.classification_id=Filter%20not%20used&ep.job_classification=Information%20%26%20Communication%20Technology&_et=1&up.login_id=NULL&tfd=1090",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-JYC9JXRYWC&gtm=45je59n2v867633962za200zd867633962&_p=1758866344288&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dYmQxMT&cid=784327930.1758866320&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710&sid=1758866319&sct=1&seg=1&dl=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone&dt=Product%20Business%20Analyst%20Job%20in%20Perth%20WA%20-%20SEEK&en=job_details_view&_c=1&_ee=1&ep.login_id=NULL&ep.advertiser_name=Qoria%20Limited&ep.job_area=CBD%2C%20Inner%20%26%20Western%20Suburbs&ep.job_classification_id=6281&ep.job_id=j-87435704&ep.job_location=Perth&ep.job_subclassification_id=6283&ep.logged_in=false&ep.job_linkout=true&ep.page_clean=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704&ep.job_posted_time=1d%20ago&ep.job_title=Product%20Business%20Analyst&ep.advertiser_id=36487802&ep.search_work_type_id=Filter%20not%20used&ep.classification_id=Filter%20not%20used&ep.job_classification=Information%20%26%20Communication%20Technology&_et=1&tfd=1091",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.googletagmanager.com/gtag/js?id=DC-4270108&cx=c&gtm=4e59n2",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.googletagmanager.com/gtag/js?id=DC-4270108&cx=c&gtm=4e59n2",
+    "status": 200,
+    "headers": {
+      "cache-control": "private, max-age=900",
+      "content-encoding": "br",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-credentials": "true",
+      "expires": "Fri, 26 Sep 2025 05:58:39 GMT",
+      "access-control-allow-origin": "*",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-length": "114229",
+      "date": "Fri, 26 Sep 2025 05:58:39 GMT",
+      "x-xss-protection": "0",
+      "content-type": "application/javascript; charset=UTF-8",
+      "vary": "Accept-Encoding",
+      "server": "Google Tag Manager",
+      "last-modified": "Fri, 26 Sep 2025 03:00:00 GMT",
+      "access-control-allow-headers": "Cache-Control"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://web.aips-sol.com/v1/events?source=dt_web_seek_AU",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://api2.branch.io/v1/open",
+    "status": 200,
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-amz-cf-id": "nXjvo6ptqd6wKhYipo_tTDwY9rlT9uVDhyN-jHBL_xgyWwTlppGWuA==",
+      "cache-control": "no-cache",
+      "cross-origin-resource-policy": "cross-origin",
+      "via": "1.1 9fbddde4165412a5f9426c247ca005c0.cloudfront.net (CloudFront)",
+      "access-control-allow-origin": "*",
+      "x-cache": "Miss from cloudfront",
+      "content-length": "275",
+      "x-branch-request-id": "e0fc47e5-990c-4ded-b66f-a90ff64a8682-2025092605",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "x-powered-by": "Branch",
+      "x-amz-cf-pop": "SYD3-P1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://api2.branch.io/v1/pageview",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1",
+      "content-type": "application/x-www-form-urlencoded"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://api2.branch.io/v1/pageview",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1",
+      "content-type": "application/x-www-form-urlencoded"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.clarity.ms/tag/uet/187182209",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://bat.bing.com/action/0?ti=187182209&Ver=2&mid=0cca4c53-4851-4ddd-af71-ad2e9892beb1&bo=1&sid=d955fc909a9d11f09fb799832ca3fc6f&vid=d955e7909a9d11f08b831f931fe6bd72&vids=0&msclkid=N&uach=pv%3D10.0&pi=2083220816&lg=en-US&sw=1280&sh=720&sc=24&tl=Product%20Business%20Analyst%20Job%20in%20Perth%20WA%20-%20SEEK&p=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2&r=&lt=926&evt=pageLoad&sv=2&cdb=AQwR&rn=473508",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://bat.bing.com/action/0?ti=187182209&Ver=2&mid=0cca4c53-4851-4ddd-af71-ad2e9892beb1&bo=2&sid=d955fc909a9d11f09fb799832ca3fc6f&vid=d955e7909a9d11f08b831f931fe6bd72&vids=0&msclkid=N&el=candidate&en=Y&p=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2&sw=1280&sh=720&sc=24&evt=custom&cdb=AQwR&rn=798432",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://bat.bing.com/action/0?ti=187182209&Ver=2&mid=0cca4c53-4851-4ddd-af71-ad2e9892beb1&bo=3&sid=d955fc909a9d11f09fb799832ca3fc6f&vid=d955e7909a9d11f08b831f931fe6bd72&vids=0&msclkid=N&el=candidate&ea=Job%20Viewed&en=Y&p=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2&sw=1280&sh=720&sc=24&evt=custom&cdb=AQwR&rn=399621",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://connect.facebook.net/signals/config/919117114837585?v=2.9.232&r=stable&domain=www.seek.com.au&hme=dcbbef44c997927c5af260dbc0059090127dce285cd316734e66d01ffe06084e&ex_m=88%2C150%2C130%2C19%2C123%2C62%2C42%2C124%2C69%2C61%2C137%2C77%2C13%2C87%2C27%2C118%2C109%2C67%2C70%2C117%2C134%2C96%2C139%2C7%2C3%2C4%2C6%2C5%2C2%2C78%2C86%2C140%2C214%2C162%2C56%2C219%2C216%2C217%2C49%2C177%2C26%2C66%2C223%2C222%2C165%2C29%2C55%2C8%2C58%2C82%2C83%2C84%2C89%2C113%2C28%2C25%2C116%2C112%2C111%2C131%2C68%2C133%2C132%2C44%2C114%2C54%2C106%2C12%2C136%2C39%2C205%2C207%2C172%2C22%2C23%2C24%2C16%2C17%2C38%2C34%2C36%2C35%2C73%2C79%2C81%2C94%2C122%2C125%2C40%2C95%2C20%2C18%2C100%2C63%2C32%2C127%2C126%2C128%2C119%2C21%2C31%2C53%2C93%2C135%2C64%2C15%2C30%2C187%2C158%2C265%2C203%2C148%2C190%2C183%2C91%2C115%2C72%2C104%2C48%2C41%2C102%2C103%2C108%2C52%2C14%2C110%2C101%2C59%2C43%2C97%2C47%2C50%2C46%2C85%2C138%2C0%2C107%2C11%2C105%2C9%2C1%2C51%2C80%2C57%2C129%2C60%2C99%2C76%2C75%2C45%2C120%2C74%2C71%2C65%2C98%2C90%2C37%2C121%2C33%2C92%2C10%2C141",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://connect.facebook.net/signals/config/919117114837585?v=2.9.232&r=stable&domain=www.seek.com.au&hme=dcbbef44c997927c5af260dbc0059090127dce285cd316734e66d01ffe06084e&ex_m=88%2C150%2C130%2C19%2C123%2C62%2C42%2C124%2C69%2C61%2C137%2C77%2C13%2C87%2C27%2C118%2C109%2C67%2C70%2C117%2C134%2C96%2C139%2C7%2C3%2C4%2C6%2C5%2C2%2C78%2C86%2C140%2C214%2C162%2C56%2C219%2C216%2C217%2C49%2C177%2C26%2C66%2C223%2C222%2C165%2C29%2C55%2C8%2C58%2C82%2C83%2C84%2C89%2C113%2C28%2C25%2C116%2C112%2C111%2C131%2C68%2C133%2C132%2C44%2C114%2C54%2C106%2C12%2C136%2C39%2C205%2C207%2C172%2C22%2C23%2C24%2C16%2C17%2C38%2C34%2C36%2C35%2C73%2C79%2C81%2C94%2C122%2C125%2C40%2C95%2C20%2C18%2C100%2C63%2C32%2C127%2C126%2C128%2C119%2C21%2C31%2C53%2C93%2C135%2C64%2C15%2C30%2C187%2C158%2C265%2C203%2C148%2C190%2C183%2C91%2C115%2C72%2C104%2C48%2C41%2C102%2C103%2C108%2C52%2C14%2C110%2C101%2C59%2C43%2C97%2C47%2C50%2C46%2C85%2C138%2C0%2C107%2C11%2C105%2C9%2C1%2C51%2C80%2C57%2C129%2C60%2C99%2C76%2C75%2C45%2C120%2C74%2C71%2C65%2C98%2C90%2C37%2C121%2C33%2C92%2C10%2C141",
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "report-to": "{\"max_age\":2592000,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coop\\/?minimize=0\"}],\"group\":\"coop_report\",\"include_subdomains\":true}, {\"max_age\":86400,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coep\\/?minimize=0\"}],\"group\":\"coep_report\"}, {\"max_age\":21600,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/ajax\\/browser_error_reports\\/\"}],\"group\":\"permissions_policy\"}",
+      "x-content-type-options": "nosniff",
+      "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "date": "Fri, 26 Sep 2025 05:58:38 GMT",
+      "content-type": "application/x-javascript; charset=utf-8",
+      "vary": "Accept-Encoding",
+      "cross-origin-embedder-policy-report-only": "require-corp;report-to=\"coep_report\"",
+      "x-frame-options": "DENY",
+      "reporting-endpoints": "coop_report=\"https://www.facebook.com/browser_reporting/coop/?minimize=0\", coep_report=\"https://www.facebook.com/browser_reporting/coep/?minimize=0\", permissions_policy=\"https://www.facebook.com/ajax/browser_error_reports/\"",
+      "content-security-policy": "default-src 'self' blob: *;script-src 'nonce-YBUjp6wZ' *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* blob: 'self' https://*.google-analytics.com *.google.com;style-src 'self' data: blob: 'unsafe-inline';connect-src 'self' data: blob: https://edge-chat.facebook.net https://edge-chat-latest.facebook.net wss://edge-chat-latest.facebook.net wss://edge-chat.facebook.net wss://edge-chat.socialplugin.facebook.net wss://edge-chat-latest.socialplugin.facebook.net https://edge-chat.socialplugin.facebook.net https://edge-chat-latest.socialplugin.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* *.cdninstagram.com https://*.google-analytics.com;font-src 'self' data: blob: *;img-src 'self' data: blob: * https://*.google-analytics.com;media-src 'self' data: blob: *;child-src 'self' data: blob: *;frame-src 'self' data: blob: *;manifest-src 'self' data: blob: *;object-src 'self' data: blob: *;worker-src 'self' data: blob: *;block-all-mixed-content;upgrade-insecure-requests;require-trusted-types-for 'script';",
+      "cache-control": "public, max-age=1200",
+      "timing-allow-origin": "*",
+      "cross-origin-opener-policy": "same-origin-allow-popups",
+      "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=13, rtx=0, c=83, mss=1392, tbw=92590, tp=-1, tpl=-1, uplat=1, ullat=-1",
+      "pragma": "public",
+      "x-fb-debug": "BM37qxIGnjaGY1SrPVgFfpNb3aY4uHBHEqtIyHpEucLQtSKNvi17hLcCkdvaPjfImkAS7vmdX9SGFwZLSLNxRg==",
+      "cross-origin-resource-policy": "cross-origin",
+      "permissions-policy": "accelerometer=(), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(), compute-pressure=(), display-capture=(), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), otp-credentials=(), payment=(), picture-in-picture=(), private-state-token-issuance=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\"",
+      "document-policy": "force-load-at-top, include-js-call-stacks-in-crash-reports",
+      "content-length": "27110",
+      "x-xss-protection": "0",
+      "origin-agent-cluster": "?1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://ct.pinterest.com/user/?tid=2612678385287&ov=%7B%22page_name%22%3A%22Product%20Business%20Analyst%20Job%20in%20Perth%20WA%20-%20SEEK%22%2C%22page_category%22%3A%22%22%7D&pd=%7B%22np%22%3A%22tealium%22%2C%22pin_unauth%22%3A%22dWlkPVptSXdZV1F3T0dVdE1UZGxNaTAwWXpBekxUZzBNVGd0TXpka1pXSmxNREUxTWpNMw%22%7D&cb=1758866344402&dep=2%2CPAGE_LOAD",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://ct.pinterest.com/user/?event=PageVisit&ed=%7B%7D&tid=2612678385287&cb=1758866344403&dep=5%2CEVENT_TAGS_ABSENT",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://ct.pinterest.com/v3/?tid=2612678385287&ov=%7B%22page_name%22%3A%22Product%20Business%20Analyst%20Job%20in%20Perth%20WA%20-%20SEEK%22%2C%22page_category%22%3A%22%22%7D&pd=%7B%22np%22%3A%22tealium%22%2C%22pin_unauth%22%3A%22dWlkPVptSXdZV1F3T0dVdE1UZGxNaTAwWXpBekxUZzBNVGd0TXpka1pXSmxNREUxTWpNMw%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A720%2C%22sw%22%3A1280%2C%22mh%22%3A%22817db39b%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22140%22%7D%2C%7B%22brand%22%3A%22Not%3DA%3FBrand%22%2C%22version%22%3A%2224%22%7D%2C%7B%22brand%22%3A%22HeadlessChrome%22%2C%22version%22%3A%22140%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0%22%2C%22uaFullVersion%22%3A%22140.0.7339.16%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1758866344404",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://trc.taboola.com/1182923/trc/3/json?tim=1758866344305&data=%7B%22id%22%3A529%2C%22ii%22%3A%22%2Fjob%2F87435704%22%2C%22it%22%3A%22video%22%2C%22sd%22%3A%22v2_25193253c043186a462a53bd26eee3b9_8dea2af1-4bec-4c9f-8424-d33e13d123a8-tuctfcfb10e_1758866318_1758866343_CNawjgYQy5lIGPOM6qSYMyAEKAEwEDiu_QZA8IUQSLy37wNQ____________AVgAYABo97CA2obD7an1AXABgAEA%22%2C%22ui%22%3A%228dea2af1-4bec-4c9f-8424-d33e13d123a8-tuctfcfb10e%22%2C%22vi%22%3A1758866344296%2C%22cv%22%3A%2220250907-23-RELEASE%22%2C%22uiv%22%3A%22default%22%2C%22u%22%3A%22https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%22%2C%22e%22%3Anull%2C%22cb%22%3A%22TFASC.trkCallback%22%2C%22qs%22%3A%22%3Ftype%3Dstandard%26ref%3Dsearch-standalone%22%2C%22r%22%3A%5B%7B%22li%22%3A%22rbox-tracking%22%2C%22s%22%3A0%2C%22uim%22%3A%22rbox-tracking%3Apub%3Dseekcomau-aud-sc%3Aabp%3D0%22%2C%22uip%22%3A%22rbox-tracking%22%2C%22orig_uip%22%3A%22rbox-tracking%22%7D%5D%2C%22mpvd%22%3A%7B%22en%22%3A%22page_view%22%2C%22item-url%22%3A%22https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2%22%2C%22tim%22%3A1758866344305%2C%22ref%22%3Anull%2C%22tos%22%3A24254%2C%22ssd%22%3A6%2C%22scd%22%3A0%2C%22it%22%3A%22JS_PIXEL%22%2C%22supv%22%3Atrue%7D%2C%22pa%22%3A%7B%22su%22%3Atrue%7D%2C%22psb%22%3Atrue%7D&pubit=i",
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "x-cache": "MISS",
+      "p3p": "policyref=\"http://trc.taboola.com/p3p.xml\", CP=\"NOI DSP COR LAW NID CURa ADMa DEVa PSAa PSDa OUR BUS IND UNI COM NAV INT DEM\"",
+      "x-log-content-encoding": "gzip",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "application/javascript; charset=utf-8",
+      "x-served-by": "cache-syd10140-SYD",
+      "x-cache-hits": "0",
+      "vary": "Accept-Encoding",
+      "x-fastly-to-nlb-rtt": "92718",
+      "x-timer": "S1758866345.517238,VS0,VE105",
+      "x-vcl-time-ms": "105",
+      "access-control-allow-credentials": "true",
+      "via": "1.1 varnish",
+      "cpu": "0.5140625",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "x-service-version": "v1",
+      "server": "nginx"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://trc.taboola.com/1174729/trc/3/json?tim=1758866344307&data=%7B%22id%22%3A688%2C%22ii%22%3A%22%2Fjob%2F87435704%22%2C%22it%22%3A%22video%22%2C%22sd%22%3A%22v2_c9d56244613aeb6a854d9eb1d6abe5b3_8dea2af1-4bec-4c9f-8424-d33e13d123a8-tuctfcfb10e_1758866318_1758866343_CNawjgYQydlHGPOM6qSYMyAEKAMwEDiu_QZA8IUQSLy37wNQ____________AVgAYABo97CA2obD7an1AXABgAEA%22%2C%22ui%22%3A%228dea2af1-4bec-4c9f-8424-d33e13d123a8-tuctfcfb10e%22%2C%22vi%22%3A1758866344296%2C%22cv%22%3A%2220250907-23-RELEASE%22%2C%22uiv%22%3A%22default%22%2C%22u%22%3A%22https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%22%2C%22e%22%3Anull%2C%22cb%22%3A%22TFASC.trkCallback1%22%2C%22qs%22%3A%22%3Ftype%3Dstandard%26ref%3Dsearch-standalone%22%2C%22r%22%3A%5B%7B%22li%22%3A%22rbox-tracking%22%2C%22s%22%3A0%2C%22uim%22%3A%22rbox-tracking%3Apub%3Dseekcomau-aud-sc%3Aabp%3D0%22%2C%22uip%22%3A%22rbox-tracking%22%2C%22orig_uip%22%3A%22rbox-tracking%22%7D%5D%2C%22mpvd%22%3A%7B%22en%22%3A%22page_view%22%2C%22item-url%22%3A%22https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2%22%2C%22tim%22%3A1758866344306%2C%22ref%22%3Anull%2C%22tos%22%3A24255%2C%22ssd%22%3A6%2C%22scd%22%3A0%2C%22it%22%3A%22JS_PIXEL%22%2C%22supv%22%3Atrue%7D%2C%22pa%22%3A%7B%22su%22%3Atrue%7D%2C%22psb%22%3Atrue%7D&pubit=i",
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "x-cache": "MISS",
+      "p3p": "policyref=\"http://trc.taboola.com/p3p.xml\", CP=\"NOI DSP COR LAW NID CURa ADMa DEVa PSAa PSDa OUR BUS IND UNI COM NAV INT DEM\"",
+      "x-log-content-encoding": "gzip",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "application/javascript; charset=utf-8",
+      "x-served-by": "cache-syd10140-SYD",
+      "x-cache-hits": "0",
+      "vary": "Accept-Encoding",
+      "x-fastly-to-nlb-rtt": "92340",
+      "x-timer": "S1758866345.519088,VS0,VE107",
+      "x-vcl-time-ms": "107",
+      "access-control-allow-credentials": "true",
+      "via": "1.1 varnish",
+      "cpu": "0.4678125",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "x-service-version": "v1",
+      "server": "nginx"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://asia.creativecdn.com/tags/v2?type=json",
+    "status": 200,
+    "headers": {
+      "access-control-max-age": "3600",
+      "cache-control": "no-cache, no-store, must-revalidate, private, max-age=0",
+      "content-encoding": "gzip",
+      "pragma": "no-cache",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-methods": "GET, POST",
+      "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+      "access-control-allow-origin": "*",
+      "content-length": "275",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "application/json;charset=utf-8",
+      "vary": "Origin"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://asia.creativecdn.com/topics-membership?ntk=i142S2Ovwehr-2r0_m_EfeCasNN7Hw5OrKr1bxFr-iIJFJPtJaI0kzy7FBRBG2U80QyvU_cAhpGDneetpV9ytXxs9AStcI_Lt0XQwe8gNKE",
+    "method": "GET",
+    "headers": {
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "connection": "keep-alive",
+      "dnt": "1",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://ib.adnxs.com/setuid?entity=315&code=SxhnJzv382GkDFksAaHgkpTlhJj5W413vRv3C6fRWbg&consent=1",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://asia.creativecdn.com/topics-membership?ntk=i142S2Ovwehr-2r0_m_EfeCasNN7Hw5OrKr1bxFr-iIJFJPtJaI0kzy7FBRBG2U80QyvU_cAhpGDneetpV9ytXxs9AStcI_Lt0XQwe8gNKE",
+    "status": 200,
+    "headers": {
+      "cache-control": "public, max-age=86400",
+      "content-encoding": "gzip",
+      "content-length": "484",
+      "content-type": "text/html;charset=utf-8",
+      "date": "Fri, 26 Sep 2025 05:58:39 GMT",
+      "expires": "Sat, 27 Sep 2025 05:58:39 GMT",
+      "vary": "Accept-Encoding"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://script.hotjar.com/browser-perf.8417c6bba72228fa2e29.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://cdn.segment.com/next-integrations/integrations/doubleclick-floodlight/1.5.4/doubleclick-floodlight.dynamic.js.gz",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://cdn.segment.com/next-integrations/integrations/doubleclick-floodlight/1.5.4/doubleclick-floodlight.dynamic.js.gz",
+    "status": 200,
+    "headers": {
+      "access-control-max-age": "3000",
+      "content-encoding": "gzip",
+      "etag": "\"4a7b78e16062f0de9725b00d3ece91e2\"",
+      "x-amz-version-id": "tj.Sk8yCBos2WgKausCGHzkVUxH9g97f",
+      "age": "6854092",
+      "access-control-allow-methods": "GET, HEAD",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "-LolPYxZ6tU6D1kUrX8LBgW8BFjfX0eyS3AigQm3IMpSJtmu7RPnbg==",
+      "date": "Tue, 08 Jul 2025 22:03:48 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Wed, 30 Apr 2025 13:50:31 GMT",
+      "cache-control": "public,max-age=31536000,immutable",
+      "via": "1.1 e3f515cf2b40cd90e36f3532dbd8a5ae.cloudfront.net (CloudFront)",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "content-length": "1917",
+      "x-amz-cf-pop": "SYD3-P1",
+      "server": "AmazonS3",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://script.hotjar.com/browser-perf.8417c6bba72228fa2e29.js",
+    "status": 200,
+    "headers": {
+      "x-robots-tag": "none",
+      "content-encoding": "br",
+      "etag": "\"e43a1d5a93a840022c2aefdbeb6580e0\"",
+      "age": "11323455",
+      "x-content-type-options": "nosniff",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "bEwVGxBo4miS_rPAuU1HcJ_RIyZYN7MenbUnjo2cdixh5sxiIwhVag==",
+      "date": "Sun, 18 May 2025 04:34:49 GMT",
+      "content-type": "application/javascript; charset=utf-8",
+      "last-modified": "Fri, 16 May 2025 14:20:33 GMT",
+      "vary": "Accept-Encoding",
+      "strict-transport-security": "max-age=2592000; includeSubDomains",
+      "cache-control": "max-age=31536000",
+      "cross-origin-resource-policy": "cross-origin",
+      "via": "1.1 e3f64b5e1795622ac1fd367fad798c10.cloudfront.net (CloudFront)",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "content-length": "1879",
+      "x-amz-cf-pop": "SYD62-P1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.google.com/ccm/collect?tid=DC-4270108&en=page_view&dl=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704&scrsrc=www.googletagmanager.com&frm=0&rnd=904724429.1758866344&dt=Product%20Business%20Analyst%20Job%20in%20Perth%20WA%20-%20SEEK&auid=1556535204.1758866320&navt=n&npa=0&gdid=dYmQxMT&gtm=45fe59n2v9189012862za200zb867633962zd867633962xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115691063~115733586&tft=1758866344461&tfd=1183&apve=1&apvf=f",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://ad.doubleclick.net/activity;src=4270108;type=seeka0;cat=seeka0;ord=1758866317648;npa=0;auiddc=1556535204.1758866320;u1=Information%20%26%20Communication%20Technology;u2=6281;u3=Business%2FSystems%20Analysts;u4=6283;u5=Perth;u7=36487802;u8=87435704;u9=NULL;u11=Product%20Business%20Analyst;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=IAAB;gtm=45fe59n2v9189012862za200zb867633962zd867633962xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115691063~115733586;epver=2;dc_random=y5Irhx8Cy-uEdSvM4q2o7-mAM_LkXNNEmg;~oref=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone?",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://4270108.fls.doubleclick.net/activityi;src=4270108;type=seeka0;cat=seeka0;ord=1758866317648;npa=0;auiddc=1556535204.1758866320;u1=Information%20%26%20Communication%20Technology;u2=6281;u3=Business%2FSystems%20Analysts;u4=6283;u5=Perth;u7=36487802;u8=87435704;u9=NULL;u11=Product%20Business%20Analyst;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=IAAB;gtm=45fe59n2v9189012862za200zb867633962zd867633962xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115691063~115733586;epver=2;dc_random=y5Irhx8Cy-uEdSvM4q2o7-mAM_LkXNNEmg;_dc_test=1;~oref=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone?",
+    "method": "GET",
+    "headers": {
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "connection": "keep-alive",
+      "dnt": "1",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://ad.doubleclick.net/activity;src=4270108;type=skj_e0;cat=skj_j001;ord=7002573365265;npa=0;auiddc=1556535204.1758866320;u1=Information%20%26%20Communication%20Technology;u2=6281;u3=Business%2FSystems%20Analysts;u4=6283;u5=Perth;u7=36487802;u8=87435704;u9=NULL;u11=Product%20Business%20Analyst;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe59n2v9189012862za200zb867633962zd867633962xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115691063~115733586;epver=2;dc_random=9_STDMEcmXiY9ZUsSI3ufE4JI0pTXA4K6w;~oref=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone?",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://4270108.fls.doubleclick.net/activityi;src=4270108;type=skj_e0;cat=skj_j001;ord=7002573365265;npa=0;auiddc=1556535204.1758866320;u1=Information%20%26%20Communication%20Technology;u2=6281;u3=Business%2FSystems%20Analysts;u4=6283;u5=Perth;u7=36487802;u8=87435704;u9=NULL;u11=Product%20Business%20Analyst;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe59n2v9189012862za200zb867633962zd867633962xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115691063~115733586;epver=2;dc_random=9_STDMEcmXiY9ZUsSI3ufE4JI0pTXA4K6w;_dc_test=1;~oref=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone?",
+    "method": "GET",
+    "headers": {
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "connection": "keep-alive",
+      "dnt": "1",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://web.aips-sol.com/v1/events?source=dt_web_seek_AU",
+    "status": 204,
+    "headers": {
+      "access-control-expose-headers": "CF-Ray",
+      "cf-cache-status": "DYNAMIC",
+      "x-envoy-upstream-service-time": "11",
+      "x-worker": "dt-420",
+      "cf-ray": "9850887dab5e328d-SYD",
+      "x-buffered": "true",
+      "access-control-allow-origin": "*",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "server-timing": "cfExtPri",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "vary": "origin, Accept-Encoding",
+      "server": "cloudflare",
+      "priority": "u=1,i"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.facebook.com/tr/?id=919117114837585&ev=Job_Details_Viewed&dl=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2&rl=&if=false&ts=1758866344483&sw=1280&sh=720&v=2.9.232&r=stable&a=tmtealium&ec=0&o=4126&fbp=fb.2.1758866319495.431300548559445596&ler=empty&pmd[description]=Protecting%20childrens%20digital%20journeys&plt=424.70000000298023&it=1758866344393&coo=false&eid=cad73079fa77b15a8a148e5d07033d20&tm=2&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2c=pl0_el2_bc1&rqm=GET",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://www.facebook.com/tr/?id=919117114837585&ev=PageView&dl=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2&rl=&if=false&ts=1758866344486&sw=1280&sh=720&v=2.9.232&r=stable&a=tmtealium&ec=1&o=4126&fbp=fb.2.1758866319495.431300548559445596&ler=empty&pmd[title]=Product%20Business%20Analyst%20Job%20in%20Perth%20WA%20-%20SEEK&pmd[description]=Protecting%20childrens%20digital%20journeys&plt=424.70000000298023&it=1758866344393&coo=false&eid=6adff79585e0803e12c0c6f94e0aef25&tm=1&expv2[0]=pl0&expv2[1]=el3&expv2[2]=bc1&expv2c=pl0_el3_bc1&rqm=GET",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-JYC9JXRYWC&gtm=45je59n2v867633962za200zd867633962&_p=1758866344288&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dYmQxMT&cid=784327930.1758866320&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710&sid=1758866319&sct=1&seg=1&dl=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone&dt=Product%20Business%20Analyst%20Job%20in%20Perth%20WA%20-%20SEEK&en=page_view&_ee=1&ep.login_id=NULL&ep.advertiser_name=Qoria%20Limited&ep.job_area=CBD%2C%20Inner%20%26%20Western%20Suburbs&ep.job_classification_id=6281&ep.job_id=j-87435704&ep.job_location=Perth&ep.job_subclassification_id=6283&ep.logged_in=false&ep.job_linkout=true&ep.page_clean=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704&ep.job_posted_time=1d%20ago&ep.job_title=Product%20Business%20Analyst&ep.advertiser_id=36487802&ep.search_work_type_id=Filter%20not%20used&ep.classification_id=Filter%20not%20used&ep.job_classification=Information%20%26%20Communication%20Technology&_et=1&up.login_id=NULL&tfd=1090",
+    "status": 204,
+    "headers": {
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "pragma": "no-cache",
+      "cross-origin-resource-policy": "cross-origin",
+      "report-to": "{\"group\":\"ascnsrsggc:158:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:158:0\"}],}",
+      "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:158:0",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "access-control-allow-origin": "*",
+      "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsggc:158:0",
+      "content-length": "0",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "text/plain",
+      "server": "Golfe2"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://cdn.taboola.com/scripts/cds-pips.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://cdn.taboola.com/scripts/cds-pips.js",
+    "status": 200,
+    "headers": {
+      "x-fastly-object-storage": "false",
+      "content-encoding": "gzip",
+      "etag": "\"c52aa1ea682aef8ad5ebf7aff9662e35\"",
+      "x-amz-version-id": "uLMchp7BESXZGZqPSJ8.FcfKBYdWFxIf",
+      "age": "1079",
+      "x-cache": "HIT",
+      "date": "Fri, 26 Sep 2025 05:58:38 GMT",
+      "last-modified": "Sun, 29 Oct 2023 14:06:32 GMT",
+      "x-served-by": "cache-syd10140-SYD",
+      "x-cache-hits": "772",
+      "content-type": "application/javascript",
+      "x-amz-id-2": "fRmxJKnJwvXUyZeW3JD8CdariioaEaRpnENSHsBQrb3JVJqkPd5/KOIesdU27E2TgRA0p0F/OWs=",
+      "vary": "Accept-Encoding",
+      "x-amz-replication-status": "COMPLETED",
+      "cache-control": "private, max-age=3600",
+      "x-timer": "S1758866319.877369,VS0,VE0",
+      "via": "1.1 varnish",
+      "x-amz-request-id": "VY470ZM7XWW8SP9A",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "abp": "94",
+      "content-length": "1347",
+      "server": "AmazonS3",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://cdn.taboola.com/scripts/eid.es5.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://cdn.taboola.com/scripts/eid.es5.js",
+    "status": 200,
+    "headers": {
+      "x-fastly-object-storage": "false",
+      "content-encoding": "gzip",
+      "etag": "\"07b898e6fbd4c488d6c5e7032b170ff3\"",
+      "x-amz-version-id": "78OIWnA4nwsDquNf6XJtSSuWE7SC0lAA",
+      "age": "2408",
+      "x-cache": "HIT",
+      "date": "Fri, 26 Sep 2025 05:58:38 GMT",
+      "last-modified": "Sun, 24 Aug 2025 08:03:14 GMT",
+      "x-served-by": "cache-syd10140-SYD",
+      "x-cache-hits": "1602",
+      "content-type": "application/javascript",
+      "x-amz-id-2": "fRklxU3IH38/gh2GA7F5BzmcsWejs2dBQtnR/vc3GUzCqo0Nso6Q9EJsMGsRhfKnKsuX/6FzrIEcuuvmQSKOIfY7WEzi/Ewe",
+      "vary": "Accept-Encoding",
+      "x-amz-replication-status": "COMPLETED",
+      "cache-control": "private,max-age=14400",
+      "x-timer": "S1758866319.877152,VS0,VE0",
+      "via": "1.1 varnish",
+      "x-amz-request-id": "ARTSH8YRKH0SPEHV",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "abp": "35",
+      "content-length": "6851",
+      "server": "AmazonS3",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://cdn.segment.com/next-integrations/integrations/vendor/commons.59560acdd69ed701c941.js.gz",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://cdn.segment.com/next-integrations/integrations/vendor/commons.59560acdd69ed701c941.js.gz",
+    "status": 200,
+    "headers": {
+      "access-control-max-age": "3000",
+      "content-encoding": "gzip",
+      "etag": "\"fe42b5142545bd51c667e76aa9704bd7\"",
+      "x-amz-version-id": "UrEN4nHwMZwcMTeS_h9FYrC.ggTXplI0",
+      "age": "751212",
+      "access-control-allow-methods": "GET, HEAD",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "C-3AeNoko-dfb2FAuA8lKygtnPcaUvn1wZajVuyrEF4Ahko4zRYyXg==",
+      "date": "Wed, 17 Sep 2025 13:18:28 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Wed, 10 Sep 2025 08:03:55 GMT",
+      "cache-control": "public,max-age=31536000,immutable",
+      "via": "1.1 e3f515cf2b40cd90e36f3532dbd8a5ae.cloudfront.net (CloudFront)",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "content-length": "22061",
+      "x-amz-cf-pop": "SYD3-P1",
+      "server": "AmazonS3",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-JYC9JXRYWC&gtm=45je59n2v867633962za200zd867633962&_p=1758866344288&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dYmQxMT&cid=784327930.1758866320&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710&sid=1758866319&sct=1&seg=1&dl=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone&dt=Product%20Business%20Analyst%20Job%20in%20Perth%20WA%20-%20SEEK&en=job_details_view&_c=1&_ee=1&ep.login_id=NULL&ep.advertiser_name=Qoria%20Limited&ep.job_area=CBD%2C%20Inner%20%26%20Western%20Suburbs&ep.job_classification_id=6281&ep.job_id=j-87435704&ep.job_location=Perth&ep.job_subclassification_id=6283&ep.logged_in=false&ep.job_linkout=true&ep.page_clean=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704&ep.job_posted_time=1d%20ago&ep.job_title=Product%20Business%20Analyst&ep.advertiser_id=36487802&ep.search_work_type_id=Filter%20not%20used&ep.classification_id=Filter%20not%20used&ep.job_classification=Information%20%26%20Communication%20Technology&_et=1&tfd=1091",
+    "status": 200,
+    "headers": {
+      "cross-origin-resource-policy": "cross-origin",
+      "report-to": "{\"group\":\"ascnsrsggc:158:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:158:0\"}],}",
+      "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:158:0",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsggc:158:0",
+      "content-length": "0",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "text/html",
+      "server": "Golfe2"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://pips.taboola.com/",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://cm.g.doubleclick.net/pixel?google_nid=segment&segment_write_key=DvY7kWpoiUVpDNHDqjU0JWB8D0wslo4x&google_hm=OTAwODk3OWM2MjBjZjBhZTQ2OWJlMjY2Y2Y2ZWFlODY=",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.clarity.ms/tag/uet/187182209",
+    "status": 200,
+    "headers": {
+      "cache-control": "no-cache, no-store",
+      "connection": "keep-alive",
+      "request-context": "appId=cid-v1:ea5a9c29-6707-4519-9c35-801e4d7d82ee",
+      "expires": "-1",
+      "content-length": "800",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "application/x-javascript",
+      "server": "nginx"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://scripts.clarity.ms/0.8.30/clarity.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://scripts.clarity.ms/0.8.30/clarity.js",
+    "status": 200,
+    "headers": {
+      "x-azure-ref": "20250926T055840Z-r154c96d49656htshC1SYDzaag00000001h000000000aeeb",
+      "cache-control": "public, max-age=86400",
+      "x-ms-version": "2018-03-28",
+      "content-encoding": "br",
+      "etag": "W/\"0x8DDFBAB312B659C\"",
+      "x-fd-int-roxy-purgeid": "0",
+      "x-ms-request-id": "faad2a7f-701e-003e-5600-2eb9a4000000",
+      "access-control-allow-origin": "*",
+      "x-cache": "TCP_HIT",
+      "date": "Fri, 26 Sep 2025 05:58:40 GMT",
+      "content-type": "application/javascript;charset=utf-8",
+      "vary": "Accept-Encoding",
+      "last-modified": "Wed, 24 Sep 2025 20:44:43 GMT"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.facebook.com/tr/?id=919117114837585&ev=Job_Details_Viewed&dl=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2&rl=&if=false&ts=1758866344483&sw=1280&sh=720&v=2.9.232&r=stable&a=tmtealium&ec=0&o=4126&fbp=fb.2.1758866319495.431300548559445596&ler=empty&pmd[description]=Protecting%20childrens%20digital%20journeys&plt=424.70000000298023&it=1758866344393&coo=false&eid=cad73079fa77b15a8a148e5d07033d20&tm=2&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2c=pl0_el2_bc1&rqm=GET",
+    "status": 200,
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=6, rtx=0, c=25, mss=1232, tbw=6858, tp=31, tpl=0, uplat=0, ullat=0",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "content-length": "0",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "text/plain",
+      "server": "proxygen-bolt",
+      "priority": "u=3,i"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.facebook.com/tr/?id=919117114837585&ev=PageView&dl=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2&rl=&if=false&ts=1758866344486&sw=1280&sh=720&v=2.9.232&r=stable&a=tmtealium&ec=1&o=4126&fbp=fb.2.1758866319495.431300548559445596&ler=empty&pmd[title]=Product%20Business%20Analyst%20Job%20in%20Perth%20WA%20-%20SEEK&pmd[description]=Protecting%20childrens%20digital%20journeys&plt=424.70000000298023&it=1758866344393&coo=false&eid=6adff79585e0803e12c0c6f94e0aef25&tm=1&expv2[0]=pl0&expv2[1]=el3&expv2[2]=bc1&expv2c=pl0_el3_bc1&rqm=GET",
+    "status": 200,
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=6, rtx=0, c=25, mss=1232, tbw=7002, tp=32, tpl=0, uplat=0, ullat=0",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "content-length": "0",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "text/plain",
+      "server": "proxygen-bolt",
+      "priority": "u=3,i"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://bat.bing.com/action/0?ti=187182209&Ver=2&mid=0cca4c53-4851-4ddd-af71-ad2e9892beb1&bo=1&sid=d955fc909a9d11f09fb799832ca3fc6f&vid=d955e7909a9d11f08b831f931fe6bd72&vids=0&msclkid=N&uach=pv%3D10.0&pi=2083220816&lg=en-US&sw=1280&sh=720&sc=24&tl=Product%20Business%20Analyst%20Job%20in%20Perth%20WA%20-%20SEEK&p=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2&r=&lt=926&evt=pageLoad&sv=2&cdb=AQwR&rn=473508",
+    "status": 204,
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "cache-control": "no-cache, must-revalidate",
+      "pragma": "no-cache",
+      "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+      "x-msedge-ref": "Ref A: 3DC71FABD1A748F1BFFD891FCE5B8C3F Ref B: SYD281080707040 Ref C: 2025-09-26T05:59:04Z",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "access-control-allow-origin": "*",
+      "x-cache": "CONFIG_NOCACHE",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://pips.taboola.com/",
+    "status": 200,
+    "headers": {
+      "cache-control": "no-store",
+      "retry-after": "0",
+      "access-control-allow-methods": "GET",
+      "via": "1.1 varnish",
+      "accept-ranges": "bytes",
+      "x-cache": "HIT",
+      "content-length": "4",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "x-served-by": "cache-syd10140-SYD",
+      "server": "Varnish",
+      "x-cache-hits": "0"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://cds.taboola.com/?uid=8dea2af1-4bec-4c9f-8424-d33e13d123a8-tuctfcfb10e&ptf=V2luZG93cw==&ptfv=MTAuMA==&ufv=MTQwLjAuNzMzOS4xNg==&bnd=Q2hyb21pdW0=&bndv=MTQw&bnd=Tm90PUE/QnJhbmQ=&bndv=MjQ=&bnd=SGVhZGxlc3NDaHJvbWU=&bndv=MTQw&mbl=ZmFsc2U=",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://api2.branch.io/v1/pageview",
+    "status": 200,
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "cross-origin-resource-policy": "cross-origin",
+      "via": "1.1 9fbddde4165412a5f9426c247ca005c0.cloudfront.net (CloudFront)",
+      "access-control-allow-origin": "*",
+      "x-cache": "Miss from cloudfront",
+      "content-length": "28",
+      "x-amz-cf-id": "e7Cjrb0KUiOc4vzxK_RZfDOY4oy1ZdT7jUZ6Ug9nxZtghH656Qgscw==",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "x-powered-by": "Branch",
+      "x-amz-cf-pop": "SYD3-P1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.google.com/ccm/collect?tid=DC-4270108&en=page_view&dl=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704&scrsrc=www.googletagmanager.com&frm=0&rnd=904724429.1758866344&dt=Product%20Business%20Analyst%20Job%20in%20Perth%20WA%20-%20SEEK&auid=1556535204.1758866320&navt=n&npa=0&gdid=dYmQxMT&gtm=45fe59n2v9189012862za200zb867633962zd867633962xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115691063~115733586&tft=1758866344461&tfd=1183&apve=1&apvf=f",
+    "status": 200,
+    "headers": {
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "pragma": "no-cache",
+      "x-content-type-options": "nosniff",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-length": "0",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "x-xss-protection": "0",
+      "content-type": "text/plain",
+      "vary": "Origin, X-Origin, Referer",
+      "server": "scaffolding on HTTPServer2",
+      "x-frame-options": "SAMEORIGIN"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://bat.bing.com/action/0?ti=187182209&Ver=2&mid=0cca4c53-4851-4ddd-af71-ad2e9892beb1&bo=3&sid=d955fc909a9d11f09fb799832ca3fc6f&vid=d955e7909a9d11f08b831f931fe6bd72&vids=0&msclkid=N&el=candidate&ea=Job%20Viewed&en=Y&p=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2&sw=1280&sh=720&sc=24&evt=custom&cdb=AQwR&rn=399621",
+    "status": 204,
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "cache-control": "no-cache, must-revalidate",
+      "pragma": "no-cache",
+      "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+      "x-msedge-ref": "Ref A: EF98D2398BEE48A68C2FD000C328EE53 Ref B: SYD281080707040 Ref C: 2025-09-26T05:59:04Z",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "access-control-allow-origin": "*",
+      "x-cache": "CONFIG_NOCACHE",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://bat.bing.com/action/0?ti=187182209&Ver=2&mid=0cca4c53-4851-4ddd-af71-ad2e9892beb1&bo=2&sid=d955fc909a9d11f09fb799832ca3fc6f&vid=d955e7909a9d11f08b831f931fe6bd72&vids=0&msclkid=N&el=candidate&en=Y&p=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2&sw=1280&sh=720&sc=24&evt=custom&cdb=AQwR&rn=798432",
+    "status": 204,
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "cache-control": "no-cache, must-revalidate",
+      "pragma": "no-cache",
+      "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+      "x-msedge-ref": "Ref A: 5B986BBCAC0D4CC58D611DD33B60A807 Ref B: SYD281080707040 Ref C: 2025-09-26T05:59:04Z",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "access-control-allow-origin": "*",
+      "x-cache": "CONFIG_NOCACHE",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://4270108.fls.doubleclick.net/activityi;src=4270108;type=seeka0;cat=seeka0;ord=1758866317648;npa=0;auiddc=1556535204.1758866320;u1=Information%20%26%20Communication%20Technology;u2=6281;u3=Business%2FSystems%20Analysts;u4=6283;u5=Perth;u7=36487802;u8=87435704;u9=NULL;u11=Product%20Business%20Analyst;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=IAAB;gtm=45fe59n2v9189012862za200zb867633962zd867633962xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115691063~115733586;epver=2;dc_random=y5Irhx8Cy-uEdSvM4q2o7-mAM_LkXNNEmg;_dc_test=1;~oref=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone?",
+    "status": 200,
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "cache-control": "private, max-age=0",
+      "content-encoding": "br",
+      "content-length": "612",
+      "content-type": "text/html; charset=UTF-8",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "expires": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+      "server": "cafe",
+      "strict-transport-security": "max-age=21600",
+      "timing-allow-origin": "*",
+      "x-content-type-options": "nosniff",
+      "x-xss-protection": "0"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://adservice.google.com/ddm/fls/z/src=4270108;type=seeka0;cat=seeka0;ord=1758866317648;npa=0;auiddc=*;u1=Information%20%26%20Communication%20Technology;u2=6281;u3=Business%2FSystems%20Analysts;u4=6283;u5=Perth;u7=36487802;u8=87435704;u9=NULL;u11=Product%20Business%20Analyst;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=IAAB;gtm=45fe59n2v9189012862za200zb867633962zd867633962xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115691063~115733586;epver=2;dc_random=y5Irhx8Cy-uEdSvM4q2o7-mAM_LkXNNEmg;_dc_test=1;~oref=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://4270108.fls.doubleclick.net/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://4270108.fls.doubleclick.net/activityi;src=4270108;type=skj_e0;cat=skj_j001;ord=7002573365265;npa=0;auiddc=1556535204.1758866320;u1=Information%20%26%20Communication%20Technology;u2=6281;u3=Business%2FSystems%20Analysts;u4=6283;u5=Perth;u7=36487802;u8=87435704;u9=NULL;u11=Product%20Business%20Analyst;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe59n2v9189012862za200zb867633962zd867633962xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115691063~115733586;epver=2;dc_random=9_STDMEcmXiY9ZUsSI3ufE4JI0pTXA4K6w;_dc_test=1;~oref=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone?",
+    "status": 200,
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "cache-control": "private, max-age=0",
+      "content-encoding": "br",
+      "content-length": "684",
+      "content-type": "text/html; charset=UTF-8",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "expires": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+      "server": "cafe",
+      "strict-transport-security": "max-age=21600",
+      "timing-allow-origin": "*",
+      "x-content-type-options": "nosniff",
+      "x-xss-protection": "0"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://amplifypixel.outbrain.com/pixel?mid=0080d859e82bee6ef9d8f1e90c065e56e9",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://4270108.fls.doubleclick.net/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://adservice.google.com/ddm/fls/z/src=4270108;type=skj_e0;cat=skj_j001;ord=7002573365265;npa=0;auiddc=*;u1=Information%20%26%20Communication%20Technology;u2=6281;u3=Business%2FSystems%20Analysts;u4=6283;u5=Perth;u7=36487802;u8=87435704;u9=NULL;u11=Product%20Business%20Analyst;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe59n2v9189012862za200zb867633962zd867633962xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115691063~115733586;epver=2;dc_random=9_STDMEcmXiY9ZUsSI3ufE4JI0pTXA4K6w;_dc_test=1;~oref=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://4270108.fls.doubleclick.net/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://ad.doubleclick.net/activity;src=4270108;type=seeka0;cat=seeka0;ord=1758866317648;npa=0;auiddc=1556535204.1758866320;u1=Information%20%26%20Communication%20Technology;u2=6281;u3=Business%2FSystems%20Analysts;u4=6283;u5=Perth;u7=36487802;u8=87435704;u9=NULL;u11=Product%20Business%20Analyst;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=IAAB;gtm=45fe59n2v9189012862za200zb867633962zd867633962xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115691063~115733586;epver=2;dc_random=y5Irhx8Cy-uEdSvM4q2o7-mAM_LkXNNEmg;~oref=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone?",
+    "status": 200,
+    "headers": {
+      "cache-control": "no-cache, must-revalidate",
+      "timing-allow-origin": "*",
+      "pragma": "no-cache",
+      "cross-origin-resource-policy": "cross-origin",
+      "x-content-type-options": "nosniff",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+      "content-length": "42",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "x-xss-protection": "0",
+      "content-type": "image/gif",
+      "server": "cafe"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://y.clarity.ms/collect",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "accept": "application/x-clarity-gzip",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://ad.doubleclick.net/activity;src=4270108;type=skj_e0;cat=skj_j001;ord=7002573365265;npa=0;auiddc=1556535204.1758866320;u1=Information%20%26%20Communication%20Technology;u2=6281;u3=Business%2FSystems%20Analysts;u4=6283;u5=Perth;u7=36487802;u8=87435704;u9=NULL;u11=Product%20Business%20Analyst;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe59n2v9189012862za200zb867633962zd867633962xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115691063~115733586;epver=2;dc_random=9_STDMEcmXiY9ZUsSI3ufE4JI0pTXA4K6w;~oref=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone?",
+    "status": 200,
+    "headers": {
+      "cache-control": "no-cache, must-revalidate",
+      "timing-allow-origin": "*",
+      "pragma": "no-cache",
+      "cross-origin-resource-policy": "cross-origin",
+      "x-content-type-options": "nosniff",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+      "content-length": "42",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "x-xss-protection": "0",
+      "content-type": "image/gif",
+      "server": "cafe"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://cm.g.doubleclick.net/pixel?google_nid=segment&segment_write_key=DvY7kWpoiUVpDNHDqjU0JWB8D0wslo4x&google_hm=OTAwODk3OWM2MjBjZjBhZTQ2OWJlMjY2Y2Y2ZWFlODY=",
+    "status": 302,
+    "headers": {
+      "cache-control": "no-cache, must-revalidate",
+      "location": "https://idsync.segment.com/doubleclick?segment_write_key=DvY7kWpoiUVpDNHDqjU0JWB8D0wslo4x",
+      "pragma": "no-cache",
+      "cross-origin-resource-policy": "cross-origin",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+      "content-length": "286",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "x-xss-protection": "0",
+      "content-type": "text/html; charset=UTF-8",
+      "server": "HTTP server (unknown)"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://idsync.segment.com/doubleclick?segment_write_key=DvY7kWpoiUVpDNHDqjU0JWB8D0wslo4x",
+    "method": "GET",
+    "headers": {
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "accept-language": "en-US,en;q=0.9",
+      "dnt": "1",
+      "upgrade-insecure-requests": "1",
+      "connection": "keep-alive"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://ct.pinterest.com/user/?event=PageVisit&ed=%7B%7D&tid=2612678385287&cb=1758866344403&dep=5%2CEVENT_TAGS_ABSENT",
+    "status": 200,
+    "headers": {
+      "access-control-expose-headers": "Epik,Pin-Unauth",
+      "content-encoding": "gzip",
+      "x-pinterest-rid-128bit": "7113aaa4a18f77c5e35103b248342812",
+      "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+      "alt-svc": "h3=\":443\";ma=604800",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+      "pragma": "no-cache",
+      "x-envoy-upstream-service-time": "0",
+      "x-cdn": "fastly",
+      "referrer-policy": "origin",
+      "pin-unauth": "dWlkPVptSXdZV1F3T0dVdE1UZGxNaTAwWXpBekxUZzBNVGd0TXpka1pXSmxNREUxTWpNMw",
+      "pinterest-version": "829b01b702edc507658515ab100d2ce1cf2f263d",
+      "access-control-allow-origin": "*",
+      "content-length": "190",
+      "x-pinterest-rid": "1637987738397364"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://ct.pinterest.com/v3/?event=PageVisit&ed=%7B%7D&tid=2612678385287&cb=1758866344622&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22np%22%3A%22tealium%22%2C%22pin_unauth%22%3A%22dWlkPVptSXdZV1F3T0dVdE1UZGxNaTAwWXpBekxUZzBNVGd0TXpka1pXSmxNREUxTWpNMw%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A720%2C%22sw%22%3A1280%2C%22mh%22%3A%22817db39b%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22140%22%7D%2C%7B%22brand%22%3A%22Not%3DA%3FBrand%22%2C%22version%22%3A%2224%22%7D%2C%7B%22brand%22%3A%22HeadlessChrome%22%2C%22version%22%3A%22140%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0%22%2C%22uaFullVersion%22%3A%22140.0.7339.16%22%2C%22ecm_enabled%22%3Afalse%7D",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://ct.pinterest.com/user/?tid=2612678385287&ov=%7B%22page_name%22%3A%22Product%20Business%20Analyst%20Job%20in%20Perth%20WA%20-%20SEEK%22%2C%22page_category%22%3A%22%22%7D&pd=%7B%22np%22%3A%22tealium%22%2C%22pin_unauth%22%3A%22dWlkPVptSXdZV1F3T0dVdE1UZGxNaTAwWXpBekxUZzBNVGd0TXpka1pXSmxNREUxTWpNMw%22%7D&cb=1758866344402&dep=2%2CPAGE_LOAD",
+    "status": 200,
+    "headers": {
+      "access-control-expose-headers": "Epik,Pin-Unauth",
+      "content-encoding": "gzip",
+      "x-pinterest-rid-128bit": "6fa66ba2765543c4eaa35987f8d6ddd2",
+      "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+      "alt-svc": "h3=\":443\";ma=604800",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+      "pragma": "no-cache",
+      "x-envoy-upstream-service-time": "1",
+      "x-cdn": "fastly",
+      "referrer-policy": "origin",
+      "pin-unauth": "dWlkPVptSXdZV1F3T0dVdE1UZGxNaTAwWXpBekxUZzBNVGd0TXpka1pXSmxNREUxTWpNMw",
+      "pinterest-version": "829b01b702edc507658515ab100d2ce1cf2f263d",
+      "access-control-allow-origin": "*",
+      "content-length": "190",
+      "x-pinterest-rid": "1690745586660926"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://ct.pinterest.com/ct.html",
+    "method": "GET",
+    "headers": {
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "connection": "keep-alive",
+      "dnt": "1",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://ct.pinterest.com/ct.html",
+    "status": 200,
+    "headers": {
+      "alt-svc": "h3=\":443\";ma=604800",
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-length": "326",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Fri, 26 Sep 2025 05:58:41 GMT",
+      "pinterest-version": "829b01b702edc507658515ab100d2ce1cf2f263d",
+      "referrer-policy": "origin",
+      "x-cdn": "fastly",
+      "x-envoy-upstream-service-time": "0",
+      "x-pinterest-rid": "1222813789274138",
+      "x-pinterest-rid-128bit": "6046f685117f58b8a9b312a041581c8e"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://ct.pinterest.com/v3/?tid=2612678385287&ov=%7B%22page_name%22%3A%22Product%20Business%20Analyst%20Job%20in%20Perth%20WA%20-%20SEEK%22%2C%22page_category%22%3A%22%22%7D&pd=%7B%22np%22%3A%22tealium%22%2C%22pin_unauth%22%3A%22dWlkPVptSXdZV1F3T0dVdE1UZGxNaTAwWXpBekxUZzBNVGd0TXpka1pXSmxNREUxTWpNMw%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A720%2C%22sw%22%3A1280%2C%22mh%22%3A%22817db39b%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22140%22%7D%2C%7B%22brand%22%3A%22Not%3DA%3FBrand%22%2C%22version%22%3A%2224%22%7D%2C%7B%22brand%22%3A%22HeadlessChrome%22%2C%22version%22%3A%22140%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0%22%2C%22uaFullVersion%22%3A%22140.0.7339.16%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1758866344404",
+    "status": 200,
+    "headers": {
+      "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+      "pragma": "no-cache",
+      "x-envoy-upstream-service-time": "3",
+      "x-pinterest-rid-128bit": "07ddfa291daff3e8241c8cfb9eca8cfa",
+      "x-cdn": "fastly",
+      "referrer-policy": "origin",
+      "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+      "pinterest-version": "829b01b702edc507658515ab100d2ce1cf2f263d",
+      "access-control-allow-origin": "*",
+      "alt-svc": "h3=\":443\";ma=604800",
+      "content-length": "35",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "x-pinterest-rid": "2602109697042058",
+      "content-type": "image/gif"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://api2.branch.io/v1/pageview",
+    "status": 200,
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "cross-origin-resource-policy": "cross-origin",
+      "via": "1.1 9fbddde4165412a5f9426c247ca005c0.cloudfront.net (CloudFront)",
+      "access-control-allow-origin": "*",
+      "x-cache": "Miss from cloudfront",
+      "content-length": "28",
+      "x-amz-cf-id": "48fk8hAEKwj0-B-Z6MRBYKVTm4EAd7V6go8LfpOgMOUt9qBmm4d0Dg==",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "x-powered-by": "Branch",
+      "x-amz-cf-pop": "SYD3-P1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://api2.branch.io/v2/event/custom",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1",
+      "content-type": "application/x-www-form-urlencoded"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://adservice.google.com/ddm/fls/z/src=4270108;type=seeka0;cat=seeka0;ord=1758866317648;npa=0;auiddc=*;u1=Information%20%26%20Communication%20Technology;u2=6281;u3=Business%2FSystems%20Analysts;u4=6283;u5=Perth;u7=36487802;u8=87435704;u9=NULL;u11=Product%20Business%20Analyst;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=IAAB;gtm=45fe59n2v9189012862za200zb867633962zd867633962xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115691063~115733586;epver=2;dc_random=y5Irhx8Cy-uEdSvM4q2o7-mAM_LkXNNEmg;_dc_test=1;~oref=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone",
+    "status": 200,
+    "headers": {
+      "cache-control": "no-cache, must-revalidate",
+      "timing-allow-origin": "*",
+      "pragma": "no-cache",
+      "cross-origin-resource-policy": "cross-origin",
+      "x-content-type-options": "nosniff",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+      "content-length": "42",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "x-xss-protection": "0",
+      "content-type": "image/gif",
+      "server": "cafe"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://adservice.google.com/ddm/fls/z/src=4270108;type=skj_e0;cat=skj_j001;ord=7002573365265;npa=0;auiddc=*;u1=Information%20%26%20Communication%20Technology;u2=6281;u3=Business%2FSystems%20Analysts;u4=6283;u5=Perth;u7=36487802;u8=87435704;u9=NULL;u11=Product%20Business%20Analyst;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe59n2v9189012862za200zb867633962zd867633962xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115691063~115733586;epver=2;dc_random=9_STDMEcmXiY9ZUsSI3ufE4JI0pTXA4K6w;_dc_test=1;~oref=https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone",
+    "status": 200,
+    "headers": {
+      "cache-control": "no-cache, must-revalidate",
+      "timing-allow-origin": "*",
+      "pragma": "no-cache",
+      "cross-origin-resource-policy": "cross-origin",
+      "x-content-type-options": "nosniff",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+      "content-length": "42",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "x-xss-protection": "0",
+      "content-type": "image/gif",
+      "server": "cafe"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://web.aips-sol.com/v1/events?source=dt_web_seek_AU",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://amplifypixel.outbrain.com/pixel?mid=0080d859e82bee6ef9d8f1e90c065e56e9",
+    "status": 200,
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "cache-control": "no-cache",
+      "content-length": "49",
+      "content-encoding": "br",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "image/gif;",
+      "x-traceid": "0821e2b3c6e8d5ff8c52757560e068b5"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://idsync.segment.com/doubleclick?segment_write_key=DvY7kWpoiUVpDNHDqjU0JWB8D0wslo4x",
+    "status": 204,
+    "headers": {
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://y.clarity.ms/collect",
+    "status": 204,
+    "headers": {
+      "request-context": "appId=cid-v1:9be176e0-8728-424b-869d-39f1780884cb",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "server": "nginx",
+      "connection": "keep-alive"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://web.aips-sol.com/v1/events?source=dt_web_seek_AU",
+    "status": 204,
+    "headers": {
+      "access-control-expose-headers": "CF-Ray",
+      "cf-cache-status": "DYNAMIC",
+      "x-envoy-upstream-service-time": "6",
+      "x-worker": "dt-420",
+      "cf-ray": "985088800d95328d-SYD",
+      "x-buffered": "true",
+      "access-control-allow-origin": "*",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "server-timing": "cfExtPri",
+      "date": "Fri, 26 Sep 2025 05:59:05 GMT",
+      "vary": "origin, Accept-Encoding",
+      "server": "cloudflare",
+      "priority": "u=1,i"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://api2.branch.io/v2/event/custom",
+    "status": 200,
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-amz-cf-id": "thOiX5TYRPwbpO099b_CJ5nqlFCD1I97lBYHFQVYo6LHV8-tY68Z6A==",
+      "cross-origin-resource-policy": "cross-origin",
+      "via": "1.1 9fbddde4165412a5f9426c247ca005c0.cloudfront.net (CloudFront)",
+      "access-control-allow-origin": "*",
+      "x-cache": "Miss from cloudfront",
+      "content-length": "39",
+      "x-branch-request-id": "f573f3d6-ddaa-4bef-ba3f-4a300d2ff8e9-2025092605",
+      "date": "Fri, 26 Sep 2025 05:59:04 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "x-powered-by": "Branch",
+      "x-amz-cf-pop": "SYD3-P1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://api2.branch.io/v1/pageview",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1",
+      "content-type": "application/x-www-form-urlencoded"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://ct.pinterest.com/v3/?event=PageVisit&ed=%7B%7D&tid=2612678385287&cb=1758866344622&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22np%22%3A%22tealium%22%2C%22pin_unauth%22%3A%22dWlkPVptSXdZV1F3T0dVdE1UZGxNaTAwWXpBekxUZzBNVGd0TXpka1pXSmxNREUxTWpNMw%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.seek.com.au%2Fjob%2F87435704%3Ftype%3Dstandard%26ref%3Dsearch-standalone%23sol%3Dced2f8bffdd1f20b133cdfde0c9a8827fa9b35e2%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A720%2C%22sw%22%3A1280%2C%22mh%22%3A%22817db39b%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22140%22%7D%2C%7B%22brand%22%3A%22Not%3DA%3FBrand%22%2C%22version%22%3A%2224%22%7D%2C%7B%22brand%22%3A%22HeadlessChrome%22%2C%22version%22%3A%22140%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0%22%2C%22uaFullVersion%22%3A%22140.0.7339.16%22%2C%22ecm_enabled%22%3Afalse%7D",
+    "status": 200,
+    "headers": {
+      "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+      "pragma": "no-cache",
+      "x-envoy-upstream-service-time": "2",
+      "x-pinterest-rid-128bit": "eacb97a01c122013f285b96070422371",
+      "x-cdn": "fastly",
+      "referrer-policy": "origin",
+      "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+      "pinterest-version": "829b01b702edc507658515ab100d2ce1cf2f263d",
+      "access-control-allow-origin": "*",
+      "alt-svc": "h3=\":443\";ma=604800",
+      "content-length": "35",
+      "date": "Fri, 26 Sep 2025 05:59:05 GMT",
+      "x-pinterest-rid": "1747557775293245",
+      "content-type": "image/gif"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://api2.branch.io/v1/pageview",
+    "status": 200,
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "cross-origin-resource-policy": "cross-origin",
+      "via": "1.1 9fbddde4165412a5f9426c247ca005c0.cloudfront.net (CloudFront)",
+      "access-control-allow-origin": "*",
+      "x-cache": "Miss from cloudfront",
+      "content-length": "28",
+      "x-amz-cf-id": "Ge4CDfMJCjR99RUdxV8NCkh_-PbngU3GLf_OH5V5t6dzXvKZImEuqg==",
+      "date": "Fri, 26 Sep 2025 05:59:05 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "x-powered-by": "Branch",
+      "x-amz-cf-pop": "SYD3-P1"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://api2.branch.io/v2/event/custom",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1",
+      "content-type": "application/x-www-form-urlencoded"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://ib.adnxs.com/setuid?entity=315&code=SxhnJzv382GkDFksAaHgkpTlhJj5W413vRv3C6fRWbg&consent=1",
+    "status": 200,
+    "headers": {
+      "cache-control": "no-store, no-cache, private",
+      "pragma": "no-cache",
+      "accept-ch": "Sec-CH-UA-Full-Version-List,Sec-CH-UA-Arch,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version,Sec-CH-UA-Bitness",
+      "x-proxy-origin": "61.69.168.64; 61.69.168.64; 1027.bm-nginx-loadbalancer.mgmt.sin3.adnexus.net; *.adnxs.com",
+      "expires": "Sat, 15 Nov 2008 16:00:00 GMT",
+      "an-x-request-uuid": "4e2b7688-53ef-4ec1-a2f4-2ac34879922b",
+      "content-length": "43",
+      "p3p": "policyref=\"http://cdn.adnxs-simple.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+      "date": "Fri, 26 Sep 2025 05:59:05 GMT",
+      "x-xss-protection": "0",
+      "content-type": "image/gif",
+      "server": "nginx/1.25.5"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://api2.branch.io/v2/event/custom",
+    "status": 200,
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-amz-cf-id": "nlY4HjxI-EZFNlrWXlm2a_NxAUrV9B6giUun4O9nRVpG_rzmQ2pn3A==",
+      "cross-origin-resource-policy": "cross-origin",
+      "via": "1.1 9fbddde4165412a5f9426c247ca005c0.cloudfront.net (CloudFront)",
+      "access-control-allow-origin": "*",
+      "x-cache": "Miss from cloudfront",
+      "content-length": "39",
+      "x-branch-request-id": "b3d44cc2-bdec-448a-a775-d254b9968f19-2025092605",
+      "date": "Fri, 26 Sep 2025 05:59:05 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "x-powered-by": "Branch",
+      "x-amz-cf-pop": "SYD3-P1"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://cds.taboola.com/?uid=8dea2af1-4bec-4c9f-8424-d33e13d123a8-tuctfcfb10e&ptf=V2luZG93cw==&ptfv=MTAuMA==&ufv=MTQwLjAuNzMzOS4xNg==&bnd=Q2hyb21pdW0=&bndv=MTQw&bnd=Tm90PUE/QnJhbmQ=&bndv=MjQ=&bnd=SGVhZGxlc3NDaHJvbWU=&bndv=MTQw&mbl=ZmFsc2U=",
+    "status": 204,
+    "headers": {
+      "access-control-allow-origin": "*",
+      "cache-control": "no-store",
+      "date": "Fri, 26 Sep 2025 05:59:05 GMT",
+      "server": "nginx"
+    }
+  },
+  {
+    "type": "request",
+    "url": "https://discover-metrics.cloud.seek.com.au/v1/send",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.seek.com.au/job/87435704?type=standard&ref=search-standalone",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"HeadlessChrome\";v=\"140\"",
+      "upgrade-insecure-requests": "1",
+      "sec-ch-ua-mobile": "?0",
+      "connection": "keep-alive",
+      "accept-encoding": "gzip, deflate, br",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+      "dnt": "1",
+      "content-type": "text/plain;charset=UTF-8"
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://discover-metrics.cloud.seek.com.au/v1/send",
+    "status": 204,
+    "headers": {
+      "strict-transport-security": "max-age=157680000",
+      "access-control-max-age": "604800",
+      "x-version": "4f8b754.2182",
+      "cf-cache-status": "DYNAMIC",
+      "x-envoy-upstream-service-time": "1",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-methods": "POST, GET",
+      "cf-ray": "985088935e106a5a-SYD",
+      "access-control-allow-origin": "*",
+      "date": "Fri, 26 Sep 2025 05:59:08 GMT",
+      "vary": "Accept-Encoding",
+      "server": "cloudflare"
+    }
+  }
+]

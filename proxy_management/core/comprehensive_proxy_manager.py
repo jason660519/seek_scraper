@@ -396,6 +396,10 @@ class ComprehensiveProxyManager:
             'last_updated': datetime.now().isoformat()
         }
     
+    def get_proxies_by_status(self, status: ProxyStatus) -> List[ProxyInfo]:
+        """根據狀態獲取代理列表"""
+        return self._load_proxies(status)
+    
     def get_statistics(self) -> Dict:
         """獲取代理統計信息（別名方法）"""
         return self.get_proxy_statistics()

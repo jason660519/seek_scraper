@@ -17,9 +17,12 @@ from urllib.parse import urlparse
 
 from playwright.async_api import async_playwright, Browser, BrowserContext, Page
 
+from typing import TYPE_CHECKING
 from ..models import SearchCriteria
 from ..services.proxy_manager import ProxyManager
-from .playwright_scraper import PlaywrightScraper
+
+if TYPE_CHECKING:
+    from ..scrapers.playwright_scraper import PlaywrightScraper
 
 
 class RawDataExtractor:

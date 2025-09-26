@@ -1,0 +1,32 @@
+[
+  {
+    "keywords": "machine learning",
+    "location": "Sydney NSW 2000",
+    "url_format": "https://www.seek.com.au/machine-learning-jobs/in-Sydney-NSW-2000",
+    "format_type": "format_1",
+    "timestamp": "2025-09-26T16:10:09.776553",
+    "navigation_success": true,
+    "jobs_found": 22,
+    "error": null
+  },
+  {
+    "keywords": "machine learning",
+    "location": "Sydney NSW 2000",
+    "url_format": "https://www.seek.com.au/machine-learning-jobs/in-Sydney-NSW-2000",
+    "format_type": "format_2",
+    "timestamp": "2025-09-26T16:10:22.018561",
+    "navigation_success": false,
+    "jobs_found": 0,
+    "error": null
+  },
+  {
+    "keywords": "machine learning",
+    "location": "Sydney NSW 2000",
+    "url_format": "https://www.seek.com.au/machine-learning-jobs",
+    "format_type": "format_3",
+    "timestamp": "2025-09-26T16:10:27.023941",
+    "navigation_success": true,
+    "jobs_found": 22,
+    "error": null
+  }
+]

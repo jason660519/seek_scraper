@@ -1,0 +1,42 @@
+[
+  {
+    "test_case": 1,
+    "keyword": "machine learning",
+    "location": "Sydney NSW 2000",
+    "url_type": "current_implementation",
+    "url": "https://www.seek.com.au/machine-learning-jobs/in-Sydney NSW 2000",
+    "navigation_success": true,
+    "jobs_found": 0,
+    "error": null
+  },
+  {
+    "test_case": 1,
+    "keyword": "machine learning",
+    "location": "Sydney NSW 2000",
+    "url_type": "correct_format",
+    "url": "https://www.seek.com.au/machine-learning-jobs/in-Sydney-NSW-2000",
+    "navigation_success": true,
+    "jobs_found": 22,
+    "error": null
+  },
+  {
+    "test_case": 2,
+    "keyword": "data scientist",
+    "location": "Melbourne VIC 3000",
+    "url_type": "current_implementation",
+    "url": "https://www.seek.com.au/data-scientist-jobs/in-Melbourne VIC 3000",
+    "navigation_success": true,
+    "jobs_found": 0,
+    "error": null
+  },
+  {
+    "test_case": 2,
+    "keyword": "data scientist",
+    "location": "Melbourne VIC 3000",
+    "url_type": "correct_format",
+    "url": "https://www.seek.com.au/data-scientist-jobs/in-Melbourne-VIC-3000",
+    "navigation_success": true,
+    "jobs_found": 21,
+    "error": null
+  }
+]

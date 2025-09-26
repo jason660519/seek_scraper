@@ -1,0 +1,14 @@
+{
+  "total_jobs_found": 22,
+  "total_jobs_processed": 22,
+  "successful_extractions": 21,
+  "failed_extractions": 0,
+  "keywords": [
+    "software engineer"
+  ],
+  "locations": [
+    "Sydney NSW"
+  ],
+  "start_time": "2025-09-26T17:31:55.216906",
+  "end_time": "2025-09-26T17:35:17.919695"
+}

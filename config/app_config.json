@@ -1,0 +1,27 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "seek_jobs",
+    "username": "postgres",
+    "password": "",
+    "ssl_mode": "prefer"
+  },
+  "scraper": {
+    "base_url": "https://www.seek.com.au",
+    "request_delay": 2.0,
+    "max_retries": 3,
+    "timeout": 30,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "max_pages": 5,
+    "proxy_enabled": false,
+    "proxy_list": []
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file_path": "logs/seek_crawler.log",
+    "max_file_size": 10485760,
+    "backup_count": 5
+  }
+}

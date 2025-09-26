@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "search_stats": {
+    "total_jobs_found": 20,
+    "search_criteria": {
+      "keywords": "ai-machine-learning-data-scientist",
+      "location": "in-Sydney-NSW-2000",
+      "max_pages": 1,
+      "jobs_per_page": 20
+    }
+  },
+  "etl_stats": {
+    "total_time": 273.672873,
+    "output_files": {
+      "json": "data\\processed\\seek_jobs_20250926_161805.json",
+      "csv": "data\\processed\\seek_jobs_20250926_161805.csv"
+    },
+    "timestamp": "2025-09-26T16:13:31.500057"
+  },
+  "timestamp": "2025-09-26T16:18:05.272723"
+}

@@ -1,0 +1,14 @@
+{
+  "total_jobs_found": 44,
+  "total_jobs_processed": 44,
+  "successful_extractions": 44,
+  "failed_extractions": 0,
+  "keywords": [
+    "software engineer"
+  ],
+  "locations": [
+    "Melbourne VIC"
+  ],
+  "start_time": "2025-09-26T17:35:17.921695",
+  "end_time": "2025-09-26T17:39:59.180342"
+}

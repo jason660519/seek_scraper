@@ -40,7 +40,11 @@ const commonTranslations = {
         language: '語言',
         theme: '主題',
         about: '關於',
-        help: '幫助'
+        help: '幫助',
+        autoRefresh: '自動刷新',
+        totalItems: '共 {{total}} 項',
+        details: '詳情',
+        status: '狀態'
       },
       
       navigation: {
@@ -106,7 +110,11 @@ const commonTranslations = {
         language: '语言',
         theme: '主题',
         about: '关于',
-        help: '帮助'
+        help: '帮助',
+        autoRefresh: '自动刷新',
+        totalItems: '共 {{total}} 项',
+        details: '详情',
+        status: '状态'
       },
       
       navigation: {
@@ -172,7 +180,11 @@ const commonTranslations = {
         language: 'Language',
         theme: 'Theme',
         about: 'About',
-        help: 'Help'
+        help: 'Help',
+        autoRefresh: 'Auto Refresh',
+        totalItems: 'Total {{total}} items',
+        details: 'Details',
+        status: 'Status'
       },
       
       navigation: {

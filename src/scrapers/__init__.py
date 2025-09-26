@@ -338,3 +338,9 @@ class SeekScraper:
             'success_rate': self.successful_requests / max(self.total_requests, 1),
             'average_delay': self.config.request_delay
         }
+
+
+# 導出 PlaywrightScraper
+from .playwright_scraper import PlaywrightScraper, AntiCrawlingConfig
+
+__all__ = ['SeekScraper', 'PlaywrightScraper', 'AntiCrawlingConfig']

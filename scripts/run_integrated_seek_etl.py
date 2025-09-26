@@ -18,6 +18,8 @@ sys.path.insert(0, str(project_root))
 
 from src.enhanced_seek_etl import EnhancedSeekETLWithProxy
 from src.scrapers.seek_scraper import SeekScraper, SearchCriteria
+from src.scrapers import PlaywrightScraper
+from src.services.proxy_manager import ProxyManager
 from src.utils.logger import get_logger
 
 
@@ -62,20 +64,42 @@ class IntegratedSeekETLRunner:
             'headless': True,
             'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             
-            # 搜尋條件
+            # 搜尋條件 - 根據 SEEK URL 結構優化
             'search_criteria': {
                 'keywords': ['AI', 'Machine Learning', 'Data Scientist'],
-                'location': 'All-Sydney-NSW',
-                'max_pages': 2
+                'location': 'in-All-Sydney-NSW',  # SEEK 標準位置格式
+                'max_pages': 2,
+                'url_pattern': 'https://www.seek.com.au/{keyword}-jobs/{location}?page={page}',  # SEEK URL 模式
+                'follow_redirects': True,  # 允許重定向
+                'respect_robots_txt': True,  # 遵守 robots.txt
+                'request_timeout': 30  # 請求超時時間
             },
             
-            # 爬蟲設定
+            # 爬蟲設定 - 增強反爬蟲配置
             'scraper_config': {
                 'base_url': 'https://www.seek.com.au',
                 'timeout': 30,
-                'request_delay': 2.0,
+                'request_delay': 3.0,  # 增加延遲以避免被檢測
                 'max_retries': 3,
-                'max_pages': 2
+                'max_pages': 2,
+                'proxy_enabled': True,  # 啟用代理
+                'proxy_rotation': True,  # 啟用代理輪換
+                'user_agent_rotation': True,  # 啟用 User-Agent 輪換
+                'viewport_randomization': True,  # 啟用視窗大小隨機化
+                'enable_stealth': True,  # 啟用隱身模式
+                'respect_robots_txt': True,  # 遵守 robots.txt
+                'follow_redirects': True,  # 允許重定向
+                'max_redirects': 5,  # 最大重定向次數
+                'verify_ssl': True,  # SSL 驗證
+                'allow_cookies': True,  # 允許 cookies
+                'custom_headers': {
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Accept-Encoding': 'gzip, deflate, br',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    'Upgrade-Insecure-Requests': '1'
+                }
             },
             
             # Proxy 配置
@@ -100,24 +124,47 @@ class IntegratedSeekETLRunner:
                         'protocols': ['http', 'https'],
                         'anonymity_levels': ['elite', 'anonymous']
                     }
-                }
+                },
+                'use_proxy': True,  # 明確啟用代理
+                'proxy_rotation': True,  # 啟用代理輪換
+                'proxy_retry_count': 3  # 代理重試次數
             },
             
-            # 反爬蟲配置
+            # 反爬蟲配置 - 根據 SEEK 特性優化
             'anti_bot_config': {
                 'enable_delay': True,
-                'min_delay': 3.0,
-                'max_delay': 10.0,
+                'min_delay': 3.0,  # 最小延遲 3 秒（SEEK 建議）
+                'max_delay': 8.0,  # 最大延遲 8 秒
                 'randomize_delay': True,
                 'enable_user_agent_rotation': True,
-                'enable_viewport_randomization': True
+                'enable_viewport_randomization': True,
+                'enable_mouse_movement': True,  # 啟用鼠標移動模擬
+                'enable_scroll_simulation': True,  # 啟用滾動模擬
+                'enable_click_simulation': True,  # 啟用點擊模擬
+                'page_load_timeout': 30,  # 頁面加載超時
+                'script_timeout': 10,  # 腳本執行超時
+                'wait_for_network_idle': True,  # 等待網絡空閒
+                'bypass_cdp_detection': True,  # 繞過 Chrome DevTools 檢測
+                'disable_webdriver_detection': True,  # 禁用 WebDriver 檢測
+                'preserve_user_preferences': True,  # 保持用戶偏好設置
+                'randomize_canvas_fingerprint': True,  # 隨機化 Canvas 指紋
+                'randomize_webgl_fingerprint': True,  # 隨機化 WebGL 指紋
+                'randomize_audio_fingerprint': True,  # 隨機化音頻指紋
+                'enable_session_persistence': True  # 啟用會話持久化
             },
             
-            # 批次處理設定
+            # 批次處理設定 - 針對 SEEK 優化
             'batch_config': {
-                'batch_size': 2,  # 較小的批次大小
-                'batch_delay': 15,  # 較長的批次間延遲
-                'max_concurrent': 1  # 限制並發數
+                'batch_size': 1,  # 單個處理以避免被檢測
+                'batch_delay': 10,  # 批次間延遲 10 秒
+                'max_concurrent': 1,  # 限制並發數為 1
+                'page_delay': 5,  # 頁面間延遲 5 秒
+                'job_delay': 8,  # 工作間延遲 8 秒
+                'enable_jitter': True,  # 啟用隨機抖動
+                'jitter_range': [0.5, 2.0],  # 抖動範圍
+                'retry_on_failure': True,  # 失敗時重試
+                'max_retries': 3,  # 最大重試次數
+                'backoff_factor': 2.0  # 退避因子
             },
             
             # 輸出設定
@@ -143,6 +190,44 @@ class IntegratedSeekETLRunner:
         for directory in directories:
             Path(directory).mkdir(parents=True, exist_ok=True)
     
+    def _get_working_proxies(self) -> List[str]:
+        """
+        從代理管理系統獲取工作代理列表
+        
+        Returns:
+            List[str]: 工作代理列表
+        """
+        import requests
+        import json
+        
+        try:
+            # 從代理管理API獲取工作代理
+            response = requests.get('http://localhost:5000/api/proxies', timeout=10)
+            if response.status_code == 200:
+                proxy_data = response.json()
+                working_proxies = []
+                
+                # 提取工作代理
+                for proxy in proxy_data.get('proxies', []):
+                    if proxy.get('status') == 'active' and proxy.get('success_rate', 0) > 0.5:
+                        proxy_url = f"{proxy['protocol']}://{proxy['ip']}:{proxy['port']}"
+                        working_proxies.append(proxy_url)
+                
+                self.logger.info(f"從代理管理系統獲取 {len(working_proxies)} 個工作代理")
+                return working_proxies[:10]  # 限制使用前10個代理
+            else:
+                self.logger.warning(f"無法從代理管理API獲取代理，狀態碼: {response.status_code}")
+                
+        except Exception as e:
+            self.logger.error(f"獲取工作代理失敗: {e}")
+        
+        # 返回默認代理列表（本地代理管理器）
+        return [
+            'http://localhost:8080',
+            'http://localhost:8081',
+            'http://localhost:8082'
+        ]
+    
     async def search_jobs(self, criteria: Dict[str, Any]) -> List[str]:
         """
         搜尋職位並獲取 URL 列表
@@ -155,22 +240,97 @@ class IntegratedSeekETLRunner:
         """
         self.logger.info(f"開始搜尋職位: {criteria}")
         
-        # 創建搜尋條件物件
+        # 創建搜尋條件物件 - 根據 SEEK URL 結構優化
+        keywords = criteria.get('keywords', ['AI'])
+        location = criteria.get('location', 'in-All-Sydney-NSW')  # 默認位置格式
+        
+        # 處理關鍵詞格式（SEEK 使用連字符連接）
+        if isinstance(keywords, list):
+            # 先處理每個關鍵詞中的空格，然後用連字符連接
+            processed_keywords = [str(k).lower().replace(' ', '-') for k in keywords]
+            keyword_str = '-'.join(processed_keywords)
+        else:
+            keyword_str = str(keywords).lower().replace(' ', '-')
+        
+        # 處理位置格式（將空格替換為連字符，符合 SEEK URL 格式）
+        if location:
+            location = str(location).replace(' ', '-')
+            if not location.startswith('in-'):
+                location = f'in-{location}'
+        
         search_criteria = SearchCriteria(
-            keywords=criteria.get('keywords', ['AI']),
-            location=criteria.get('location', ''),
-            max_pages=criteria.get('max_pages', 2)
+            keyword=keyword_str,
+            location=location
         )
         
-        # 使用 SeekScraper 搜尋
-        scraper = SeekScraper(self.config.get('scraper_config', {}))
+        self.logger.info(f"搜尋條件: 關鍵詞='{keyword_str}', 位置='{location}'")
+        
+        # 使用 PlaywrightScraper 搜尋（支援更好的反爬蟲功能）
+        from src.services.proxy_manager import ProxyManager
+        from src.scrapers.playwright_scraper import PlaywrightScraper
+        
+        # 初始化代理管理器
+        proxy_manager = ProxyManager()
+        
+        # 創建 PlaywrightScraper
+        scraper = PlaywrightScraper(proxy_manager=proxy_manager, logger=self.logger)
         
         job_urls = []
         try:
-            # 搜尋職位
-            job_urls = await scraper.search_jobs(search_criteria)
-            self.logger.info(f"搜尋完成，找到 {len(job_urls)} 個職位")
-            
+            async with scraper:
+                # 構建 SEEK 搜尋 URL
+                base_url = "https://www.seek.com.au"
+                search_url = f"{base_url}/{search_criteria.keyword}-jobs"
+                if search_criteria.location:
+                    search_url += f"/{search_criteria.location}"
+                
+                self.logger.info(f"開始搜尋: {search_url}")
+                
+                # 導航到搜尋頁面
+                success = await scraper.navigate_to_url(search_url)
+                if not success:
+                    self.logger.error(f"無法導航到搜尋頁面: {search_url}")
+                    return []
+                
+                # 提取工作連結
+                job_urls = await scraper.extract_job_links()
+                self.logger.info(f"找到 {len(job_urls)} 個工作連結")
+                
+                # 如果需要多頁，提取總頁數並遍歷
+                max_pages = criteria.get('max_pages', 2)
+                if max_pages > 1:
+                    total_pages = await scraper.extract_total_pages()
+                    pages_to_scrape = min(total_pages, max_pages)
+                    
+                    self.logger.info(f"總頁數: {total_pages}, 將爬取: {pages_to_scrape} 頁")
+                    
+                    # 遍歷其他頁面
+                    for page in range(2, pages_to_scrape + 1):
+                        try:
+                            # 構建分頁 URL
+                            page_url = f"{search_url}?page={page}"
+                            self.logger.info(f"爬取第 {page} 頁: {page_url}")
+                            
+                            # 導航到分頁
+                            success = await scraper.navigate_to_url(page_url)
+                            if success:
+                                # 提取該頁面的工作連結
+                                page_job_urls = await scraper.extract_job_links()
+                                job_urls.extend(page_job_urls)
+                                self.logger.info(f"第 {page} 頁找到 {len(page_job_urls)} 個工作連結")
+                            else:
+                                self.logger.warning(f"無法導航到第 {page} 頁")
+                                break
+                                
+                            # 頁面間延遲
+                            await asyncio.sleep(5)
+                            
+                        except Exception as e:
+                            self.logger.error(f"爬取第 {page} 頁失敗: {e}")
+                            break
+                
+                self.logger.info(f"搜尋完成，總共找到 {len(job_urls)} 個職位")
+                
         except Exception as e:
             self.logger.error(f"搜尋職位失敗: {e}")
             
@@ -212,7 +372,22 @@ class IntegratedSeekETLRunner:
                     self.logger.info(f"CSV 檔案已儲存: {csv_path}")
             
             # 獲取統計資訊
-            stats = etl.get_statistics()
+            try:
+                # 嘗試獲取 ETL 統計資訊
+                stats = etl.get_statistics() if hasattr(etl, 'get_statistics') else {}
+            except AttributeError:
+                # 如果 EnhancedSeekETLWithProxy 沒有 get_statistics 方法，
+                # 嘗試從 proxy_rotator 獲取統計資訊
+                try:
+                    if hasattr(etl, 'proxy_rotator') and hasattr(etl.proxy_rotator, 'get_statistics'):
+                        proxy_stats = etl.proxy_rotator.get_statistics()
+                        stats = {'proxy_statistics': proxy_stats}
+                    else:
+                        stats = {}
+                except Exception as e:
+                    self.logger.warning(f"無法獲取統計資訊: {e}")
+                    stats = {}
+            
             stats.update({
                 'total_time': (datetime.now() - start_time).total_seconds(),
                 'output_files': output_files,

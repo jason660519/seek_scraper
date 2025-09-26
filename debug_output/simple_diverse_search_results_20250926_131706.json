@@ -1,0 +1,47 @@
+[
+  {
+    "keywords": "machine learning engineer",
+    "location": "Sydney NSW 2000",
+    "jobs_found": 0,
+    "success": false,
+    "error": "PlaywrightScraper.__init__() got an unexpected keyword argument 'headless'",
+    "search_url": null,
+    "sample_jobs": []
+  },
+  {
+    "keywords": "data scientist",
+    "location": "Melbourne VIC 3000",
+    "jobs_found": 0,
+    "success": false,
+    "error": "PlaywrightScraper.__init__() got an unexpected keyword argument 'headless'",
+    "search_url": null,
+    "sample_jobs": []
+  },
+  {
+    "keywords": "ai engineer",
+    "location": "Brisbane QLD 4000",
+    "jobs_found": 0,
+    "success": false,
+    "error": "PlaywrightScraper.__init__() got an unexpected keyword argument 'headless'",
+    "search_url": null,
+    "sample_jobs": []
+  },
+  {
+    "keywords": "software engineer",
+    "location": "Perth WA 6000",
+    "jobs_found": 0,
+    "success": false,
+    "error": "PlaywrightScraper.__init__() got an unexpected keyword argument 'headless'",
+    "search_url": null,
+    "sample_jobs": []
+  },
+  {
+    "keywords": "data analyst",
+    "location": "Adelaide SA 5000",
+    "jobs_found": 0,
+    "success": false,
+    "error": "PlaywrightScraper.__init__() got an unexpected keyword argument 'headless'",
+    "search_url": null,
+    "sample_jobs": []
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "search_stats": {
+    "total_jobs_found": 20,
+    "search_criteria": {
+      "keywords": "software-engineer-developer",
+      "location": "in-Brisbane-QLD-4000",
+      "max_pages": 1,
+      "jobs_per_page": 20
+    }
+  },
+  "etl_stats": {
+    "total_time": 311.474376,
+    "output_files": {
+      "json": "data\\processed\\seek_jobs_20250926_155547.json",
+      "csv": "data\\processed\\seek_jobs_20250926_155547.csv"
+    },
+    "timestamp": "2025-09-26T15:50:35.805313"
+  },
+  "timestamp": "2025-09-26T15:56:17.617737"
+}

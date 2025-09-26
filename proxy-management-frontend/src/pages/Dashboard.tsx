@@ -18,6 +18,8 @@ import {
 import { useTranslation } from 'react-i18next';
 import type { EChartsOption } from 'echarts';
 import ReactECharts from 'echarts-for-react';
+import { useResponsive } from '../utils/responsive';
+import { useWebSocket } from '../hooks/useWebSocket';
 
 /**
  * 儀表板頁面組件
@@ -25,7 +27,8 @@ import ReactECharts from 'echarts-for-react';
  */
 const Dashboard: React.FC = () => {
   const { t } = useTranslation();
-  const [] = useState(false);
+  const { isMobile, getSpacing, getCardPadding } = useResponsive();
+  const { isConnected: wsConnected } = useWebSocket();
   const [refreshing, setRefreshing] = useState(false);
 
   // 模擬數據
@@ -259,27 +262,43 @@ const Dashboard: React.FC = () => {
   ];
 
   return (
-    <div style={{ padding: '24px' }}>
+    <div style={{ padding: getCardPadding() }}>
       {/* 頁面標題和快捷操作 */}
-      <div style={{ marginBottom: '24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+      <div style={{ 
+        marginBottom: getSpacing(), 
+        display: 'flex', 
+        justifyContent: 'space-between', 
+        alignItems: 'center',
+        flexDirection: isMobile ? 'column' : 'row',
+        gap: isMobile ? getSpacing() : 0
+      }}>
         <h1>{t('dashboard.title')}</h1>
-        <Space>
+        <Space direction={isMobile ? 'vertical' : 'horizontal'} size="middle">
           <Button 
             type="primary" 
             icon={<ReloadOutlined spin={refreshing} />}
             onClick={handleRefresh}
             loading={refreshing}
+            size={isMobile ? 'small' : 'middle'}
           >
             {t('common.refresh')}
           </Button>
-          <Button icon={<GlobalOutlined />}>
+          <Button 
+            icon={<GlobalOutlined />}
+            size={isMobile ? 'small' : 'middle'}
+          >
             {t('dashboard.quickActions')}
           </Button>
+          {wsConnected && (
+            <Tag color="green">
+              實時連接
+            </Tag>
+          )}
         </Space>
       </div>
 
       {/* 統計卡片 */}
-      <Row gutter={16} style={{ marginBottom: '24px' }}>
+      <Row gutter={getSpacing()} style={{ marginBottom: getSpacing() }}>
         <Col xs={24} sm={12} md={6}>
           <Card>
             <Statistic
@@ -326,12 +345,12 @@ const Dashboard: React.FC = () => {
       </Row>
 
       {/* 圖表網格 */}
-      <Row gutter={16} style={{ marginBottom: '24px' }}>
+      <Row gutter={getSpacing()} style={{ marginBottom: getSpacing() }}>
         <Col xs={24} lg={12}>
           <Card title={t('dashboard.proxyTrend')}>
             <ReactECharts 
               option={proxyTrendOption} 
-              style={{ height: '300px' }}
+              style={{ height: isMobile ? '250px' : '300px' }}
               opts={{ renderer: 'canvas' }}
             />
           </Card>
@@ -340,19 +359,19 @@ const Dashboard: React.FC = () => {
           <Card title={t('dashboard.validityDistribution')}>
             <ReactECharts 
               option={validityDistributionOption} 
-              style={{ height: '300px' }}
+              style={{ height: isMobile ? '250px' : '300px' }}
               opts={{ renderer: 'canvas' }}
             />
           </Card>
         </Col>
       </Row>
 
-      <Row gutter={16} style={{ marginBottom: '24px' }}>
+      <Row gutter={getSpacing()} style={{ marginBottom: getSpacing() }}>
         <Col span={24}>
           <Card title={t('dashboard.geographicDistribution')}>
             <ReactECharts 
               option={geographicDistributionOption} 
-              style={{ height: '300px' }}
+              style={{ height: isMobile ? '250px' : '300px' }}
               opts={{ renderer: 'canvas' }}
             />
           </Card>
@@ -360,19 +379,21 @@ const Dashboard: React.FC = () => {
       </Row>
 
       {/* 最近活動 */}
-      <Row gutter={16}>
+      <Row gutter={getSpacing()}>
         <Col span={24}>
           <Card title={t('dashboard.recentActivity')}>
             <Table
               columns={activityColumns}
               dataSource={recentActivity}
               pagination={{
-                pageSize: 5,
+                pageSize: isMobile ? 3 : 5,
                 showSizeChanger: false,
-                showQuickJumper: true
+                showQuickJumper: !isMobile,
+                simple: isMobile
               }}
-              size="small"
+              size={isMobile ? 'small' : 'middle'}
               rowKey="key"
+              scroll={isMobile ? { x: 600 } : undefined}
             />
           </Card>
         </Col>

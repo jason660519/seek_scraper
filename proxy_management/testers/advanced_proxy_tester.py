@@ -23,7 +23,7 @@ import json
 import argparse
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from countries import COUNTRIES
+from ..countries import COUNTRIES
 from flask import Flask, jsonify, request, render_template_string, send_from_directory
 import threading
 

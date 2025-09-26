@@ -32,14 +32,13 @@ import {
   CloseCircleOutlined,
   ClockCircleOutlined,
   QuestionCircleOutlined,
-  ExportOutlined,
-  ImportOutlined,
   ReloadOutlined,
   MoreOutlined
 } from '@ant-design/icons';
 import { useTranslation } from 'react-i18next';
 import type { Proxy } from '../types';
 import { ProxyStatus, ProxyProtocol } from '../types';
+import FileOperations from '../components/FileOperations';
 
 const { Search } = Input;
 const { Option } = Select;
@@ -362,6 +361,17 @@ const ProxyManagement: React.FC = () => {
     }
     message.loading(`正在驗證 ${selectedRowKeys.length} 個代理...`, 3);
     setTimeout(() => {
+      // 模擬批量驗證結果
+      setProxies(prev => prev.map(proxy => 
+        selectedRowKeys.includes(proxy.id) 
+          ? { 
+              ...proxy, 
+              status: Math.random() > 0.3 ? ProxyStatus.VALID : ProxyStatus.INVALID, 
+              lastChecked: new Date(),
+              responseTime: Math.random() > 0.3 ? Math.floor(Math.random() * 2000) : 0
+            }
+          : proxy
+      ));
       message.success(`批量驗證完成，${selectedRowKeys.length} 個代理已更新`);
       setSelectedRowKeys([]);
     }, 3000);
@@ -420,6 +430,13 @@ const ProxyManagement: React.FC = () => {
     setModalVisible(false);
     form.resetFields();
   };
+
+  // 處理文件導入
+  const handleImport = (importedProxies: Proxy[]) => {
+    setProxies(prev => [...prev, ...importedProxies]);
+    message.success(`成功導入 ${importedProxies.length} 個代理`);
+  };
+
 
   // 行選擇配置
   const rowSelection = {
@@ -494,12 +511,11 @@ const ProxyManagement: React.FC = () => {
                 </Button>
               </Space>
             )}
-            <Button icon={<ExportOutlined />}>
-              {t('proxy.exportProxies')}
-            </Button>
-            <Button icon={<ImportOutlined />}>
-              {t('proxy.importProxies')}
-            </Button>
+            <FileOperations
+              proxies={proxies}
+              onImport={handleImport}
+              loading={loading}
+            />
             <Button type="primary" icon={<PlusOutlined />} onClick={handleAdd}>
               {t('proxy.addProxy')}
             </Button>

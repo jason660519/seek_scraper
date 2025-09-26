@@ -1,0 +1,100 @@
+{
+  "data_dir": "data",
+  "headless": true,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  
+  "search_criteria": {
+    "keywords": ["AI", "Machine Learning", "Data Scientist"],
+    "location": "in-All-Sydney-NSW",
+    "max_pages": 2,
+    "url_pattern": "https://www.seek.com.au/{keyword}-jobs/{location}?page={page}",
+    "follow_redirects": true,
+    "respect_robots_txt": true,
+    "request_timeout": 30
+  },
+  
+  "scraper_config": {
+    "base_url": "https://www.seek.com.au",
+    "timeout": 30,
+    "request_delay": 3.0,
+    "max_retries": 3,
+    "max_pages": 2,
+    "proxy_enabled": false,
+    "proxy_rotation": false,
+    "user_agent_rotation": true,
+    "viewport_randomization": true,
+    "enable_stealth": true,
+    "respect_robots_txt": true,
+    "follow_redirects": true,
+    "max_redirects": 5,
+    "verify_ssl": true,
+    "allow_cookies": true,
+    "custom_headers": {
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.5",
+      "Accept-Encoding": "gzip, deflate, br",
+      "DNT": "1",
+      "Connection": "keep-alive",
+      "Upgrade-Insecure-Requests": "1"
+    }
+  },
+  
+  "proxy_config": {
+    "use_proxy": false,
+    "proxy_rotation": false,
+    "rotation_interval": 3,
+    "failure_threshold": 2,
+    "cooldown_period": 300,
+    "max_consecutive_failures": 3,
+    "max_fail_count": 3,
+    "temp_invalid_retry_hours": 24,
+    "validation_timeout": 10,
+    "test_urls": [
+      "https://www.seek.com.au",
+      "https://httpbin.org/ip",
+      "https://www.google.com"
+    ]
+  },
+  
+  "anti_bot_config": {
+    "enable_delay": true,
+    "min_delay": 3.0,
+    "max_delay": 8.0,
+    "randomize_delay": true,
+    "enable_user_agent_rotation": true,
+    "enable_viewport_randomization": true,
+    "enable_mouse_movement": true,
+    "enable_scroll_simulation": true,
+    "enable_click_simulation": true,
+    "page_load_timeout": 30,
+    "script_timeout": 10,
+    "wait_for_network_idle": true,
+    "bypass_cdp_detection": true,
+    "disable_webdriver_detection": true,
+    "preserve_user_preferences": true,
+    "randomize_canvas_fingerprint": true,
+    "randomize_webgl_fingerprint": true,
+    "randomize_audio_fingerprint": true,
+    "enable_session_persistence": true
+  },
+  
+  "batch_config": {
+    "batch_size": 1,
+    "batch_delay": 10,
+    "max_concurrent": 1,
+    "page_delay": 5,
+    "job_delay": 8,
+    "enable_jitter": true,
+    "jitter_range": [0.5, 2.0],
+    "retry_on_failure": true,
+    "max_retries": 3,
+    "backoff_factor": 2.0
+  },
+  
+  "output_config": {
+    "save_raw_data": true,
+    "save_processed_data": true,
+    "save_statistics": true,
+    "output_formats": ["json", "csv"]
+  }
+}

@@ -14,7 +14,7 @@ from typing import Dict, List, Optional, Any, Set
 from urllib.parse import urljoin, urlparse
 
 from playwright.async_api import async_playwright, Browser, BrowserContext, Page
-from playwright_stealth import stealth_async
+from playwright_stealth import Stealth
 
 from ..models import JobPost, SearchCriteria
 from ..services.proxy_manager import ProxyManager, ProxyConfig
@@ -92,7 +92,7 @@ class PlaywrightScraper:
         try:
             self.playwright = await async_playwright().start()
             
-            # 配置瀏覽器
+            # 配置瀏覽器 - 使用無頭模式以避免被檢測
             browser_config = await self._get_browser_config()
             
             # 啟動瀏覽器
@@ -108,6 +108,10 @@ class PlaywrightScraper:
             
             # 創建頁面
             self.page = await self.context.new_page()
+            
+            # 先訪問主頁以建立會話
+            await self.page.goto("https://www.seek.com.au", wait_until="domcontentloaded")
+            await asyncio.sleep(2)  # 等待主頁加載
             
             self.logger.info("Playwright 瀏覽器啟動成功")
             
@@ -140,7 +144,7 @@ class PlaywrightScraper:
     async def _get_browser_config(self) -> Dict[str, Any]:
         """獲取瀏覽器配置"""
         config = {
-            "headless": False,  # 調試時設為 False
+            "headless": True,  # 使用無頭模式避免被檢測
             "args": [
                 "--disable-blink-features=AutomationControlled",
                 "--disable-dev-shm-usage",
@@ -192,42 +196,40 @@ class PlaywrightScraper:
     async def _apply_stealth_measures(self) -> None:
         """應用反檢測措施"""
         try:
-            # 應用 stealth 腳本
-            await stealth_async(self.page)
+            # 創建 Stealth 實例並應用到上下文
+            stealth = Stealth()
+            await stealth.apply_stealth_async(self.context)
             
-            # 自定義腳本
-            await self.page.add_init_script("""
-                // 覆蓋 navigator 屬性
+            # 添加自定義繞過腳本
+            await self.context.add_init_script("""
+                // 繞過 navigator.webdriver 檢測
                 Object.defineProperty(navigator, 'webdriver', {
                     get: () => undefined
                 });
                 
-                // 覆蓋 chrome 屬性
-                Object.defineProperty(window, 'chrome', {
-                    get: () => ({
-                        runtime: {},
-                        loadTimes: () => ({}),
-                        csi: () => ({})
-                    })
-                });
-                
-                // 覆蓋 permissions
-                const originalQuery = window.navigator.permissions.query;
-                window.navigator.permissions.query = (parameters) => (
-                    parameters.name === 'notifications' ?
-                        Promise.resolve({ state: Notification.permission }) :
-                        originalQuery(parameters)
-                );
+                // 添加 Chrome 運行時對象
+                window.chrome = {
+                    runtime: {},
+                    loadTimes: function() { return {}; }
+                };
                 
                 // 模擬插件
                 Object.defineProperty(navigator, 'plugins', {
                     get: () => [1, 2, 3, 4, 5]
                 });
                 
-                // 模擬語言
+                // 設置語言
                 Object.defineProperty(navigator, 'languages', {
-                    get: () => ['en-AU', 'en-US', 'en']
+                    get: () => ['en-US', 'en']
                 });
+                
+                // 繞過權限 API 檢測
+                const originalQuery = window.navigator.permissions.query;
+                window.navigator.permissions.query = (parameters) => (
+                    parameters.name === 'notifications' ?
+                        Promise.resolve({ state: Notification.permission }) :
+                        originalQuery(parameters)
+                );
             """)
             
             self.logger.info("已應用反檢測措施")
@@ -241,7 +243,7 @@ class PlaywrightScraper:
         self.logger.debug(f"等待 {delay:.2f} 秒...")
         await asyncio.sleep(delay)
     
-    async def navigate_to_url(self, url: str, wait_until: str = "networkidle") -> bool:
+    async def navigate_to_url(self, url: str, wait_until: str = "domcontentloaded") -> bool:
         """
         導航到指定 URL
         
@@ -269,6 +271,23 @@ class PlaywrightScraper:
                 wait_until=wait_until,
                 timeout=self.config.page_load_timeout
             )
+            
+            # 檢查是否被重定向到 Cloudflare 驗證頁面
+            if 'moment' in self.page.url or 'challenge' in self.page.url:
+                self.logger.warning("檢測到 Cloudflare 驗證頁面，等待處理...")
+                await asyncio.sleep(10)  # 等待更長時間讓驗證完成
+                
+                # 重新檢查 URL
+                if 'moment' in self.page.url or 'challenge' in self.page.url:
+                    self.logger.error("Cloudflare 驗證失敗")
+                    return False
+            
+            # 等待工作列表加載
+            try:
+                await self.page.wait_for_selector('article', timeout=10000)
+                self.logger.info("工作列表已加載")
+            except:
+                self.logger.warning("工作列表加載超時，繼續執行")
             
             # 添加到已訪問集合
             self.visited_urls.add(url)
@@ -329,20 +348,20 @@ class PlaywrightScraper:
             List[str]: 工作連結列表
         """
         try:
-            # 等待工作列表加載
-            await self.page.wait_for_selector('[data-automation="jobTitle"]', timeout=10000)
-            
-            # 提取工作連結
+            # 提取工作連結 - 使用更簡單的方法，只提取基本連結
             job_links = await self.page.evaluate("""
                 () => {
                     const links = [];
-                    const jobElements = document.querySelectorAll('[data-automation="jobTitle"] a');
+                    const jobElements = document.querySelectorAll('a[href*="/job/"]');
                     jobElements.forEach(element => {
-                        if (element.href) {
+                        if (element.href && 
+                            !element.href.includes('type=promoted') && 
+                            !element.href.includes('origin=') && // 避免重複的連結
+                            element.href.includes('#sol=')) { // 確保是有效的搜索結果
                             links.push(element.href);
                         }
                     });
-                    return links;
+                    return [...new Set(links)]; // 去重
                 }
             """)
             
