@@ -1,0 +1,36 @@
+{
+  "total_tests": 4,
+  "passed_tests": 0,
+  "failed_tests": 4,
+  "success_rate": 0.0,
+  "total_time": 35.790271,
+  "test_results": {
+    "Proxy 系統": false,
+    "反爬蟲機制": false,
+    "資料擷取": false,
+    "錯誤處理": false
+  },
+  "detailed_results": {
+    "proxy_system": {
+      "status": "failed",
+      "error": "'ProxyRotator' object has no attribute 'check_proxy_health'"
+    },
+    "proxy_系統": {
+      "status": "error",
+      "error": "'ProxyRotator' object has no attribute 'close'"
+    },
+    "anti_bot": {
+      "status": "failed",
+      "error": "'BrowserContext' object has no attribute 'set_user_agent'"
+    },
+    "data_extraction": {
+      "status": "failed",
+      "error": "'BrowserContext' object has no attribute 'set_user_agent'"
+    },
+    "error_handling": {
+      "status": "failed",
+      "error": "'BrowserContext' object has no attribute 'set_user_agent'"
+    }
+  },
+  "timestamp": "2025-09-26T10:35:59.093121"
+}

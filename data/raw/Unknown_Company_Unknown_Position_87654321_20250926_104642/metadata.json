@@ -1,0 +1,61 @@
+{
+  "job_id": "87654321",
+  "job_url": "https://www.seek.com.au/job/87654321",
+  "company_name": "Unknown_Company",
+  "job_title": "Unknown_Position",
+  "extraction_time": "2025-09-26T10:46:46.043624",
+  "files": {
+    "html": "Unknown_Company_Unknown_Position_87654321_20250926_104642\\page.html",
+    "css": [
+      "css\\main-f8d4e31f94cba99a6d79.css",
+      "css\\811-916ee5c326d0a1b1fab9.css"
+    ],
+    "js": [
+      "js\\clarity.js",
+      "js\\eid.es5.js",
+      "js\\cds-pips.js",
+      "js\\commons.59560acdd69ed701c941.js.gz",
+      "js\\doubleclick-floodlight.dynamic.js.gz",
+      "js\\js",
+      "js\\187182209",
+      "js\\main.817db39b.js",
+      "js\\919117114837585",
+      "js\\fbevents.js",
+      "js\\js",
+      "js\\GNnNkhlrBDtRuADp2B0z.js",
+      "js\\tfa.js",
+      "js\\hotjar-162402.js",
+      "js\\core.js",
+      "js\\bat.js",
+      "js\\analytics.min.js",
+      "js\\utag.js",
+      "js\\utag.197.js",
+      "js\\utag.60.js",
+      "js\\utag.215.js",
+      "js\\utag.16.js",
+      "js\\utag.67.js",
+      "js\\utag.77.js",
+      "js\\utag.171.js",
+      "js\\utag.172.js",
+      "js\\utag.207.js",
+      "js\\utag.41.js",
+      "js\\utag.14.js",
+      "js\\utag.15.js",
+      "js\\187182209.js",
+      "js\\modules.79484904679daf64371c.js",
+      "js\\main-d8f148511a34930720db.js",
+      "js\\811-91caa89220ba75d6cf3e.js",
+      "js\\724-1e14bc41fbfbccf67f80.js",
+      "js\\405-f45dfae35e0571c0ee8b.js",
+      "js\\pages-error-not-found-App-19bd3f1f07b83af66984.js",
+      "js\\82-9555f6c5f08c7021cdfd.js",
+      "js\\en-translations-a71c97067378395cce74.js"
+    ],
+    "images": [
+      "images\\image_1.jpg",
+      "images\\image_2.jpg",
+      "images\\image_3.gif"
+    ],
+    "network_logs": "Unknown_Company_Unknown_Position_87654321_20250926_104642\\network_logs.json"
+  }
+}

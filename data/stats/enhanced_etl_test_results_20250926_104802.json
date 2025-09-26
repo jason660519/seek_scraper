@@ -1,0 +1,134 @@
+{
+  "total_tests": 4,
+  "passed_tests": 3,
+  "failed_tests": 1,
+  "success_rate": 0.75,
+  "total_time": 194.033363,
+  "test_results": {
+    "Proxy 系統": true,
+    "反爬蟲機制": true,
+    "資料擷取": false,
+    "錯誤處理": true
+  },
+  "detailed_results": {
+    "proxy_system": {
+      "status": "passed",
+      "proxy": null,
+      "is_healthy": false,
+      "stats": {
+        "total_requests": 0,
+        "successful_requests": 0,
+        "failed_requests": 0,
+        "blocked_requests": 0,
+        "success_rate": 0.0,
+        "current_proxy": null,
+        "request_count_since_rotation": 1,
+        "proxy_pool_stats": {
+          "valid_count": 0,
+          "temp_invalid_count": 0,
+          "invalid_count": 0,
+          "untested_count": 0,
+          "total_proxies": 0,
+          "protocol_distribution": {},
+          "country_distribution": {},
+          "average_response_time": 0,
+          "last_updated": "2025-09-26T10:45:20.538779"
+        },
+        "detailed_stats": {}
+      }
+    },
+    "anti_bot": {
+      "status": "passed",
+      "user_agents": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+      ],
+      "viewports": [
+        {
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "width": 1366,
+          "height": 768
+        }
+      ],
+      "delays": [
+        4.3307239206744885,
+        4.879705607048073,
+        4.558161561923235,
+        3.923357270239312,
+        4.440346948448444
+      ]
+    },
+    "data_extraction": {
+      "status": "completed",
+      "total_urls": 2,
+      "successful_extractions": 0,
+      "results": [
+        {
+          "url": "https://www.seek.com.au/job/12345678",
+          "status": "error",
+          "error": "EnhancedSeekETLWithProxy.parse_job_data() missing 1 required positional argument: 'job_url'"
+        },
+        {
+          "url": "https://www.seek.com.au/job/87654321",
+          "status": "error",
+          "error": "EnhancedSeekETLWithProxy.parse_job_data() missing 1 required positional argument: 'job_url'"
+        }
+      ]
+    },
+    "error_handling": {
+      "status": "passed",
+      "error_results": [
+        {
+          "url": "https://invalid-url-12345.com",
+          "result": null,
+          "expected_failure": true
+        },
+        {
+          "url": "https://www.seek.com.au/job/invalid-job-id-12345",
+          "result": {
+            "job_url": "https://www.seek.com.au/job/invalid-job-id-12345",
+            "raw_data_path": "data\\raw\\Unknown_Company_Unknown_Position_a7fbcafc316f_20250926_104737",
+            "parsed_data": {
+              "seek_url": "https://www.seek.com.au/job/invalid-job-id-12345",
+              "job_detail_title": "",
+              "job_detail_location": "",
+              "job_detail_classifications": "",
+              "job_detail_work_type": "",
+              "job_detail_salary": "",
+              "jobAdDetails": ""
+            },
+            "extraction_time": "2025-09-26T10:47:42.559919"
+          },
+          "expected_failure": true
+        },
+        {
+          "test": "retry_mechanism",
+          "url": "https://invalid-url-for-retry-test.com",
+          "result": null,
+          "retry_time": 20.314252,
+          "expected_failure": true
+        }
+      ],
+      "retry_time": 20.314252
+    }
+  },
+  "timestamp": "2025-09-26T10:44:48.907091"
+}

@@ -1,0 +1,578 @@
+/**
+ * 全局樣式文件
+ * @author TRAE
+ * @description 應用的全局樣式定義
+ */
+
+/* 重置和基礎樣式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
+  color: #262626;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* 滾動條樣式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Ant Design 自定義樣式 */
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-layout-sider {
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.ant-layout-header {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ant-menu-inline {
+  border-right: none;
+}
+
+.ant-menu-item {
+  border-radius: 8px;
+  margin: 4px 8px !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #e6f7ff !important;
+  color: #1890ff !important;
+}
+
+.ant-menu-item:hover {
+  background-color: #f5f5f5 !important;
+}
+
+/* 卡片樣式 */
+.ant-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.ant-card-head {
+  border-bottom: 1px solid #f0f0f0;
+  font-weight: 600;
+}
+
+/* 表單樣式 */
+.ant-form-item-label > label {
+  font-weight: 500;
+  color: #262626;
+}
+
+.ant-form-item {
+  margin-bottom: 20px;
+}
+
+.ant-form-item:last-child {
+  margin-bottom: 0;
+}
+
+.ant-input,
+.ant-select-selector,
+.ant-input-number {
+  border-radius: 6px !important;
+}
+
+.ant-input:focus,
+.ant-select-selector:focus,
+.ant-input-number:focus {
+  border-color: #1890ff !important;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2) !important;
+}
+
+/* 表單驗證錯誤樣式 */
+.ant-form-item-has-error .ant-input,
+.ant-form-item-has-error .ant-select-selector {
+  border-color: #ff4d4f !important;
+}
+
+.ant-form-item-has-error .ant-form-item-explain {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* 按鈕樣式 */
+.ant-btn {
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.ant-btn-primary {
+  background: linear-gradient(135deg, #1890ff 0%, #096dd9 100%);
+  border: none;
+}
+
+.ant-btn-primary:hover {
+  background: linear-gradient(135deg, #40a9ff 0%, #1890ff 100%);
+}
+
+/* 表格樣式 */
+.ant-table-thead > tr > th {
+  background: #fafafa;
+  font-weight: 600;
+  color: #262626;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background: #fafafa !important;
+}
+
+/* 標籤樣式 */
+.ant-tag {
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* 模態框樣式 */
+.ant-modal-content {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ant-modal-header {
+  border-bottom: 1px solid #f0f0f0;
+  font-weight: 600;
+}
+
+/* 抽屜樣式 */
+.ant-drawer-header {
+  border-bottom: 1px solid #f0f0f0;
+  font-weight: 600;
+}
+
+.ant-drawer-body {
+  padding: 24px;
+}
+
+/* 進度條樣式 */
+.ant-progress-line {
+  font-size: 12px;
+}
+
+.ant-progress-text {
+  font-weight: 500;
+}
+
+/* 統計卡片樣式 */
+.ant-statistic-title {
+  color: #8c8c8c;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.ant-statistic-content {
+  font-size: 24px;
+  font-weight: 600;
+  color: #262626;
+}
+
+/* 分頁樣式 */
+.ant-pagination-item {
+  border-radius: 6px;
+}
+
+.ant-pagination-item-active {
+  background: #1890ff;
+  border-color: #1890ff;
+}
+
+/* 加載樣式 */
+.ant-spin-nested-loading {
+  position: relative;
+}
+
+.ant-spin-container {
+  position: relative;
+  transition: opacity 0.3s;
+}
+
+.ant-spin-blur {
+  opacity: 0.5;
+  filter: blur(1px);
+}
+
+/* 自定義工具類 */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.p-8 {
+  padding: 8px;
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.p-24 {
+  padding: 24px;
+}
+
+/* 登入頁面專用樣式 */
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.login-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.login-card {
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.login-card .ant-card-body {
+  padding: 32px 24px;
+}
+
+/* 驗證碼樣式優化 */
+.captcha-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.captcha-code {
+  width: 100px;
+  height: 40px;
+  background: #f0f0f0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid #d9d9d9;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.captcha-code:hover {
+  background: #e6e6e6;
+  border-color: #667eea;
+}
+
+.captcha-code:active {
+  transform: scale(0.98);
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+  .ant-layout-header {
+    padding: 0 16px;
+  }
+  
+  .ant-card {
+    margin-bottom: 12px;
+  }
+  
+  .ant-table {
+    font-size: 12px;
+  }
+  
+  .ant-table-thead > tr > th {
+    padding: 8px;
+  }
+  
+  .ant-table-tbody > tr > td {
+    padding: 8px;
+  }
+  
+  .ant-btn {
+    font-size: 12px;
+    padding: 4px 12px;
+  }
+  
+  .ant-modal {
+    width: 90% !important;
+    margin: 16px auto;
+  }
+  
+  /* 登入頁面響應式 */
+  .login-card {
+    margin: 16px;
+  }
+  
+  .login-card .ant-card-body {
+    padding: 24px 16px !important;
+  }
+  
+  .ant-form-item-label {
+    font-size: 13px;
+  }
+  
+  .ant-input,
+  .ant-btn {
+    font-size: 14px;
+  }
+  
+  .captcha-code {
+    width: 80px;
+    height: 36px;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  
+  .captcha-container {
+    gap: 6px;
+  }
+  
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ant-tabs-tab {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  
+  .ant-form-item-label > label {
+    font-size: 12px;
+  }
+  
+  .ant-input,
+  .ant-select-selector,
+  .ant-input-number-input {
+    font-size: 14px;
+  }
+  
+  .ant-table {
+    overflow-x: auto;
+  }
+  
+  .ant-table-content {
+    overflow-x: auto;
+  }
+  
+  /* 登入頁面小螢幕優化 */
+  .login-card .ant-card-body {
+    padding: 20px 12px !important;
+  }
+  
+  .login-card h1 {
+    font-size: 22px !important;
+  }
+  
+  .login-card .ant-form-item {
+    margin-bottom: 16px !important;
+  }
+}
+
+/* 深色模式支持 */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #141414;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .ant-layout-header {
+    background: #1f1f1f;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .ant-card {
+    background: #1f1f1f;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .ant-card-head {
+    border-bottom: 1px solid #303030;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .ant-form-item-label > label {
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .ant-table-thead > tr > th {
+    background: #1d1d1d;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .ant-table-tbody > tr > td {
+    border-bottom: 1px solid #303030;
+  }
+  
+  .ant-menu {
+    background: #1f1f1f;
+  }
+  
+  .ant-menu-item {
+    color: rgba(255, 255, 255, 0.65);
+  }
+  
+  .ant-menu-item-selected {
+    background-color: #111d2c !important;
+    color: #1890ff !important;
+  }
+  
+  .ant-menu-item:hover {
+    background-color: #262626 !important;
+  }
+  
+  .ant-input,
+  .ant-select-selector,
+  .ant-input-number {
+    background: #1f1f1f;
+    color: rgba(255, 255, 255, 0.85);
+    border-color: #434343;
+  }
+  
+  .ant-input:focus,
+  .ant-select-selector:focus,
+  .ant-input-number:focus {
+    border-color: #1890ff !important;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2) !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1f1f1f;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #434343;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #525252;
+  }
+}

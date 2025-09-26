@@ -1,0 +1,249 @@
+/**
+ * 配置中心頁面樣式
+ * @author TRAE
+ * @description 配置中心頁面的樣式定義
+ */
+
+.configuration {
+  padding: 24px;
+  background: #f0f2f5;
+  min-height: calc(100vh - 64px);
+}
+
+.configuration .ant-card {
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.configuration .ant-card-head {
+  border-bottom: 1px solid #f0f0f0;
+  font-weight: 600;
+}
+
+.configuration .ant-form-item-label > label {
+  font-weight: 500;
+  color: #262626;
+}
+
+.configuration .ant-tabs-nav {
+  margin-bottom: 24px;
+}
+
+.configuration .ant-tabs-tab {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.configuration .ant-tabs-tab-active {
+  color: #1890ff;
+}
+
+.configuration .ant-table-thead > tr > th {
+  background: #fafafa;
+  font-weight: 600;
+  color: #262626;
+}
+
+.configuration .ant-tag {
+  font-weight: 500;
+}
+
+.configuration .ant-input-number {
+  width: 100% !important;
+}
+
+.configuration .ant-input-number-group-wrapper {
+  width: 100% !important;
+}
+
+.configuration .ant-input-number-group {
+  width: 100% !important;
+}
+
+.configuration .ant-checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.configuration .ant-checkbox-wrapper {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.configuration .ant-divider-horizontal {
+  margin: 16px 0;
+}
+
+.configuration .ant-upload-list-item {
+  margin-top: 8px;
+}
+
+.configuration .ant-btn-text {
+  padding: 4px 8px;
+  height: auto;
+}
+
+.configuration .ant-btn-text:hover {
+  background-color: #f5f5f5;
+}
+
+.configuration .ant-modal-header {
+  border-bottom: 1px solid #f0f0f0;
+  font-weight: 600;
+}
+
+.configuration .ant-modal-body {
+  padding: 24px;
+}
+
+.configuration .ant-modal-footer {
+  border-top: 1px solid #f0f0f0;
+  padding: 16px 24px;
+}
+
+.configuration .ant-space-item {
+  margin-right: 8px;
+}
+
+.configuration .ant-space-item:last-child {
+  margin-right: 0;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+  .configuration {
+    padding: 16px;
+  }
+  
+  .configuration .ant-card {
+    margin-bottom: 12px;
+  }
+  
+  .configuration .ant-table {
+    font-size: 12px;
+  }
+  
+  .configuration .ant-table-thead > tr > th {
+    padding: 8px;
+  }
+  
+  .configuration .ant-table-tbody > tr > td {
+    padding: 8px;
+  }
+  
+  .configuration .ant-btn {
+    font-size: 12px;
+    padding: 4px 12px;
+  }
+  
+  .configuration .ant-modal {
+    width: 90% !important;
+    margin: 16px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .configuration {
+    padding: 12px;
+  }
+  
+  .configuration .ant-tabs-tab {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  
+  .configuration .ant-form-item-label > label {
+    font-size: 12px;
+  }
+  
+  .configuration .ant-input,
+  .configuration .ant-select-selector,
+  .configuration .ant-input-number-input {
+    font-size: 14px;
+  }
+  
+  .configuration .ant-table {
+    overflow-x: auto;
+  }
+  
+  .configuration .ant-table-content {
+    overflow-x: auto;
+  }
+}
+
+/* 深色模式支持 */
+@media (prefers-color-scheme: dark) {
+  .configuration {
+    background: #141414;
+  }
+  
+  .configuration .ant-card {
+    background: #1f1f1f;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .configuration .ant-card-head {
+    border-bottom: 1px solid #303030;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .configuration .ant-form-item-label > label {
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .configuration .ant-table-thead > tr > th {
+    background: #1d1d1d;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .configuration .ant-table-tbody > tr > td {
+    border-bottom: 1px solid #303030;
+  }
+  
+  .configuration .ant-tabs-tab {
+    color: rgba(255, 255, 255, 0.65);
+  }
+  
+  .configuration .ant-tabs-tab-active {
+    color: #1890ff;
+  }
+  
+  .configuration .ant-tabs-ink-bar {
+    background: #1890ff;
+  }
+  
+  .configuration .ant-input,
+  .configuration .ant-input-number,
+  .configuration .ant-select-selector {
+    background: #1f1f1f;
+    color: rgba(255, 255, 255, 0.85);
+    border-color: #434343;
+  }
+  
+  .configuration .ant-input:focus,
+  .configuration .ant-input-number:focus,
+  .configuration .ant-select-selector:focus {
+    border-color: #1890ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  }
+  
+  .configuration .ant-btn-text:hover {
+    background-color: #262626;
+  }
+  
+  .configuration .ant-modal-content {
+    background: #1f1f1f;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .configuration .ant-modal-header {
+    border-bottom: 1px solid #303030;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .configuration .ant-modal-footer {
+    border-top: 1px solid #303030;
+  }
+}

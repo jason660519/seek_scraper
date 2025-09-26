@@ -1,0 +1,36 @@
+{
+  "total_tests": 4,
+  "passed_tests": 0,
+  "failed_tests": 4,
+  "success_rate": 0.0,
+  "total_time": 0.005995,
+  "test_results": {
+    "Proxy 系統": false,
+    "反爬蟲機制": false,
+    "資料擷取": false,
+    "錯誤處理": false
+  },
+  "detailed_results": {
+    "proxy_system": {
+      "status": "failed",
+      "error": "ComprehensiveProxyManager.__init__() got an unexpected keyword argument 'max_fail_count'"
+    },
+    "proxy_系統": {
+      "status": "error",
+      "error": "cannot access local variable 'rotator' where it is not associated with a value"
+    },
+    "anti_bot": {
+      "status": "failed",
+      "error": "ComprehensiveProxyManager.__init__() got an unexpected keyword argument 'max_fail_count'"
+    },
+    "data_extraction": {
+      "status": "failed",
+      "error": "ComprehensiveProxyManager.__init__() got an unexpected keyword argument 'max_fail_count'"
+    },
+    "error_handling": {
+      "status": "failed",
+      "error": "ComprehensiveProxyManager.__init__() got an unexpected keyword argument 'max_fail_count'"
+    }
+  },
+  "timestamp": "2025-09-26T10:34:10.174833"
+}

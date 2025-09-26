@@ -1,0 +1,32 @@
+{
+  "total_tests": 4,
+  "passed_tests": 0,
+  "failed_tests": 4,
+  "success_rate": 0.0,
+  "total_time": 27.748314,
+  "test_results": {
+    "Proxy 系統": false,
+    "反爬蟲機制": false,
+    "資料擷取": false,
+    "錯誤處理": false
+  },
+  "detailed_results": {
+    "proxy_system": {
+      "status": "failed",
+      "error": "'ComprehensiveProxyManager' object has no attribute 'get_statistics'"
+    },
+    "anti_bot": {
+      "status": "failed",
+      "error": "name 'async_playwright' is not defined"
+    },
+    "data_extraction": {
+      "status": "failed",
+      "error": "name 'async_playwright' is not defined"
+    },
+    "error_handling": {
+      "status": "failed",
+      "error": "name 'async_playwright' is not defined"
+    }
+  },
+  "timestamp": "2025-09-26T10:38:48.759440"
+}

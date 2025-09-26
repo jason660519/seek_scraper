@@ -1,0 +1,36 @@
+{
+  "total_tests": 4,
+  "passed_tests": 0,
+  "failed_tests": 4,
+  "success_rate": 0.0,
+  "total_time": 0.007,
+  "test_results": {
+    "Proxy 系統": false,
+    "反爬蟲機制": false,
+    "資料擷取": false,
+    "錯誤處理": false
+  },
+  "detailed_results": {
+    "proxy_system": {
+      "status": "failed",
+      "error": "ComprehensiveProxyManager.__init__() got an unexpected keyword argument 'max_fail_count'"
+    },
+    "proxy_系統": {
+      "status": "error",
+      "error": "cannot access local variable 'rotator' where it is not associated with a value"
+    },
+    "anti_bot": {
+      "status": "failed",
+      "error": "'dict' object has no attribute 'user_agent'"
+    },
+    "data_extraction": {
+      "status": "failed",
+      "error": "'dict' object has no attribute 'user_agent'"
+    },
+    "error_handling": {
+      "status": "failed",
+      "error": "'dict' object has no attribute 'user_agent'"
+    }
+  },
+  "timestamp": "2025-09-26T10:33:18.175441"
+}

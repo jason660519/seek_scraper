@@ -1,0 +1,65 @@
+{
+  "data_dir": "data",
+  "headless": true,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  
+  "search_criteria": {
+    "keywords": ["AI", "Machine Learning", "Data Scientist", "Software Engineer"],
+    "location": "All-Sydney-NSW",
+    "max_pages": 2
+  },
+  
+  "scraper_config": {
+    "base_url": "https://www.seek.com.au",
+    "timeout": 30,
+    "request_delay": 2.0,
+    "max_retries": 3,
+    "max_pages": 2
+  },
+  
+  "proxy_config": {
+    "rotation_interval": 3,
+    "failure_threshold": 2,
+    "cooldown_period": 300,
+    "max_consecutive_failures": 3,
+    "max_fail_count": 3,
+    "temp_invalid_retry_hours": 24,
+    "validation_timeout": 10,
+    "test_urls": [
+      "https://www.seek.com.au",
+      "https://httpbin.org/ip",
+      "https://www.google.com"
+    ],
+    "proxy_sources": {
+      "proxifly": {
+        "enabled": true,
+        "api_key": null,
+        "countries": ["AU", "US", "GB", "CA"],
+        "protocols": ["http", "https"],
+        "anonymity_levels": ["elite", "anonymous"]
+      }
+    }
+  },
+  
+  "anti_bot_config": {
+    "enable_delay": true,
+    "min_delay": 3.0,
+    "max_delay": 10.0,
+    "randomize_delay": true,
+    "enable_user_agent_rotation": true,
+    "enable_viewport_randomization": true
+  },
+  
+  "batch_config": {
+    "batch_size": 2,
+    "batch_delay": 15,
+    "max_concurrent": 1
+  },
+  
+  "output_config": {
+    "save_raw_data": true,
+    "save_processed_data": true,
+    "save_statistics": true,
+    "output_formats": ["json", "csv"]
+  }
+}

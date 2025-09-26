@@ -1,0 +1,111 @@
+{
+  "total_tests": 4,
+  "passed_tests": 2,
+  "failed_tests": 2,
+  "success_rate": 0.5,
+  "total_time": 204.861424,
+  "test_results": {
+    "Proxy 系統": false,
+    "反爬蟲機制": true,
+    "資料擷取": false,
+    "錯誤處理": true
+  },
+  "detailed_results": {
+    "proxy_system": {
+      "status": "failed",
+      "error": "'ComprehensiveProxyManager' object has no attribute 'get_statistics'"
+    },
+    "anti_bot": {
+      "status": "passed",
+      "user_agents": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      ],
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "width": 1536,
+          "height": 864
+        },
+        {
+          "width": 1366,
+          "height": 768
+        },
+        {
+          "width": 1536,
+          "height": 864
+        },
+        {
+          "width": 1440,
+          "height": 900
+        }
+      ],
+      "delays": [
+        2.7799886542280143,
+        3.062069412060831,
+        4.644817229357714,
+        2.182107865920291,
+        2.968107338869079
+      ]
+    },
+    "data_extraction": {
+      "status": "completed",
+      "total_urls": 2,
+      "successful_extractions": 0,
+      "results": [
+        {
+          "url": "https://www.seek.com.au/job/12345678",
+          "status": "extraction_failed"
+        },
+        {
+          "url": "https://www.seek.com.au/job/87654321",
+          "status": "error",
+          "error": "'EnhancedSeekETLWithProxy' object has no attribute 'parse_job_data'"
+        }
+      ]
+    },
+    "error_handling": {
+      "status": "passed",
+      "error_results": [
+        {
+          "url": "https://invalid-url-12345.com",
+          "result": null,
+          "expected_failure": true
+        },
+        {
+          "url": "https://www.seek.com.au/job/invalid-job-id-12345",
+          "result": {
+            "job_url": "https://www.seek.com.au/job/invalid-job-id-12345",
+            "raw_data_path": "data\\raw\\Unknown_Company_Unknown_Position_a7fbcafc316f_20250926_104230",
+            "parsed_data": {
+              "seek_url": "https://www.seek.com.au/job/invalid-job-id-12345",
+              "job_detail_title": "",
+              "job_detail_location": "",
+              "job_detail_classifications": "",
+              "job_detail_work_type": "",
+              "job_detail_salary": "",
+              "jobAdDetails": ""
+            },
+            "extraction_time": "2025-09-26T10:42:35.156175"
+          },
+          "expected_failure": true
+        },
+        {
+          "test": "retry_mechanism",
+          "url": "https://invalid-url-for-retry-test.com",
+          "result": null,
+          "retry_time": 22.353995,
+          "expected_failure": true
+        }
+      ],
+      "retry_time": 22.353995
+    }
+  },
+  "timestamp": "2025-09-26T10:39:32.713724"
+}
